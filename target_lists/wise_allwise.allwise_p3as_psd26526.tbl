@@ -1,0 +1,93 @@
+\                                                                               
+\fixlen = T
+\RowsRetrieved =                29
+\ORIGIN  = 'IPAC Infrared Science Archive (IRSA), Caltech/JPL'
+\DATETIME= '2018-03-07 16:29:14'
+\DATABASE= 'AllWISE Source Catalog (allwise_p3as_psd)'
+\EQUINOX = 'J2000'
+\NOTE    = 'Column names with suffix _01 are from the input file UDR14Q_W1W2drops_just29.'
+\NOTE    = 'Column cntr_01 is a sequential counter added to ID each row in the user input file UDR14Q_W1W2drops_just29.'
+\NOTE    = 'dist_x is the distance in arcsec between each input source and its potential match in the AllWISE Source Catalog.'
+\NOTE    = 'pang_x is position angle, measured eastward from north, between the input source and potential match in the AllWISE Source Catalog. 
+\NOTE    = 'Output rows are ordered by increasing cntr_01, and for each cntr_01 by increasing dist_x.'
+\StatusFile = '/workspace/TMP_cn8j90_16287/Gator/irsa/26526/log.26526.html'
+\SQL     = 'WHERE  A.cntr_01 = X.cntr1_x and B.cntr=X.cntr2_x '
+\SQL     = 'SELECT (25 column names follow in next row.)'
+\Upload   = 'file=UDR14Q_W1W2drops_just29 radius=5. unit=arcsec'
+\ 
+\ cntr_01 
+\ ___ entry counter (key) number (unique within table)
+\ ra (deg) 
+\ ___ right ascension (J2000)
+\ dec (deg) 
+\ ___ declination (J2000)
+\ w1mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 1
+\ w1sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 1
+\ w1snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 1
+\ w2mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 2
+\ w2sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 2
+\ w2snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 2
+\ w3mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 3
+\ w3sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 3
+\ w3snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 3
+\ w4mpro (mag) 
+\ ___ instrumental profile-fit photometry magnitude, band 4
+\ w4sigmpro (mag) 
+\ ___ instrumental profile-fit photometry flux uncertainty in mag units, band 4
+\ w4snr 
+\ ___ instrumental profile-fit photometry S/N ratio, band 4
+\ pmcode 
+\ ___ Motion estimate quality code
+\ cc_flags 
+\ ___ prioritized artifacts affecting the source in each band
+\ ext_flg 
+\ ___ probability that source morphology is not consistent with single PSF
+\ var_flg 
+\ ___ probability that flux varied in any band greater than amount expected from unc.s
+\ ph_qual 
+\ ___ photometric quality of each band (A=highest, U=upper limit)
+\ det_bit 
+\ ___ bit-encoded integer indicating detection for each band
+\ 
+|      cntr_01|       dist_x|       pang_x|               ra_01|              dec_01|          ra|         dec|  w1mpro| w1sigmpro|    w1snr|  w2mpro| w2sigmpro|    w2snr|  w3mpro| w3sigmpro|    w3snr|  w4mpro| w4sigmpro|    w4snr| pmcode| cc_flags| ext_flg| var_flg| ph_qual| det_bit|
+|         long|       double|       double|              double|              double|      double|      double|  double|    double|   double|  double|    double|   double|  double|    double|   double|  double|    double|   double|   char|     char|     int|    char|    char|     int|
+|             |       arcsec|          deg|                 deg|                 deg|         deg|         deg|     mag|       mag|         |     mag|       mag|         |     mag|       mag|         |     mag|       mag|         |       |         |        |        |        |        |
+|         null|         null|         null|                null|                null|        null|        null|    null|      null|     null|    null|      null|     null|    null|      null|     null|    null|      null|     null|   null|     null|    null|    null|    null|    null|
+             1      0.787834   -132.893375     1.0211934029e+00     2.4000817352e+01    1.0210179   24.0006684   17.043      0.123       8.8   15.866      0.157       6.9   10.263      0.086      12.6    8.401      0.484       2.2   1N000      0000        1     nnnn     BBAC       15 
+             2      1.688992     79.778210     2.0173415482e+00    -6.9422615747e-01    2.0178033   -0.6941429   16.291      0.074      14.7   14.872      0.078      13.9    7.803      0.023      47.5    1.853      0.018      61.1   3Y102      000d        1     0nnn     AAAA       15 
+             3      1.132730   -117.545630     2.0919677859e+00    -3.8410498991e-01    2.0916888   -0.3842505   15.991      0.061      17.9   13.908      0.055      19.6    1.952       null      null   -2.977       null      null   1N307      0hdh        1     43nn     AAZZ        3 
+             4      0.922442    -81.825567     2.1982535347e+00    -3.3032373320e-01    2.1979999   -0.3302873   16.180      0.070      15.5   14.132      0.056      19.5    4.208      0.117       9.3   -1.060       null      null   1N103      00dd        1     nnnn     AABZ        7 
+             5      0.682920    -36.372796     2.2169020026e+00    -4.6109374169e-01    2.2167895   -0.4609410   15.483      0.051      21.1   12.986      0.037      29.3    2.081       null      null   -2.093       null      null   1N375      00dd        1     55nn     AAZZ        3 
+             6      0.893000    -69.967793     2.2684130669e+00    -7.2579497099e-01    2.2681800   -0.7257100   15.731      0.054      20.1   14.720      0.076      14.2    7.520      0.035      31.3    2.870      0.039      27.8   1N003      00Od        1     00nn     AAAA       15 
+             7      1.882172    -90.233369     2.4718889080e+00    -1.0442301705e+00    2.4713660   -1.0442323   16.576      0.088      12.3   15.054      0.095      11.4    9.440      0.149       7.3    5.650       null      -3.1   1N002      00PP        1     1nnn     AABU        7 
+             8      1.659068    -54.565137     7.5809460545e+00    -4.1004327917e+00    7.5805696   -4.1001656   17.297      0.181       6.0   16.474      0.261       4.2   10.285      0.085      12.8    8.222       null       1.6   3Y074      00O0        0     nnnn     BBAU        7 
+             9      0.307853   -143.805565     1.9005955798e+01    -5.0844244881e+00   19.0059051   -5.0844935   17.237      0.152       7.1   15.685      0.145       7.5   10.293      0.070      15.4    7.099      0.102      10.6   3N001      0000        0     nn00     BBAA       15 
+            10      0.370712     38.200345     3.5217145393e+01     1.6197633764e+00   35.2172091    1.6198443   17.875      0.225       4.8   16.575      0.253       4.3   10.512      0.075      14.5    7.076      0.092      11.8   3N000      0000        0     nn10     BBAA       15 
+            11      0.787904    -18.759416     1.2213661737e+02     1.3100876964e+01  122.1365451   13.1010842   16.247      0.068      16.0   15.205      0.090      12.0    9.878       null       0.7    9.005      0.537       2.0   1N000      0000        0     11nn     AAUC       11 
+            12      0.777873     30.414458     1.2555002608e+02     5.6519460593e+00  125.5501360    5.6521324   16.345      0.083      13.1   15.953      0.249       4.4   10.559      0.107      10.1    7.934      0.305       3.6   3Y054      00PP        0     0nnn     ABAB       15 
+            13      0.341092    -47.948382     1.2870200490e+02     1.9892140380e+00  128.7019345    1.9892775   17.085      0.161       6.7   15.500      0.116       9.4    9.624      0.054      20.1    6.884      0.094      11.5   2Y033      0000        0     nn00     BBAA       15 
+            14      0.536870    -63.724137     1.2971425149e+02     2.1062311381e+01  129.7141082   21.0623774   17.212      0.216       5.0   15.820      0.395       2.8   10.395       null       1.8    7.346       null       2.0   1N001      00P0        0     nnnn     BCUU        3 
+            15      0.200296    -49.186525     1.3285328365e+02     3.1815476435e+01  132.8532341   31.8155128   17.965      0.231       4.7   15.620      0.141       7.7    9.797      0.053      20.6    6.793      0.076      14.2   1N000      0000        0     nn00     BBAA       15 
+            16      0.662104     49.150761     1.3358808899e+02     1.9743356705e+01  133.5882368   19.7434770   15.519      0.051      21.3   14.724      0.071      15.2    5.312       null      null    2.924       null      null   1N007      00dd        1     11nn     AAZZ        3 
+            17      0.330748   -173.133788     1.3362675476e+02     1.9620046616e+01  133.6267431   19.6199554   15.627      0.053      20.5   15.113      0.100      10.9    7.313       null      null    2.760       null      null   1N000      00dd        1     1nnn     AAZZ        3 
+            18      0.247582    -65.248964     1.3371113336e+02     1.9510030507e+01  133.7110671   19.5100593   15.223      0.040      27.3   13.948      0.044      24.6    8.265      0.039      28.0    7.000      0.511       2.1   2Y035      00hD        1     13nn     AAAC       15 
+            19      0.426468     90.771076     1.3395075319e+02     1.9558567094e+01  133.9508789   19.5585655   15.449      0.049      22.4   14.144      0.057      19.1    4.338      0.067      16.3    0.291       null      null   1N078      00dd        1     00nn     AAAZ        7 
+            20      0.903840    -29.361488     1.3408703066e+02     1.9577671184e+01  134.0869000   19.5778900   16.894      0.130       8.3   15.931      0.203       5.3    6.115       null      null    2.133       null      null   1N078      00dd        1     nnnn     BBZZ        3 
+            21      1.058242     72.464731     1.3598977856e+02     3.8895496634e+01  135.9901387   38.8955852   16.842      0.085      12.8   15.738      0.129       8.4    9.105      0.031      34.9    8.610      0.338       3.2   1N003      h0OO        1     nnnn     ABAB       15 
+            22      0.365182     18.632910     1.5335934841e+02     6.1205490478e+01  153.3594157   61.2055866   17.056      0.167       6.5   15.242      0.073      14.8    9.931      0.054      20.0    7.207      0.100      10.9   2Y014      0000        0     n000     BAAA       15 
+            23      0.851833    149.185523     1.5809926012e+02     1.4291015017e+01  158.0993852   14.2908118   16.518      0.085      12.8   15.616      0.149       7.3    9.867      0.062      17.4    8.807      0.475       2.3   1N003      h0O0        1     1nnn     ABAC       15 
+            24      0.181085     89.654131     1.7487953645e+02     4.6103984396e+01  174.8796090   46.1039847   17.060      0.098      11.1   15.653      0.097      11.2   10.058      0.046      23.5    7.357      0.101      10.8   3N001      0000        0     nn22     AAAA       15 
+            25      1.573549    106.113399     1.7664644657e+02     4.7906209413e+01  176.6470730   47.9060881   17.366      0.136       8.0   17.126      0.385       2.8    9.422      0.041      26.7    8.615       null       1.8   3Y074      hHOO        1     nnnn     BCAU        7 
+            26      0.107598    -50.587756     2.0999888070e+02     5.4200838240e+00  209.9988575    5.4201028   17.591      0.160       6.8   15.468      0.095      11.4    9.924      0.047      23.1    7.271      0.091      11.9   2N000      0000        0     nn11     BAAA       15 
+            27      1.438675    127.516757     2.3432112122e+02     1.5775377274e+01  234.3214506   15.7751339   15.398      0.037      29.7   15.033      0.069      15.7    9.649      0.037      29.1    9.431       null      -0.2   2N001      00PP        1     98nn     AAAU        7 
+            28      0.988639      0.407381     3.1284365845e+02    -7.0535701513e-01  312.8436604   -0.7050824   16.927      0.121       9.0   16.113      0.235       4.6    9.807      0.101      10.8    8.419       null      -0.2   1N004      0000        1     nnnn     BBAU        7 
+            29      1.780208    131.222765     3.5817869666e+02     1.8984345472e+01  358.1790900   18.9840196   16.081      0.067      16.2   15.106      0.080      13.5    9.608      0.045      24.0    8.622       null       1.0   1N005      h0OO        1     00nn     AAAU        7 

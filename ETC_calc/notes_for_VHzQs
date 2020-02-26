@@ -1,0 +1,54 @@
+
+
+  E T C
+====================================================================================================    
+3. COMPOSITE SPECTRAL ENERGY DISTRIBUTIONS
+ Kirkpatrick et al. 2012, ApJ, 759, 139 - please cite this paper when using these templates. 
+
+
+
+
+
+
+    N I R S p e c
+====================================================================================================    
+
+The 4 observing modes of NIRSpec are:
+    Multi-object spectroscopy (MOS) with the micro-shutter assembly (MSA)
+    3-D imaging spectroscopy with the integral field unit (IFU)
+    High contrast single object spectroscopy with the fixed slits (FSs)
+    High throughput bright object time-series (BOTS) spectroscopy with the NIRSpec wide aperture
+
+
+ I F U 
+==================================================    
+NIRSpec IFU
+	Subarrays:: NIRSpec IFU exposures are only acquired in FULL frame 2048x2048
+
+Exposure specification
+	 NRSRAPID
+	 NRS
+	 NRSIRS2RAPID
+	 NRSIRS2
+
+Wavelength gaps
+https://jwst-docs.stsci.edu/download/attachments/31042469/nirspec-ifu-detector-gap.txt
+
+						z=2.5		z=5.0		z=6.5
+	   G140H/F100LP 1.4089 - 1.4848um	4025-4242Ang	2348-2475Ang	1878-1979Ang
+	   G235H/F100LP 2.3616 - 2.4893um	6747-7112Ang	3936-4149Ang	3149-3319Ang
+   	   G140H/F100LP 3.9863 - 4.2018um	1.139-1.200um	6644-7003Ang	5315-5602Ang	
+
+
+
+ F i x e d   S l i t s    
+==================================================
+
+Apertures S200A1, S200A2, S400A1, and S1600A1
+
+  S200A1
+  =========================
+						z=2.5		z=5.0		z=6.5
+	   G140H/F100LP 1.30 - 1.34um		3715-3829	2167-2233	1733-1787
+	   G235H/F100LP 2.18 - 2.24um		6229-6400	3633-3733	2907-2987
+   	   G140H/F100LP 3.69 - 3.79um		1.054-1.083	6150-6317	4920-5053

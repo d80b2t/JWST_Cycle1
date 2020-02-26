@@ -1,0 +1,919 @@
+GTO,1240,Ressler,MIRI Imaging,SPRITE01,0,0,De-Mystifying SPRITEs with JWST
+GTO,1240,Ressler,MIRI Low Resolution Spectroscopy,SPRITE01,0,0,De-Mystifying SPRITEs with JWST
+GTO,1240,Ressler,NIRSpec IFU Spectroscopy,SPRITE01,0,0,De-Mystifying SPRITEs with JWST
+ERS,1334,Weisz,NIRCam Imaging,WLM,0.500833333333333,-15.4386944444444,The Resolved Stellar Populations Early Release Science Program
+GTO,1176,Windhorst,NIRSpec IFU Spectroscopy,SDSS-J0005-0006-QUASAR,1.46799416666667,-0.115611111111093,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1176,Windhorst,NIRSpec IFU Spectroscopy,SDSS-J0005-0006-CENTRE,1.46809875,-0.115827777777781,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+ERS,1324,Treu,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-4,3.58384,-30.3926,Through the looking GLASS: a JWST exploration of galaxy formation and evolution from cosmic dawn to present day
+ERS,1324,Treu,NIRISS Wide Field Slitless Spectroscopy,ABELL2744,3.58746333333333,-30.3969527777778,Through the looking GLASS: a JWST exploration of galaxy formation and evolution from cosmic dawn to present day
+GTO,1176,Windhorst,NIRCam Imaging,ACO-2744,3.58833333333333,-30.39725,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1222,Willott,NIRSpec Fixed Slit Spectroscopy,VDESJ0020-3653,5.13113333333333,-36.89495,"Cosmic reionization, metal enrichment and host galaxies from quasar spectroscopy"
+GTO,1222,Willott,NIRSpec IFU Spectroscopy,VDESJ0020-3653,5.13113333333333,-36.89495,"Cosmic reionization, metal enrichment and host galaxies from quasar spectroscopy"
+GTO,1305,van der Marel,NIRCam Imaging,ANDROMEDA-III,8.87821,36.5035805555556,Dynamics of the Andromeda Galaxy Satellite System
+GTO,1305,van der Marel,NIRCam Imaging,ANDROMEDA-XVII,9.277,44.3216694444444,Dynamics of the Andromeda Galaxy Satellite System
+GTO,1177,Greene,MIRI Low Resolution Spectroscopy,HAT-P-19B,9.51671666666667,34.7115444444444,MIRI observations of transiting exoplanets
+GTO,1185,Greene,NIRCam Grism Time Series,HAT-P-19,9.51671666666667,34.7115444444444,Transit Spectroscopy of Mature Planets
+GTO,1224,Birkmann,NIRSpec Bright Object Time Series,GJ-3053-TA-REF,11.2467329166667,-15.270575,Transiting exoplanet characterization with JWST/NIRSPEC
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,LHS1140,11.247125,-15.2713055555556,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1224,Birkmann,NIRSpec Bright Object Time Series,GJ-3053,11.2485858333333,-15.274025,Transiting exoplanet characterization with JWST/NIRSPEC
+GTO,1305,van der Marel,NIRCam Imaging,ANDROMEDA-I,11.42754,38.0394388888889,Dynamics of the Andromeda Galaxy Satellite System
+GTO,1239,Ressler,MIRI Medium Resolution Spectroscopy,J004614.67-723519.0,11.561125,-72.5886111111111,Investigating Dusty Disks in Evolved Stars
+GTO,1239,Ressler,MIRI Medium Resolution Spectroscopy,J004629.29-731552.3,11.6220420833333,-73.2645277777777,Investigating Dusty Disks in Evolved Stars
+GTO,1305,van der Marel,NIRCam Imaging,ANDROMEDA-XIV,12.8975833333333,29.6685138888889,Dynamics of the Andromeda Galaxy Satellite System
+GTO,1227,Meixner,MIRI Medium Resolution Spectroscopy,2MASS-J00590254-7210071,14.7606125,-72.1686472222223,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1227,Meixner,MIRI Imaging,NGC-346,14.7706045833333,-72.1692083333334,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1227,Meixner,NIRCam Imaging,NGC-346,14.7706045833333,-72.1692083333334,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1227,Meixner,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-14,14.7747466666667,-72.1769277777778,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1227,Meixner,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-24,14.7747466666667,-72.1769277777778,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1227,Meixner,MIRI Medium Resolution Spectroscopy,SBW2007B-21,14.7802041666667,-72.1452722222222,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1227,Meixner,MIRI Medium Resolution Spectroscopy,2MASS-J00591715-7210552,14.8214875,-72.1820138888889,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1227,Meixner,MIRI Imaging,NGC-346-TILE-6,14.8384954166667,-72.1559694444445,NGC 346: Star Formation at Low Metallicity in the Small Magellanic Cloud
+GTO,1304,van der Marel,NIRCam Imaging,SCULPTOR-F0,15.024945,-33.7107694444445,Internal Dynamics of Milky Way Dwarf Spheroidal Galaxies
+GTO,1304,van der Marel,NIRCam Imaging,SCULPTOR-F1,15.0507733333333,-33.8146,Internal Dynamics of Milky Way Dwarf Spheroidal Galaxies
+GTO,1243,Lilly,NIRCam Wide Field Slitless Spectroscopy,J0100+2802,15.0542333333333,28.0405,Exploring the End of Cosmic Reionization
+GTO,1218,Ferruit,NIRSpec IFU Spectroscopy,J0100+2802,15.05425,28.0488333333333,NIRSpec-IFU Observations of two QSOs at z=6
+GTO,1176,Windhorst,NIRCam Imaging,EL-GORDO,15.71875,-49.2494444444445,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,VV114-BK,16.9333333333333,-17.4913888888889,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Imaging,VV114-CENTERED,16.9466666666667,-17.5069444444445,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRCam Imaging,VV114-CENTERED,16.9466666666667,-17.5069444444445,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,VV114-NUC-MRS,16.9480416666667,-17.507,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,VV114-NUC,16.9480416666667,-17.507,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,STAR-VV114,16.953675,-17.5207527777778,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+GTO,1222,Willott,NIRSpec IFU Spectroscopy,VIKINGJ0109-3047,17.471375,-30.7906388888889,"Cosmic reionization, metal enrichment and host galaxies from quasar spectroscopy"
+GTO,1188,Hodapp,MIRI Imaging,GU-PSC-B,18.152,17.0755,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1188,Hodapp,MIRI Low Resolution Spectroscopy,GU-PSC-B,18.152,17.0755,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1188,Hodapp,NIRSpec IFU Spectroscopy,GU-PSC-B,18.152,17.0755,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,49CET,23.6574116666667,-15.6763583333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1209,Artigau,NIRISS Single-Object Slitless Spectroscopy,SIMP-J013656.5+093347.3,24.24153375,9.56304722222222,Probing the Cloud Properties of SIMP0136+0933
+ERS,1366,Batalha,NIRISS Single-Object Slitless Spectroscopy,WASP-18,24.354305,-45.6778805555555,The Transiting Exoplanet Community Early Release Science Program
+GTO,1271,Santos-Sanz,NIRCam Time Series,STAR,24.7910575,-4.35323888888888,ToO TNOs: 'Unveiling the Kuiper belt by stellar occultations'
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-10647,25.6221445833333,-53.7408305555555,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1243,Lilly,NIRCam Wide Field Slitless Spectroscopy,J0148+0600,27.1568291666667,6.00555833333333,Exploring the End of Cosmic Reionization
+GTO,1206,Rieke,MIRI Medium Resolution Spectroscopy,BD+20-307,28.7097683333333,21.3062388888889,Extreme Debris Disks and Disk Variability
+GTO,1237,Ressler,MIRI Imaging,DIGELC1A,31.0944483333333,63.242925,Star Formation in the Extreme Outer Galaxy
+GTO,1237,Ressler,MIRI Imaging,DIGELC1A-NIRCAM,31.1648191666667,63.3532944444444,Star Formation in the Extreme Outer Galaxy
+GTO,1215,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-14,34.2994879166667,-5.22885833333333,NIRSpec WIDE MOS Survey - UDS
+GTO,1215,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-13,34.3659858333333,-5.17240555555554,NIRSpec WIDE MOS Survey - UDS
+GTO,1215,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-12,34.4459916666667,-5.24090833333332,NIRSpec WIDE MOS Survey - UDS
+GTO,1215,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-11,34.4526825,-5.17043055555558,NIRSpec WIDE MOS Survey - UDS
+GTO,1215,Ferruit,NIRSpec IFU Spectroscopy,HIMIKO-F-6.60-L,34.4898875,-5.14575000000002,NIRSpec WIDE MOS Survey - UDS
+GTO,1215,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-10,34.5576704166667,-5.17271388888889,NIRSpec WIDE MOS Survey - UDS
+GTO,1274,Lunine,NIRCam Grism Time Series,WASP-77A,37.1551108333333,-7.06065833333332,Extrasolar Planet Science with JWST
+GTO,1260,Ford,NIRISS Aperture Masking Interferometry,HD15633,37.6883429166667,0.255747222222222,NGC 1068 As Proving Ground for NIRISS AMI
+GTO,1206,Rieke,MIRI Medium Resolution Spectroscopy,HD-15407,37.7110675,55.5484055555556,Extreme Debris Disks and Disk Variability
+GTO,1208,Willott,NIRCam Imaging,ABELL370,39.9753541666667,-1.57604444444445,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRISS Wide Field Slitless Spectroscopy,ABELL370,39.9753541666667,-1.57604444444445,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-40,39.9753541666667,-1.57604444444445,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-10647-PSF,40.6394441666667,-50.8002944444444,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1260,Ford,NIRISS Aperture Masking Interferometry,NGC1068,40.6698791666667,-0.0132888888888942,NGC 1068 As Proving Ground for NIRISS AMI
+GTO,1222,Willott,NIRSpec Fixed Slit Spectroscopy,VDESJ0244-5008,41.00425,-50.14825,"Cosmic reionization, metal enrichment and host galaxies from quasar spectroscopy"
+GTO,1237,Ressler,MIRI Imaging,DIGELC2-S,42.115665,58.4017222222222,Star Formation in the Extreme Outer Galaxy
+GTO,1237,Ressler,MIRI Imaging,DIGELC2-N,42.1917004166667,58.49055,Star Formation in the Extreme Outer Galaxy
+GTO,1237,Ressler,NIRCam Imaging,DIGELC2-N-NIRCAM,42.1920491666667,58.5161666666667,Star Formation in the Extreme Outer Galaxy
+GTO,1414,Perrin,NIRSpec IFU Spectroscopy,HD-18511-PSF-CALIBRATOR,44.5522875,-12.0058222222222,Integral Field Spectroscopy of the Benchmark Substellar Companion HD 19467 B
+GTO,1189,Roellig,NIRCam Coronagraphic Imaging,HD-19096,45.9459854166667,-21.3614527777778,NIRCam Y-Dwarfs
+GTO,1414,Perrin,NIRSpec IFU Spectroscopy,HD-19467,46.827395,-13.7617833333333,Integral Field Spectroscopy of the Benchmark Substellar Companion HD 19467 B
+GTO,1189,Roellig,NIRCam Coronagraphic Imaging,HD-19467,46.8273966666667,-13.7617833333333,NIRCam Y-Dwarfs
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,L1448IRS1,51.2892958333333,30.772575,Protostellar Binaries in Perseus
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-EMB-22,51.3432541666667,30.7536666666667,Protostellar Binaries in Perseus
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-EMB-33,51.4014416666667,30.75415,Protostellar Binaries in Perseus
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,L1448MM,51.4115041666667,30.7356,MIRI EC Protostars Survey
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,PER-EMB-25,51.6560833333333,30.2578055555556,Protostar (YSO) Spectroscopy
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,PER-EMB-25,51.6562958333333,30.257725,MIRI EC Protostars Survey
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,PER-EMB-25-OFFSET,51.66825,30.2592222222222,Protostar (YSO) Spectroscopy
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-BACKGROUND,51.979,30.7634222222222,Protostellar Binaries in Perseus
+GTO,1193,Beichman,MIRI Imaging,EPS-ERI-PSF-IMG,52.0039483333333,-11.2865972222222,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1206,Rieke,MIRI Medium Resolution Spectroscopy,V-V488-PER,52.0778333333333,48.6633888888889,Extreme Debris Disks and Disk Variability
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-EMB-35,52.1548125,31.2253527777778,Protostellar Binaries in Perseus
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-EMB-27,52.231525,31.2435333333333,Protostellar Binaries in Perseus
+GTO,1202,Scholz,NIRISS Wide Field Slitless Spectroscopy,NGC-1333,52.2625,31.35,The NIRISS Survey for Young Brown Dwarfs and Rogue Planets
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-EMB-12,52.293675,31.2254194444444,Protostellar Binaries in Perseus
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,IRAS4A-B1,52.2941458333333,31.2220555555556,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,IRAS4B,52.30005,31.2186305555556,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,IRAS4B-B1,52.3001666666667,31.2170416666667,MIRI EC Protostars Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD21997,52.9735291666667,-25.6141472222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,18320-GS-3.21-S,53.013515,-27.7552333333333,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,133-GS-3.47-A,53.020575,-27.7421472222222,Integral Field Spectroscopy in GOODS-S
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-20,53.0524929166667,-27.7320111111111,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,19293-GS-3.11-S,53.05388,-27.7476277777778,Integral Field Spectroscopy in GOODS-S
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-13,53.0700366666667,-27.7991555555556,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,4891-GS-3.70-S,53.0761820833333,-27.8663638888889,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,3073-GS-5.56-S,53.0788208333333,-27.8840972222222,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,3753-GS-4.43-S,53.0792920833333,-27.8772611111111,Integral Field Spectroscopy in GOODS-S
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-14,53.0798091666667,-27.8520388888889,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,5001-GS-3.47-S,53.0971125,-27.8658166666667,Integral Field Spectroscopy in GOODS-S
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-1,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-2,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-3,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-4,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-5,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-6,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-7,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1286,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-8,53.1120141666667,-27.6901888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #2
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-16,53.1153120833333,-27.8963388888889,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,20936-GS-3.25-S,53.1178320833333,-27.7343,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,14876-GS-2.31-S,53.11875,-27.7828055555556,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,16139-GS-2.22-S,53.1212166666667,-27.7747222222222,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,16139-SKY,53.1212166666667,-27.776,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,539-GS-4.76-A,53.12205,-27.9387416666667,Integral Field Spectroscopy in GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,551-GS-3.70-A,53.1243583333333,-27.851625,Integral Field Spectroscopy in GOODS-S
+GTO,1180,Eisenstein,NIRCam Imaging,MEDS0005,53.1280416666667,-27.8198333333333,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,12211-GS-4.06-S,53.13765,-27.7998444444444,Integral Field Spectroscopy in GOODS-S
+GTO,1180,Eisenstein,NIRCam Imaging,MEDS0006,53.1390833333333,-27.8343611111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1207,Rieke,NIRSpec MultiObject Spectroscopy,NIRSPEC2,53.1395833333333,-27.7634722222222,MIRI in the Hubble Ultra-Deep Field
+GTO,1207,Rieke,MIRI Imaging,HUDF-MIRI,53.14025,-27.7859722222222,MIRI in the Hubble Ultra-Deep Field
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,10376-GS-4.14-S,53.1431158333333,-27.8155,Integral Field Spectroscopy in GOODS-S
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-15,53.14571375,-27.8239944444445,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-12,53.1482720833333,-27.7043194444444,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,19104-GS-3.09-S,53.1529625,-27.7492972222223,Integral Field Spectroscopy in GOODS-S
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGONE,53.1571291666667,-27.8129388888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,23170-GS-2.97-S,53.1574379166667,-27.7090166666667,Integral Field Spectroscopy in GOODS-S
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGONE-CENTER,53.157875,-27.8122222222222,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGONE-A,53.1586208333333,-27.8115055555555,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1283,Norgaard-Nielsen,MIRI Imaging,MDS.MIRI-DEEP-SURVEY,53.1604416666667,-27.7784666666666,The MIRI HUDF Deep Imaging Survey
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,20409-GS-4.00-S,53.1613670833333,-27.737025,Integral Field Spectroscopy in GOODS-S
+GTO,1180,Eisenstein,NIRCam Imaging,MEDS0001,53.161875,-27.7996388888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1207,Rieke,NIRSpec MultiObject Spectroscopy,NIRSPEC3,53.1629166666667,-27.8162222222222,MIRI in the Hubble Ultra-Deep Field
+GTO,1210,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-6,53.1635416666667,-27.7873972222222,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1
+GTO,1207,Rieke,NIRSpec MultiObject Spectroscopy,NIRSPEC1,53.1679166666667,-27.7714166666667,MIRI in the Hubble Ultra-Deep Field
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-17,53.1713529166667,-27.8833694444444,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGTWO,53.1714208333333,-27.8241888888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGTWO-CENTER,53.1721666666667,-27.8234722222222,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGTWO-A,53.1729125,-27.8227555555555,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,MEDS0002,53.1729583333333,-27.8141666666667,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,774-GS-3.61-A,53.1743791666667,-27.86735,Integral Field Spectroscopy in GOODS-S
+GTO,1176,Windhorst,NIRCam Imaging,WFC3-ERS-FIELD,53.1766541666667,-27.7022027777778,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1180,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-25,53.181875,-27.7928583333334,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-26,53.181875,-27.7928583333334,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-27,53.181875,-27.7928583333334,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-28,53.181875,-27.7928583333334,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-29,53.181875,-27.7928583333334,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-30,53.181875,-27.7928583333334,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1287,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-5,53.1819166666667,-27.807525,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #3
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGTHREE,53.1827416666667,-27.7870833333333,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGTHREE-CENTER,53.1835416666667,-27.7864166666667,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGTHREE-A,53.1843416666667,-27.78575,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,811-GS-3.471-A,53.1846333333333,-27.8809166666667,Integral Field Spectroscopy in GOODS-S
+GTO,1180,Eisenstein,NIRCam Imaging,MEDS0009,53.19575,-27.7794444444444,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGFOUR,53.1963666666667,-27.7993055555556,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGFOUR-CENTER,53.1971666666667,-27.7986388888889,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,POINTINGFOUR-A,53.1979666666667,-27.7979722222222,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1180,Eisenstein,NIRCam Imaging,MEDS0010,53.20675,-27.7939722222222,NIRCam-NIRSpec galaxy assembly survey - GOODS-S - part #1r
+GTO,1212,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-18,53.2261408333333,-27.8637111111111,NIRSpec WIDE MOS Survey - GOODS-S
+GTO,1216,Ferruit,NIRSpec IFU Spectroscopy,18660-GS-3.07-S,53.228625,-27.752875,Integral Field Spectroscopy in GOODS-S
+GTO,1193,Beichman,MIRI Coronagraphic Imaging,EPS-ERI,53.2326875,-9.45825833333333,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,MIRI Imaging,EPS-ERI,53.2326875,-9.45825833333333,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,NIRCam Coronagraphic Imaging,EPS-ERI,53.2326875,-9.45825833333333,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,B1A,53.3194541666667,31.1319166666667,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,B1C,53.3248041666667,31.1587472222222,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,B1C-B1,53.3258791666667,31.1579527777778,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,B1B,53.3347541666667,31.1226,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,NIRSpec IFU Spectroscopy,B1B-NIRSPEC,53.3347541666667,31.1226,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,B1B-S,53.3389791666667,31.1239916666667,MIRI EC Protostars Survey
+GTO,1205,Rieke,NIRCam Imaging,J033829.31+002156.26,54.622125,0.365627777777778,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,J033829.31+002156.26,54.622125,0.365627777777778,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRCam Imaging,2MJ03391626+0042023,54.81775,0.700638888888889,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,2MJ03391626+0042023,54.81775,0.700638888888889,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,LP-944-20,54.89675,-35.4289138888889,Survey of Nearby Young M Stars
+GTO,1193,Beichman,NIRCam Coronagraphic Imaging,EPS-ERI-PSF-NIRCAM,55.8120870833333,-9.76339166666668,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,PER-EMB-28-OFFSET,55.9606666666667,32.055,Protostar (YSO) Spectroscopy
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,PER-EMB-28,55.9625833333333,32.0521944444444,Protostar (YSO) Spectroscopy
+GTO,1257,Ray,MIRI Medium Resolution Spectroscopy,HH211-BACKGROUND,55.9803333333333,32.0114722222222,The Young Protostellar Outflow HH211as
+GTO,1257,Ray,NIRCam Imaging,HH211NIRCAM,55.985,32.0319722222222,The Young Protostellar Outflow HH211as
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-EMB-11,55.9873875,32.0510777777778,Protostellar Binaries in Perseus
+GTO,1257,Ray,MIRI Medium Resolution Spectroscopy,HH211,55.9920629166667,32.0119527777778,The Young Protostellar Outflow HH211as
+GTO,1257,Ray,NIRSpec IFU Spectroscopy,HH211-SW-BOW-SHOCK,55.9977429166667,32.0097555555556,The Young Protostellar Outflow HH211as
+GTO,1229,Alves de Oliveira,NIRCam Imaging,IC348-MOSAIC,56.1428333333333,32.1619722222222,The Physics of Brown Dwarfs - Part #2
+GTO,1229,Alves de Oliveira,NIRSpec MultiObject Spectroscopy,IC348-MOSAIC,56.1428333333333,32.1619722222222,The Physics of Brown Dwarfs - Part #2
+GTO,1236,Ressler,MIRI Medium Resolution Spectroscopy,PER-EMB-55,56.1804833333333,32.0253972222222,Protostellar Binaries in Perseus
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,PER-EMB8,56.183125,32.0268611111111,Protostar (YSO) Spectroscopy
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,PER-EMB-8,56.1832583333333,32.0264472222222,MIRI EC Protostars Survey
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,PER-EMB-8-OFFSET,56.1883333333333,32.0221388888889,Protostar (YSO) Spectroscopy
+GTO,1193,Beichman,MIRI Coronagraphic Imaging,EPS-ERI-PSF-CORON,56.5355658333333,-12.1015916666666,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1206,Rieke,MIRI Medium Resolution Spectroscopy,HD-23514,56.6599704166667,22.9197777777778,Extreme Debris Disks and Disk Variability
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,HIP17695,56.8472683333333,-1.97220555555555,Survey of Nearby Young M Stars
+GTO,1189,Roellig,MIRI Low Resolution Spectroscopy,J03480772-6022270,57.0321666666667,-60.3741666666667,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRSpec Fixed Slit Spectroscopy,J03480772-6022270,57.0321666666667,-60.3741666666667,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRSpec IFU Spectroscopy,J03480772-6022270,57.0321666666667,-60.3741666666667,NIRCam Y-Dwarfs
+GTO,1238,Ressler,MIRI Imaging,NGC-1514-IM2,62.2872125,30.7688805555556,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Imaging,NGC-1514-IM3,62.2885695833333,30.78945,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-B1,62.2943866666667,30.7412222222222,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Imaging,NGC-1514-IM1,62.3016516666667,30.7369583333333,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-R3,62.30729,30.7613861111111,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-N2,62.3083575,30.781175,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-B2,62.311075,30.7330638888889,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-E1,62.3161379166667,30.7724861111111,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-CS,62.3206295833333,30.7759861111111,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-N1,62.3282641666667,30.7669222222222,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-R1,62.328795,30.7526388888889,Sparse Spectral Mapping of NGC 1514
+GTO,1238,Ressler,MIRI Medium Resolution Spectroscopy,NGC-1514-R2,62.34677375,30.7878527777778,Sparse Spectral Mapping of NGC 1514
+GTO,1208,Willott,NIRSpec IFU Spectroscopy,ID14B-MACSJ0416,64.0342,-24.0667138888889,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1176,Windhorst,NIRCam Imaging,MACSJ0416.1-2403,64.0370833333333,-24.0746388888889,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1208,Willott,NIRCam Imaging,MACSJ0416.1-2403,64.0390416666667,-24.0723611111111,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRISS Wide Field Slitless Spectroscopy,MACSJ0416.1-2403,64.0390416666667,-24.0723611111111,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRSpec MultiObject Spectroscopy,MACSJ0416.1-2403,64.0390416666667,-24.0723611111111,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,G-7-34,64.3271666666667,8.82280555555556,Survey of Nearby Young M Stars
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,CY-TAU,64.390525,28.3463472222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1208,Willott,NIRCam Imaging,MACSJ0417.5-1154,64.3964520833333,-11.9106777777778,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRISS Wide Field Slitless Spectroscopy,MACSJ0417.5-1154,64.3964520833333,-11.9106777777778,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRSpec MultiObject Spectroscopy,MACSJ0417.5-1154,64.3964520833333,-11.9106777777778,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SPT0418-47-IFU-OFFSET,64.6620041666667,-47.863125,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SPT0418-47-IFU-OFFSET,64.6620041666667,-47.863125,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SPT0418-47-TASTAR,64.6622041666667,-47.8651777777778,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SPT0418-47-TASTAR,64.6622041666667,-47.8651777777778,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Imaging,SPT0418-47,64.6653291666667,-47.8646333333334,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SPT0418-47-IFU,64.6653291666667,-47.8646333333334,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRCam Imaging,SPT0418-47,64.6653291666667,-47.8646333333334,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SPT0418-47-IFU,64.6653291666667,-47.8646333333334,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,BP-TAU,64.8159758333333,29.1074777777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,FT-TAU,65.9133041666667,24.9372527777778,MIRI EC Protoplanetary and Debris Disks Survey
+ERS,1366,Batalha,NIRCam Grism Time Series,WASP-79,66.3709008333333,-30.6004444444445,The Transiting Exoplanet Community Early Release Science Program
+ERS,1366,Batalha,NIRISS Single-Object Slitless Spectroscopy,WASP-79,66.3709008333333,-30.6004444444445,The Transiting Exoplanet Community Early Release Science Program
+ERS,1366,Batalha,NIRSpec Bright Object Time Series,WASP-79,66.3709008333333,-30.6004444444445,The Transiting Exoplanet Community Early Release Science Program
+ERS,1366,Batalha,NIRSpec Bright Object Time Series,W79-TA,66.38117375,-30.6006611111111,The Transiting Exoplanet Community Early Release Science Program
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,DF-TAU,66.7616708333333,25.7061972222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,DG-TAU,66.769575,26.1045305555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,DG-TAU.BG,66.7795833333333,26.0972222222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HH30,67.9061333333333,18.2068,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1179,Leisenring,NIRCam Imaging,HL-TAU,67.9101541666667,18.2326805555556,YSO Imaging
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HK-TAU-B,67.96075,24.4045555555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,NIRSpec IFU Spectroscopy,HK-TAU-B,67.96075,24.4045555555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HH30.BG,68.1466666666667,17.8977777777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,DL-TAU,68.4127583333333,25.3439527777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,DM-TAU,68.4529916666667,18.1694416666667,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,AA-TAU,68.7309333333333,24.4814333333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,NIRSpec IFU Spectroscopy,AA-TAU,68.7309333333333,24.4814333333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,DN-TAU,68.8640625,24.2497027777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1241,Ressler,MIRI Coronagraphic Imaging,51-ERI,69.40055125,-2.47354722222224,MIRI Coronagraphic Imaging of exoplanets
+GTO,1412,Perrin,NIRCam Coronagraphic Imaging,51-ERI,69.40055125,-2.47354722222224,Characterizing 51 Eridani Exoplanetary System
+GTO,1198,Stiavelli,NIRCam Imaging,HE-0435-1223,69.56161,-12.2874805555555,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1198,Stiavelli,NIRSpec IFU Spectroscopy,HE-0435-1223,69.56161,-12.2874805555555,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J04381486+2611399,69.5619208333333,26.1944277777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HV-TAU-C,69.6478333333333,26.1781944444444,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J04390163+2336029,69.7567958333333,23.6008305555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J04390396+2544264,69.7665,25.7406722222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1242,Johnstone,NIRISS Aperture Masking Interferometry,TD-LKCA-15,69.82415,22.3509666666667,Planets in Formation and Exozodiacal Disks
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,LKCA15,69.82415,22.3509666666667,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,DARK-TAU,69.8845416666667,26.0873611111111,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,TMC1A,69.8966791666667,25.6958805555556,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,L1527,69.9748125,26.0526555555556,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,L1527-B1,69.9760208333333,26.0532416666667,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,TMC1,70.3029166666667,25.7763333333333,MIRI EC Protostars Survey
+GTO,1242,Johnstone,NIRISS Aperture Masking Interferometry,TD-CAL-TYC,70.3625458333333,22.1991166666667,Planets in Formation and Exozodiacal Disks
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,2MJ0443,70.9067083333333,0.0347722222222222,Survey of Nearby Young M Stars
+GTO,1241,Ressler,MIRI Coronagraphic Imaging,TYC-4739-392-1,71.2408,-2.61853888888891,MIRI Coronagraphic Imaging of exoplanets
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,DR-TAU,71.77591375,16.9785472222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1412,Perrin,NIRCam Coronagraphic Imaging,HD-30562,72.1516041666667,-5.67404444444446,Characterizing 51 Eridani Exoplanetary System
+GTO,1235,Meixner,MIRI Medium Resolution Spectroscopy,W-2,72.2270958333333,-69.1632333333333,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1235,Meixner,MIRI Medium Resolution Spectroscopy,S-2,72.7980583333333,-69.4464055555555,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1235,Meixner,MIRI Medium Resolution Spectroscopy,04511418-6926443-ACQ-2,72.8091220833333,-69.4456472222222,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1235,Meixner,MIRI Imaging,LHA-120-N-79-FOR-MIRI-TILE-4,72.93338125,-69.3683333333333,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1235,Meixner,MIRI Medium Resolution Spectroscopy,S-1,72.9721379166667,-69.3913111111111,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1235,Meixner,MIRI Medium Resolution Spectroscopy,ACQ-TARGET-1,72.974295,-69.3969388888889,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1235,Meixner,MIRI Imaging,LHA-120-N-79-FOR-MIRI,72.9797441666667,-69.3756611111111,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1235,Meixner,NIRCam Imaging,LHA-120-N-79-FOR-NIRCAM,73.0117820833333,-69.3634972222222,LMC-N79: Study of Most Massive Young Stellar Object Star Forming Region
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,TYC5899,73.1016958333333,-16.8227694444444,Survey of Nearby Young M Stars
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-32297-PSF,73.9931345833333,5.39902222222222,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1189,Roellig,MIRI Imaging,J045853.89+643452.9,74.7245833333333,64.5810833333333,NIRCam Y-Dwarfs
+GTO,1189,Roellig,MIRI Medium Resolution Spectroscopy,J045853.89+643452.9,74.7245833333333,64.5810833333333,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRSpec IFU Spectroscopy,J045853.89+643452.9,74.7245833333333,64.5810833333333,NIRCam Y-Dwarfs
+GTO,1183,Gaspar,NIRSpec Fixed Slit Spectroscopy,GAIA3289902892417327104,75.609375,7.46519444444444,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-32297,75.6143183333333,7.46102222222222,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1183,Gaspar,NIRSpec Fixed Slit Spectroscopy,HD-32297,75.6143183333333,7.46102222222222,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,RW-AUR,76.9564083333333,30.4014083333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD35929,81.9282941666667,-8.32734444444446,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1179,Leisenring,NIRCam Imaging,MWC-758,82.6147025,25.3325222222222,YSO Imaging
+GTO,1228,Alves de Oliveira,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-3,83.8162104166667,-5.38072222222223,The Physics of Brown Dwarfs - Part #1
+GTO,1256,McCaughrean,NIRCam Imaging,TRAPEZIUM-CLUSTER,83.8185916666667,-5.38973055555556,Brown dwarfs & free-floating planetary mass objects in Orion: imaging
+ERS,1288,Berne,MIRI Medium Resolution Spectroscopy,ORIBAR-HII,83.8343945833333,-5.41787777777779,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+ERS,1288,Berne,NIRSpec IFU Spectroscopy,ORIBAR-HII,83.8343945833333,-5.41787777777779,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+ERS,1288,Berne,MIRI Medium Resolution Spectroscopy,ORIBAR-BACKGROUND,83.83449375,-5.41921666666667,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+ERS,1288,Berne,NIRCam Imaging,ORIBAR-IMAGING-NIRCAM,83.83449375,-5.41921666666667,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+ERS,1288,Berne,NIRSpec IFU Spectroscopy,ORIBAR-BACKGROUND,83.83449375,-5.41921666666667,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+ERS,1288,Berne,MIRI Imaging,ORIBAR-IMAGING-MIRI,83.8349804166667,-5.41888611111114,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+ERS,1288,Berne,MIRI Medium Resolution Spectroscopy,ORIBAR-H2,83.8359591666667,-5.4212277777778,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+ERS,1288,Berne,NIRSpec IFU Spectroscopy,ORIBAR-H2,83.8359591666667,-5.4212277777778,Radiative Feedback from Massive Stars as Traced by Multiband Imaging and Spectroscopic Mosaics
+GTO,1232,Wright,MIRI Medium Resolution Spectroscopy,TACQ-STAR,83.8649625,-69.2692027777778,SN 1987A:  The Formation and Evolution of Dust in a Supernova Explosion
+GTO,1232,Wright,MIRI Imaging,SN-1987A,83.8665333333333,-69.2697472222222,SN 1987A:  The Formation and Evolution of Dust in a Supernova Explosion
+GTO,1232,Wright,MIRI Medium Resolution Spectroscopy,SN-1987A,83.8665333333333,-69.2697472222222,SN 1987A:  The Formation and Evolution of Dust in a Supernova Explosion
+GTO,1232,Wright,NIRSpec IFU Spectroscopy,SN-1987A,83.8665333333333,-69.2697472222222,SN 1987A:  The Formation and Evolution of Dust in a Supernova Explosion
+GTO,1226,De Marchi,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-4,84.6660841666667,-69.0841833333333,Star formation in the local group - NGC 2070 (30 Dor)
+GTO,1192,Misselt,MIRI Imaging,HORSEHEAD-FILAMENT,85.2235416666667,-2.46786111111112,Physics and Chemistry of PDR Fronts
+GTO,1192,Misselt,MIRI Medium Resolution Spectroscopy,HORSEHEAD-FILAMENT,85.2235416666667,-2.46786111111112,Physics and Chemistry of PDR Fronts
+GTO,1192,Misselt,NIRCam Imaging,HORSEHEAD-FILAMENT,85.2235416666667,-2.46786111111112,Physics and Chemistry of PDR Fronts
+GTO,1192,Misselt,NIRSpec IFU Spectroscopy,HORSEHEAD-FILAMENT,85.2235416666667,-2.46786111111112,Physics and Chemistry of PDR Fronts
+GTO,1190,Meyer,NIRCam Imaging,NGC-2024,85.424,-1.90924999999999,Embedded Cluster Survey
+GTO,1258,McCaughrean,NIRCam Imaging,HH212-POS1,85.9520545833333,-1.04975277777777,"Structure, excitation, and proper motions in the symmetric HH212 jet"
+GTO,1258,McCaughrean,NIRCam Imaging,HH212-POS2,85.96861375,-1.05616111111112,"Structure, excitation, and proper motions in the symmetric HH212 jet"
+GTO,1294,Chen,MIRI Medium Resolution Spectroscopy,,86.8155416666667,-51.0643055555556,Thermal Emission Spectroscopy of beta Pictoris' Prototypical Debris Disk
+GTO,1294,Chen,MIRI Medium Resolution Spectroscopy,,86.82119875,-51.0665111111111,Thermal Emission Spectroscopy of beta Pictoris' Prototypical Debris Disk
+GTO,1411,Stark,MIRI Coronagraphic Imaging,BETA-PIC,86.82119875,-51.0665111111111,Coronagraphy of the Debris Disk Archetype Beta Pictoris
+GTO,1411,Stark,NIRCam Coronagraphic Imaging,BETA-PIC,86.82119875,-51.0665111111111,Coronagraphy of the Debris Disk Archetype Beta Pictoris
+GTO,1293,Noriega-Crespo,MIRI Imaging,HH110BOW,87.8427083333333,2.79102777777778,"Collimation zone in Proto-Stellar Jets, the Final Frontier.  MIRI MRS and Imager Simultaneous observations"
+GTO,1293,Noriega-Crespo,MIRI Medium Resolution Spectroscopy,NAME-HH-111-IRS,87.9437875,2.80801944444444,"Collimation zone in Proto-Stellar Jets, the Final Frontier.  MIRI MRS and Imager Simultaneous observations"
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,V-AP-COL,91.21723375,-34.5600777777778,Survey of Nearby Young M Stars
+GTO,1411,Stark,MIRI Coronagraphic Imaging,ALPHA-PIC,102.047729583333,-61.9413888888889,Coronagraphy of the Debris Disk Archetype Beta Pictoris
+GTO,1411,Stark,NIRCam Coronagraphic Imaging,ALPHA-PIC,102.047729583333,-61.9413888888889,Coronagraphy of the Debris Disk Archetype Beta Pictoris
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,WASP-121,107.600247916667,-39.097375,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-61005-PSF,108.652930416667,-30.6549138888889,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1205,Rieke,NIRCam Imaging,J073103.12+445949.4,112.763,44.9970555555556,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,J073103.12+445949.4,112.763,44.9970555555556,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRCam Imaging,2MJ07313244+4510416,112.885166666667,45.1782222222222,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,2MJ07313244+4510416,112.885166666667,45.1782222222222,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1206,Rieke,MIRI Medium Resolution Spectroscopy,P1121,113.927875,-14.8450555555556,Extreme Debris Disks and Disk Variability
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-61005,113.947757916667,-32.2039,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,GJ-3470,119.7743425,15.3914472222222,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1240,Ressler,MIRI Low Resolution Spectroscopy,SPRITE02,120,0,De-Mystifying SPRITEs with JWST
+GTO,1240,Ressler,NIRSpec IFU Spectroscopy,SPRITE02,120,0,De-Mystifying SPRITEs with JWST
+GTO,1276,Lagage,NIRCam Imaging,LAWD-27-OFFSET,121.741666666667,-66.3074277777778,Spectroscopic Observations of WD 0806-661B
+GTO,1276,Lagage,MIRI Imaging,WD0806-661B,121.811145833333,-66.3135222222222,Spectroscopic Observations of WD 0806-661B
+GTO,1276,Lagage,MIRI Low Resolution Spectroscopy,WD0806-661B,121.811145833333,-66.3135222222222,Spectroscopic Observations of WD 0806-661B
+GTO,1276,Lagage,NIRSpec IFU Spectroscopy,WD0806-661B,121.811145833333,-66.3135222222222,Spectroscopic Observations of WD 0806-661B
+GTO,1206,Rieke,MIRI Medium Resolution Spectroscopy,NGC2547-ID8,122.260425,-48.9714611111111,Extreme Debris Disks and Disk Variability
+GTO,1176,Windhorst,NIRCam Imaging,GAMA-100033,130.587054166667,1.64240555555556,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1230,Alves de Oliveira,MIRI Medium Resolution Spectroscopy,WISE0855-0714,133.773857083333,-7.24336388888889,The Physics of Brown Dwarfs - Part #3
+GTO,1230,Alves de Oliveira,NIRCam Imaging,WISE0855-0714,133.773857083333,-7.24336388888889,The Physics of Brown Dwarfs - Part #3
+GTO,1230,Alves de Oliveira,NIRISS Aperture Masking Interferometry,WISE0855-0714,133.773857083333,-7.24336388888889,The Physics of Brown Dwarfs - Part #3
+GTO,1230,Alves de Oliveira,NIRSpec Fixed Slit Spectroscopy,WISE0855-0714,133.773857083333,-7.24336388888889,The Physics of Brown Dwarfs - Part #3
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,IRAS-F08572+3915-BK,135.09625,39.0708333333333,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Imaging,IRAS-F08572+3915-NW,135.1057,39.0653611111111,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,IRAS-F08572+3915-NW-MRS,135.1057,39.0653611111111,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRCam Imaging,IRAS-F08572+3915-NW,135.1057,39.0653611111111,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,IRAS-F08572+3915-NW,135.1057,39.0653611111111,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+GTO,1233,Meixner,MIRI Imaging,I-ZW-18-MIRI,143.508333333333,55.2411111111111,I Zw 18:  Dust Life Cycle at Very Low Metallicity
+GTO,1233,Meixner,NIRCam Imaging,I-ZW-18-NIRCAM,143.50875,55.2402777777778,I Zw 18:  Dust Life Cycle at Very Low Metallicity
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,2MJ0944,146.225933333333,-12.3484527777778,Survey of Nearby Young M Stars
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,590-COS-3.53-A,149.7554125,2.73853333333333,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,1118-COS-3.65-A,149.879191666667,2.22583888888889,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,HZ1-COS-5.69-S,149.971766666667,2.11811944444444,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,349-COS-3.49-A,150.004377083333,2.03889722222222,Integral Field Spectroscopy in COSMOS
+GTO,1284,Colina Robledo,MIRI Imaging,COS-ZS7-1-IMA,150.086041666667,2.34254444444444,MIRI IFS of COS-zs7-1
+GTO,1214,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-14,150.09169,2.22709166666667,NIRSpec WIDE MOS Survey - COSMOS
+GTO,1214,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-10,150.093047916667,2.38154166666667,NIRSpec WIDE MOS Survey - COSMOS
+GTO,1284,Colina Robledo,MIRI Medium Resolution Spectroscopy,COS-ZS7-1,150.099,2.34361111111111,MIRI IFS of COS-zs7-1
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,12306-COS-6.20-S,150.127459166667,2.326425,Integral Field Spectroscopy in COSMOS
+GTO,1214,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-15,150.153122083333,2.23553611111111,NIRSpec WIDE MOS Survey - COSMOS
+GTO,1214,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-9,150.156295833333,2.43815277777778,NIRSpec WIDE MOS Survey - COSMOS
+GTO,1214,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-11,150.158447083333,2.33355,NIRSpec WIDE MOS Survey - COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,17264-COS-4.27-S,150.189727916667,2.38566666666667,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,11634-COS-4.38-S,150.191107083333,2.31795833333333,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,CR7-COS-6.60-L,150.2416875,1.80423611111111,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,HZ10-COS-5.66-S,150.247125,1.55533888888889,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,1656-COS-3.51-A,150.271583333333,1.61385,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,2949-COS-3.57-A,150.402916666667,1.87889444444444,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,HZ2-COS-5.67-S,150.517304166667,1.9289,Integral Field Spectroscopy in COSMOS
+ERS,1335,Wylezalek,MIRI Medium Resolution Spectroscopy,XID2028-MIRI,150.546958333333,1.6185,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+ERS,1335,Wylezalek,NIRSpec IFU Spectroscopy,XID2028-NIRSPEC,150.546958333333,1.6185,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+ERS,1335,Wylezalek,MIRI Medium Resolution Spectroscopy,XID2028-BG,150.54931,1.62351944444444,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,1638-COS-3.49-A,150.735541666667,2.19955833333333,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,5395-COS-1.47-A,150.743520833333,2.17050555555556,Integral Field Spectroscopy in COSMOS
+GTO,1217,Ferruit,NIRSpec IFU Spectroscopy,5321-COS-1.47-A,150.786791666667,2.15097222222222,Integral Field Spectroscopy in COSMOS
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,GJ-1132,153.715708333333,-47.1566944444444,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+ERS,1349,Lau,MIRI Medium Resolution Spectroscopy,WR19,154.520791666667,-58.2739722222222,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+ERS,1349,Lau,NIRISS Aperture Masking Interferometry,WR19,154.520791666667,-58.2739722222222,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+GTO,1224,Birkmann,NIRSpec Bright Object Time Series,WASP-43-TA-REF,154.901515416667,-9.81178888888888,Transiting exoplanet characterization with JWST/NIRSPEC
+GTO,1224,Birkmann,NIRSpec Bright Object Time Series,WASP-43,154.908192916667,-9.80643888888886,Transiting exoplanet characterization with JWST/NIRSPEC
+ERS,1366,Batalha,MIRI Low Resolution Spectroscopy,WASP-43,154.908192916667,-9.80643888888886,The Transiting Exoplanet Community Early Release Science Program
+ERS,1349,Lau,MIRI Medium Resolution Spectroscopy,WR19MRSCAL,155.062698333333,-57.8808527777778,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,NGC3256-BK,156.947916666667,-43.8847222222222,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Imaging,NGC3256-CENTERED,156.963333333333,-43.9043055555555,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRCam Imaging,NGC3256-CENTERED,156.963333333333,-43.9043055555555,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,NGC3256-NUC2-MRS,156.963416666667,-43.9053416666667,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,NGC3256-NUC2,156.963416666667,-43.9053416666667,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,NGC3256-NUC1-MRS,156.9635,-43.9038888888889,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRCam Imaging,NGC3256-NUC1,156.9635,-43.9038888888889,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,NGC3256-NUC1,156.9635,-43.9038888888889,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,STAR-NGC3256,156.964995,-43.9125111111111,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,STAR-NGC3256,156.964995,-43.9125111111111,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+GTO,1282,Henning,MIRI Coronagraphic Imaging,HD90957.CORO,157.370721666667,-29.6638305555555,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1243,Lilly,NIRCam Wide Field Slitless Spectroscopy,J1030+0524,157.612879166667,5.41530555555556,Exploring the End of Cosmic Reionization
+GTO,1243,Lilly,NIRCam Wide Field Slitless Spectroscopy,J159-02,159.225791666667,-2.54387222222221,Exploring the End of Cosmic Reionization
+ERS,1349,Lau,NIRISS Aperture Masking Interferometry,WR19REFPSF,161.18367,-58.9285666666667,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+GTO,1200,Rameau,NIRISS Aperture Masking Interferometry,HD-93649,161.700321666667,-69.2097861111111,Architecture of Directly-Imaged Extrasolar Planetary Systems
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,SY-CHA,164.1268625,-77.1942527777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1277,Lagage,MIRI Coronagraphic Imaging,HD-95086B,164.262583333333,-68.6673333333333,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1200,Rameau,NIRISS Aperture Masking Interferometry,HD-95086,164.2625875,-68.6673472222222,Architecture of Directly-Imaged Extrasolar Planetary Systems
+GTO,1195,Beichman,NIRCam Coronagraphic Imaging,HD-95086,164.262589583333,-68.6673472222222,Coronagraphic Imaging of Young Planets - Part 3
+GTO,1195,Beichman,NIRCam Coronagraphic Imaging,HD-95752,165.457185,-64.3039138888889,Coronagraphic Imaging of Young Planets - Part 3
+GTO,1179,Leisenring,NIRCam Imaging,TW-HYA,165.466271666667,-34.7047305555556,YSO Imaging
+GTO,1282,Henning,MIRI Coronagraphic Imaging,TW-HYA.CORO,165.466271666667,-34.7047305555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,TW-HYA,165.466271666667,-34.7047305555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,TW-HYA.BG,165.475416666667,-34.6990277777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1270,Birkmann,NIRSpec IFU Spectroscopy,TWA-28,165.540970833333,-34.5098694444445,Characterizing the TWA 27 system
+ERS,1309,McClure,MIRI Medium Resolution Spectroscopy,HH48B,166.097125,-77.3020833333333,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,NIRSpec IFU Spectroscopy,HH48B,166.097125,-77.3020833333333,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,MIRI Medium Resolution Spectroscopy,HH48B-SKY-MIRI,166.101995,-77.3107694444444,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,NIRSpec IFU Spectroscopy,HH48B-SKY-NIRSPEC,166.230367916667,-77.3442277777777,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,MIRI Low Resolution Spectroscopy,AV95SSTSL2J110621.63-772354.1,166.590166666667,-77.3983666666667,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,NIRCam Wide Field Slitless Spectroscopy,CHAMMS1-C2-FIELD,166.590166666667,-77.3983666666667,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,NIRSpec Fixed Slit Spectroscopy,AV95SSTSL2J110621.63-772354.1,166.590166666667,-77.3983666666667,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,MIRI Low Resolution Spectroscopy,AV60NIR38,166.606541666667,-77.3877388888889,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,NIRSpec Fixed Slit Spectroscopy,AV60NIR38,166.606541666667,-77.3877388888889,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,MIRI Medium Resolution Spectroscopy,CED110IRS4-SKY-MIRI,166.692972083333,-77.3608888888889,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,MIRI Low Resolution Spectroscopy,CED110IRS4-LRS,166.69625,-77.3761111111111,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,MIRI Medium Resolution Spectroscopy,CED110IRS4,166.69625,-77.3761111111111,IceAge: Chemical evolution of ices during star formation
+ERS,1309,McClure,NIRSpec IFU Spectroscopy,CED110IRS4,166.69625,-77.3761111111111,IceAge: Chemical evolution of ices during star formation
+ERS,1335,Wylezalek,MIRI Medium Resolution Spectroscopy,F2M1106-MIRI,166.701333333333,48.1200833333333,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+ERS,1335,Wylezalek,NIRSpec IFU Spectroscopy,F2M1106-NIRSPEC,166.701333333333,48.1200833333333,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+ERS,1335,Wylezalek,MIRI Medium Resolution Spectroscopy,F2M1106-BG,166.70675,48.122,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+ERS,1309,McClure,NIRSpec IFU Spectroscopy,CED110IRS4-SKY-NIRSPEC,166.810916666667,-77.3786111111111,IceAge: Chemical evolution of ices during star formation
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J11071668-7735532,166.8195375,-77.5981361111111,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J11071860-7732516,166.827533333333,-77.5476833333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J11074245-7733593,166.926895833333,-77.5664972222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,VW-CHA,167.006191666667,-77.7080138888889,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J11082650-7715550,167.110441666667,-77.2653055555555,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J11085090-7625135,167.212116666667,-76.4204416666666,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,WX-CHA,167.494741666667,-77.6191333333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,XX-CHA,167.915233333333,-76.3375694444445,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,NIRSpec IFU Spectroscopy,XX-CHA,167.915233333333,-76.3375694444445,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1277,Lagage,MIRI Coronagraphic Imaging,HD-310459,168.5401025,-68.5698805555555,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1225,De Marchi,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-1,168.7815775,-61.2612083333333,Star formation in the local group - NGC3603
+GTO,1198,Stiavelli,NIRCam Imaging,HB89-1115+080,169.57063,7.76616111111111,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1198,Stiavelli,NIRSpec IFU Spectroscopy,HB89-1115+080,169.57063,7.76616111111111,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1189,Roellig,MIRI Low Resolution Spectroscopy,J11193254-1137466,169.885595833333,-11.6296388888889,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRSpec IFU Spectroscopy,J11193254-1137466,169.885595833333,-11.6296388888889,NIRCam Y-Dwarfs
+GTO,1222,Willott,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-10,170.006087916667,6.69188055555556,"Cosmic reionization, metal enrichment and host galaxies from quasar spectroscopy"
+GTO,1263,Colina Robledo,NIRSpec IFU Spectroscopy,NIRSPEC-J1120+0641,170.006095833333,6.68994166666667,NIRSpec and MIRI Spectroscopy of QSOs - Part 2
+GTO,1263,Colina Robledo,MIRI Medium Resolution Spectroscopy,MIRI-J1120,170.0061625,6.69008333333333,NIRSpec and MIRI Spectroscopy of QSOs - Part 2
+GTO,1243,Lilly,NIRCam Wide Field Slitless Spectroscopy,J1120+0641,170.006166666667,6.69008333333333,Exploring the End of Cosmic Reionization
+GTO,1263,Colina Robledo,MIRI Imaging,MIRI-J1120-IMAGER,170.020282916667,6.68973611111111,NIRSpec and MIRI Spectroscopy of QSOs - Part 2
+GTO,1176,Windhorst,NIRCam Imaging,PLCK-G165.7+67.0,171.8125,42.4752777777778,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,K2-18,172.560458333333,7.58839166666667,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1242,Johnstone,NIRISS Aperture Masking Interferometry,TD-HD-100546,173.3560025,-70.1947888888889,Planets in Formation and Exozodiacal Disks
+GTO,1242,Johnstone,NIRISS Aperture Masking Interferometry,TD-CAL-HD-101531,175.085293333333,-69.6717444444445,Planets in Formation and Exozodiacal Disks
+GTO,1177,Greene,MIRI Low Resolution Spectroscopy,GJ-436-B,175.546221666667,26.7065694444444,MIRI observations of transiting exoplanets
+GTO,1185,Greene,NIRCam Grism Time Series,GJ-436,175.546221666667,26.7065694444444,Transit Spectroscopy of Mature Planets
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,GJ-436,175.546225,26.7065694444444,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1189,Roellig,MIRI Low Resolution Spectroscopy,J114724.10-204021.3,176.850891666667,-20.6723444444444,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRSpec IFU Spectroscopy,J114724.10-204021.3,176.850891666667,-20.6723444444444,NIRCam Y-Dwarfs
+GTO,1243,Lilly,NIRCam Wide Field Slitless Spectroscopy,J1148+5251,177.069166666667,52.8638888888889,Exploring the End of Cosmic Reionization
+GTO,1218,Ferruit,NIRSpec IFU Spectroscopy,J1148+5251,177.069354166667,52.8639472222222,NIRSpec-IFU Observations of two QSOs at z=6
+GTO,1199,Stiavelli,NIRCam Imaging,MACS-J1149.6+2223,177.39622,22.4030388888889,The metallicity of galaxies in the MAC J1149.5+2223 field
+GTO,1199,Stiavelli,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-10,177.400780833333,22.3987,The metallicity of galaxies in the MAC J1149.5+2223 field
+GTO,1199,Stiavelli,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-14,177.400780833333,22.3987,The metallicity of galaxies in the MAC J1149.5+2223 field
+GTO,1176,Windhorst,NIRCam Imaging,MACSJ1149+2223,177.40125,22.3994722222222,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1208,Willott,NIRCam Imaging,MACSJ1149+2223,177.40275,22.3980833333333,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRISS Wide Field Slitless Spectroscopy,MACSJ1149+2223,177.40275,22.3980833333333,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRSpec MultiObject Spectroscopy,MACSJ1149+2223,177.40275,22.3980833333333,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,DARK-BHR71,180.378,-65.1457222222222,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,BHR71,180.402283333333,-65.1482194444445,MIRI EC Protostars Survey
+GTO,1205,Rieke,NIRCam Imaging,2MJ12040377+0019134,181.015708333333,0.320388888888889,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,2MJ12040377+0019134,181.015708333333,0.320388888888889,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRCam Imaging,J120441.73-002149.6,181.173875,-0.363777777777784,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,J120441.73-002149.6,181.173875,-0.363777777777784,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1220,Ferruit,NIRSpec IFU Spectroscopy,BR1202-F4.69,181.346029583333,-7.70879166666668,NIRSpec IFS of BR1202
+GTO,1198,Stiavelli,NIRCam Imaging,SDSS-J1206+4332,181.62353,43.5382111111111,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1198,Stiavelli,NIRSpec IFU Spectroscopy,SDSS-J1206+4332,181.62353,43.5382111111111,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1270,Birkmann,MIRI Imaging,TWA-27,181.889445833333,-39.5483333333333,Characterizing the TWA 27 system
+GTO,1270,Birkmann,MIRI Medium Resolution Spectroscopy,TWA-27,181.889445833333,-39.5483333333333,Characterizing the TWA 27 system
+GTO,1270,Birkmann,NIRSpec IFU Spectroscopy,TWA-27,181.889445833333,-39.5483333333333,Characterizing the TWA 27 system
+GTO,1270,Birkmann,MIRI Medium Resolution Spectroscopy,TWA-27-AB,181.889541666667,-39.5483944444445,Characterizing the TWA 27 system
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,HD105702,182.514241666667,5.80700833333333,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+ERS,1364,Bentz,NIRSpec IFU Spectroscopy,NGC-4151,182.635764166667,39.4058416666667,Nuclear Dynamics of a Nearby Seyfert with NIRSpec Integral Field Spectroscopy
+GTO,1176,Windhorst,NIRCam Imaging,CLG-J1212+2733,183.093803333333,27.5705222222222,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF12112-BACKGROUND,183.439294166667,2.81512222222222,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF12112+0305,183.441875,2.81148611111111,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+ERS,1386,Hinkley,NIRISS Aperture Masking Interferometry,,183.786319583333,-58.7489277777778,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+GTO,1277,Lagage,MIRI Low Resolution Spectroscopy,HD-106906B-HODAPP,184.468825,-55.9743277777778,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1277,Lagage,NIRSpec IFU Spectroscopy,HD-106906B-HODAPP,184.468825,-55.9743277777778,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1277,Lagage,MIRI Coronagraphic Imaging,HD-106906,184.471634583333,-55.975525,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1278,Lagage,MIRI Medium Resolution Spectroscopy,WISEPCJ121756,184.487125,16.4445,MIRI Spectroscopic Observations of Brown Dwarfs
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-107146,184.777091666667,16.5482944444444,Coronagraphic Imaging of Scattered light Debris Disks
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SGAS1226-SKY,186.709583333333,21.8722222222222,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SGAS1226-SKY,186.709583333333,21.8722222222222,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SGAS1226-OFFSETSTAR2,186.712566666667,21.8764222222222,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SGAS1226-OFFSETSTAR1,186.71295,21.8750111111111,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Imaging,SGAS1226-PHOT,186.713733333333,21.8722138888889,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SGAS1226-IFU,186.713733333333,21.8722138888889,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRCam Imaging,SGAS1226-PHOT,186.713733333333,21.8722138888889,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SGAS1226-IFU,186.713733333333,21.8722138888889,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1386,Hinkley,MIRI Coronagraphic Imaging,,187.09360375,-39.0411722222222,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,NIRCam Coronagraphic Imaging,,187.09360375,-39.0411722222222,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+GTO,1242,Johnstone,NIRISS Aperture Masking Interferometry,EXZ-ETA-CRV,188.017610416667,-16.1960055555555,Planets in Formation and Exozodiacal Disks
+GTO,1224,Birkmann,NIRSpec Bright Object Time Series,WASP-107-TA-REF,188.379372916667,-10.1542361111111,Transiting exoplanet characterization with JWST/NIRSPEC
+GTO,1201,Lafreniere,NIRSpec Bright Object Time Series,ACQ-STAR-FOR-WASP-107,188.379375,-10.1542361111111,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1224,Birkmann,NIRSpec Bright Object Time Series,WASP-107,188.38644125,-10.1462138888889,Transiting exoplanet characterization with JWST/NIRSPEC
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,WASP-107,188.38685,-10.1461472222222,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1201,Lafreniere,NIRSpec Bright Object Time Series,WASP-107,188.38685,-10.1461472222222,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1185,Greene,NIRCam Grism Time Series,WASP-107,188.386866666667,-10.14615,Transit Spectroscopy of Mature Planets
+GTO,1280,Lagage,MIRI Low Resolution Spectroscopy,WASP-107,188.386866666667,-10.14615,MIRI Transiting Observation of WASP-107b
+ERS,1386,Hinkley,MIRI Coronagraphic Imaging,HR-4796A,189.004304166667,-39.8695,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,NIRCam Coronagraphic Imaging,HR-4796A,189.004304166667,-39.8695,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-11,189.054295,62.220475,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-12,189.149314166667,62.2802277777778,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1176,Windhorst,NIRSpec IFU Spectroscopy,ACQTARGET,189.155991666667,62.3041111111111,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1176,Windhorst,NIRSpec IFU Spectroscopy,FIGS1292,189.157970833333,62.3023888888889,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-13,189.162810416667,62.1454722222222,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1181,Eisenstein,NIRCam Imaging,GOODS-N-MEDIUM07,189.196958333333,62.2711694444444,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-11,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-12,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-13,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-14,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-15,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-16,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-17,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-18,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-19,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1181,Eisenstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-9,189.198142083333,62.2223111111111,NIRCam-NIRSpec galaxy assembly survey - GOODS-N
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-18,189.235509166667,62.2739027777778,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-14,189.27364,62.3230388888889,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1264,Colina Robledo,MIRI Medium Resolution Spectroscopy,GN20.2B.2A-MRS,189.28837,62.3672111111111,NIRSpec and MIRI IFS of SMGs
+GTO,1264,Colina Robledo,MIRI Medium Resolution Spectroscopy,GN20-MRS,189.299535416667,62.3700527777778,NIRSpec and MIRI IFS of SMGs
+GTO,1264,Colina Robledo,NIRSpec IFU Spectroscopy,GN20-NIRSPEC,189.299582916667,62.3700277777778,NIRSpec and MIRI IFS of SMGs
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-15,189.318129166667,62.2106527777778,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1264,Colina Robledo,MIRI Imaging,GN20-IMAGER,189.318472916667,62.3635166666667,NIRSpec and MIRI IFS of SMGs
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-19,189.358567083333,62.3131611111111,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-16,189.363854166667,62.262825,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1211,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-17,189.443137916667,62.2787833333333,NIRSpec WIDE MOS Survey - GOODS-N
+GTO,1223,Boeker,NIRSpec IFU Spectroscopy,NGC4654-NUCLEUS,190.98575,13.1267055555556,NIRSpec GTO observations of NGC4654
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-107146-PSF,192.218422083333,12.096375,Coronagraphic Imaging of Scattered light Debris Disks
+ERS,1386,Hinkley,MIRI Medium Resolution Spectroscopy,VHS-1256B,194.006608333333,-12.9584194444444,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,NIRCam Imaging,VHS-1256B,194.006608333333,-12.9584194444444,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,NIRSpec IFU Spectroscopy,VHS-1256B,194.006608333333,-12.9584194444444,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+GTO,1268,Maiolino,MIRI Medium Resolution Spectroscopy,MRK231-BACKGROUND,194.045416666667,56.8765277777778,NIRSpec & MIRI Integral-Field Spectroscopy of the Nucleus of Mrk 231
+GTO,1268,Maiolino,NIRSpec IFU Spectroscopy,MRK231-SHELL,194.058608333333,56.8726055555556,NIRSpec & MIRI Integral-Field Spectroscopy of the Nucleus of Mrk 231
+GTO,1268,Maiolino,MIRI Medium Resolution Spectroscopy,MRK231-NUC,194.05931,56.8736805555556,NIRSpec & MIRI Integral-Field Spectroscopy of the Nucleus of Mrk 231
+GTO,1268,Maiolino,NIRSpec IFU Spectroscopy,MRK231-NUC,194.05931,56.8736805555556,NIRSpec & MIRI Integral-Field Spectroscopy of the Nucleus of Mrk 231
+GTO,1277,Lagage,MIRI Medium Resolution Spectroscopy,ROSS458C,195.174733333333,12.3540888888889,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1277,Lagage,NIRSpec IFU Spectroscopy,ROSS458C,195.174733333333,12.3540888888889,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1292,Lunine,NIRSpec Fixed Slit Spectroscopy,ROSS458C,195.174733333333,12.3540888888889,ROSS 458 ABc
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,SZ50,195.2305,-77.1728333333334,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1242,Johnstone,NIRISS Aperture Masking Interferometry,EXZ-CAL-HR4981,198.014765833333,-16.1986027777778,Planets in Formation and Exozodiacal Disks
+GTO,1277,Lagage,MIRI Coronagraphic Imaging,GJ-504-B,199.193833333333,9.42416666666667,Coronographic Observations of Young Exoplanets (and Spectroscopic Observations of ROSS 458 AB c
+GTO,1200,Rameau,NIRISS Aperture Masking Interferometry,HD-115600,199.831416666667,-59.4723444444444,Architecture of Directly-Imaged Extrasolar Planetary Systems
+ERS,1386,Hinkley,MIRI Coronagraphic Imaging,HIP-65219,200.48804625,-51.2822611111111,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,NIRCam Coronagraphic Imaging,HIP-65219,200.48804625,-51.2822611111111,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,MIRI Coronagraphic Imaging,HIP-65426,201.150408333333,-51.5044583333333,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,NIRCam Coronagraphic Imaging,HIP-65426,201.150408333333,-51.5044583333333,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+ERS,1386,Hinkley,NIRISS Aperture Masking Interferometry,HIP-65426,201.150408333333,-51.5044583333333,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+GTO,1269,Luetzgendorf,MIRI Medium Resolution Spectroscopy,CENA-NUC,201.365062916667,-43.0191138888889,NIRSpec Observations of Centaurus-A: a GTO program proposal
+GTO,1269,Luetzgendorf,NIRSpec IFU Spectroscopy,CENA-NUC-NIRSPEC,201.365062916667,-43.0191138888889,NIRSpec Observations of Centaurus-A: a GTO program proposal
+GTO,1269,Luetzgendorf,MIRI Medium Resolution Spectroscopy,CENA-BACKGR,201.5075,-43.0125,NIRSpec Observations of Centaurus-A: a GTO program proposal
+GTO,1176,Windhorst,NIRCam Imaging,TN-J1338-1942-IRFLD1,202.110175,-19.740825,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1205,Rieke,NIRCam Imaging,2MJ13403522+2748501,205.14675,27.8139166666667,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,2MJ13403522+2748501,205.14675,27.8139166666667,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRCam Imaging,J134040.24+281328.1,205.167666666667,28.2244722222222,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,J134040.24+281328.1,205.167666666667,28.2244722222222,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1176,Windhorst,NIRCam Imaging,VV-191,207.09208,25.6777805555556,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1281,Lagage,MIRI Low Resolution Spectroscopy,HAT-P-12,209.3895,43.4935277777778,MIRI and NIRSPEC Transit Observations of HAT-P-12 b
+GTO,1281,Lagage,NIRSpec Bright Object Time Series,HAT-P-12,209.3895,43.4935277777778,MIRI and NIRSPEC Transit Observations of HAT-P-12 b
+GTO,1177,Greene,MIRI Low Resolution Spectroscopy,HAT-P-26B,213.15638625,4.06003055555556,MIRI observations of transiting exoplanets
+GTO,1185,Greene,NIRCam Grism Time Series,HAT-P-26,213.15638625,4.06003055555556,Transit Spectroscopy of Mature Planets
+GTO,1312,Lewis,MIRI Low Resolution Spectroscopy,HAT-P-26,213.15638625,4.06003055555556,Transit and Eclipse Spectropscopy of a Warm Neptune
+GTO,1312,Lewis,NIRISS Single-Object Slitless Spectroscopy,HAT-P-26,213.15638625,4.06003055555556,Transit and Eclipse Spectropscopy of a Warm Neptune
+GTO,1312,Lewis,NIRSpec Bright Object Time Series,HAT-P-26,213.15638625,4.06003055555556,Transit and Eclipse Spectropscopy of a Warm Neptune
+GTO,1213,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-13,214.809967083333,52.7946055555556,NIRSpec WIDE MOS Survey - AEGIS
+ERS,1345,Finkelstein,MIRI Imaging,MIRI-EGS4,214.862429583333,52.8862277777778,The Cosmic Evolution Early Release Science (CEERS) Survey
+GTO,1213,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-12,214.88554375,52.84555,NIRSpec WIDE MOS Survey - AEGIS
+ERS,1345,Finkelstein,MIRI Imaging,MIRI-EGS3,214.934897916667,52.8814666666667,The Cosmic Evolution Early Release Science (CEERS) Survey
+ERS,1345,Finkelstein,NIRCam Wide Field Slitless Spectroscopy,NIRCAM-GRISM-6,214.946587083333,52.8968888888889,The Cosmic Evolution Early Release Science (CEERS) Survey
+ERS,1345,Finkelstein,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-9,214.955067916667,52.9037972222222,The Cosmic Evolution Early Release Science (CEERS) Survey
+ERS,1345,Finkelstein,MIRI Imaging,MIRI-EGS2,214.957420833333,52.9483388888889,The Cosmic Evolution Early Release Science (CEERS) Survey
+GTO,1213,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-11,214.9921875,52.9203,NIRSpec WIDE MOS Survey - AEGIS
+ERS,1345,Finkelstein,NIRCam Wide Field Slitless Spectroscopy,NIRCAM-GRISM-5,215.018630416667,52.8924611111111,The Cosmic Evolution Early Release Science (CEERS) Survey
+GTO,1262,Ferruit,MIRI Imaging,EGSY8P7-MIRI-IMAGER,215.025041666667,52.8997333333333,Integral Field Spectroscopy in EGS
+ERS,1345,Finkelstein,MIRI Imaging,MIRI-EGS1,215.0273575,52.944575,The Cosmic Evolution Early Release Science (CEERS) Survey
+GTO,1262,Ferruit,MIRI Medium Resolution Spectroscopy,EGSY8P7-MIRI-MRS,215.035416666667,52.8907222222222,Integral Field Spectroscopy in EGS
+GTO,1262,Ferruit,NIRSpec IFU Spectroscopy,EGSY8P7-NIRSPEC,215.035416666667,52.8907222222222,Integral Field Spectroscopy in EGS
+ERS,1345,Finkelstein,NIRCam Wide Field Slitless Spectroscopy,NIRCAM-GRISM-4,215.039026666667,52.9601138888889,The Cosmic Evolution Early Release Science (CEERS) Survey
+GTO,1213,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-10,215.099029583333,52.9918527777778,NIRSpec WIDE MOS Survey - AEGIS
+ERS,1345,Finkelstein,NIRCam Wide Field Slitless Spectroscopy,NIRCAM-GRISM-3,215.111155,52.9552833333333,The Cosmic Evolution Early Release Science (CEERS) Survey
+GTO,1262,Ferruit,MIRI Imaging,EGS-ZS8-1-MIRI-IMAGER,215.135375,53.013275,Integral Field Spectroscopy in EGS
+GTO,1262,Ferruit,MIRI Medium Resolution Spectroscopy,EGS-ZS8-1-MIRI-MRS,215.145375,53.0042777777778,Integral Field Spectroscopy in EGS
+GTO,1262,Ferruit,NIRSpec IFU Spectroscopy,EGS-ZS8-1-NIRSPEC,215.145375,53.0042777777778,Integral Field Spectroscopy in EGS
+GTO,1213,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-9,215.15161125,53.0497027777778,NIRSpec WIDE MOS Survey - AEGIS
+GTO,1208,Willott,NIRCam Imaging,MACSJ1423.8+2404,215.949083333333,24.0777,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRISS Wide Field Slitless Spectroscopy,MACSJ1423.8+2404,215.949083333333,24.0777,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1208,Willott,NIRSpec MultiObject Spectroscopy,MACSJ1423.8+2404,215.949083333333,24.0777,CANUCS: The CAnadian NIRISS Unbiased Cluster Survey
+GTO,1176,Windhorst,NIRSpec IFU Spectroscopy,NDWFS-1425+3254-QUASAR,216.318202916667,32.9025833333333,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1176,Windhorst,NIRSpec IFU Spectroscopy,NDWFS-1425+3254-CENTRE,216.31837875,32.9026361111111,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF14378-3651,220.245875,-37.0755333333333,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF14378-BACKGROUND,220.245875,-37.0672,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,HD129116,220.4899625,-37.7934972222222,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD131488,223.783458333333,-41.1203888888889,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD131835,224.22695,-35.6954583333333,MIRI EC Protoplanetary and Debris Disks Survey
+ERS,1386,Hinkley,NIRISS Aperture Masking Interferometry,,224.6330225,-43.1339638888889,High Contrast Imaging of Exoplanets and Exoplanetary Systems with JWST
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD135344B.BG,228.945833333333,-37.1510833333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1242,Johnstone,NIRISS Aperture Masking Interferometry,TD-HD-135344B,228.951830833333,-37.1544527777778,Planets in Formation and Exozodiacal Disks
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD135344B,228.951833333333,-37.1544444444444,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1179,Leisenring,NIRCam Imaging,SAO-206462,228.95186375,-37.1544555555556,YSO Imaging
+GTO,1267,Dicken,NIRSpec IFU Spectroscopy,ARP220-SHELL,233.738229166667,23.5034444444444,NIRSpec+MIRI IFU Observations of Arp220
+GTO,1267,Dicken,MIRI Medium Resolution Spectroscopy,ARP220-INT-MIRI,233.7385625,23.5031666666667,NIRSpec+MIRI IFU Observations of Arp220
+GTO,1267,Dicken,NIRSpec IFU Spectroscopy,ARP220-INT,233.7385625,23.5031666666667,NIRSpec+MIRI IFU Observations of Arp220
+GTO,1267,Dicken,MIRI Medium Resolution Spectroscopy,ARP220-BACKGROUND-MIRI,233.74375,23.51325,NIRSpec+MIRI IFU Observations of Arp220
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD138813,233.81710875,-25.7341638888889,MIRI EC Protoplanetary and Debris Disks Survey
+ERS,1364,Bentz,NIRSpec IFU Spectroscopy,2MASS-J15395077-3404566,234.961575,-34.0824083333333,Nuclear Dynamics of a Nearby Seyfert with NIRSpec Integral Field Spectroscopy
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,GW-LUP,236.686379166667,-34.5098611111111,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,PDS144N,237.314691666667,-26.0139222222222,MIRI EC Protoplanetary and Debris Disks Survey
+ERS,1334,Weisz,NIRCam Imaging,DRACO-II,238.198333333333,64.5652777777778,The Resolved Stellar Populations Early Release Science Program
+GTO,1239,Ressler,MIRI Imaging,V-NN-SER,238.233879166667,12.9124111111111,Investigating Dusty Disks in Evolved Stars
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,IM-LUP,239.038235416667,-37.9350305555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J15582981-2310077,239.624220833333,-23.1688111111111,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1353,Lewis,MIRI Low Resolution Spectroscopy,WASP-17,239.962279166667,-28.0617583333333,Transit and Eclipse Spectropscopy of a Hot Jupiter
+GTO,1353,Lewis,NIRISS Single-Object Slitless Spectroscopy,WASP-17,239.962279166667,-28.0617583333333,Transit and Eclipse Spectropscopy of a Hot Jupiter
+GTO,1353,Lewis,NIRSpec Bright Object Time Series,WASP-17,239.962279166667,-28.0617583333333,Transit and Eclipse Spectropscopy of a Hot Jupiter
+GTO,1240,Ressler,MIRI Low Resolution Spectroscopy,SPRITE03,240,0,De-Mystifying SPRITEs with JWST
+GTO,1240,Ressler,NIRSpec IFU Spectroscopy,SPRITE03,240,0,De-Mystifying SPRITEs with JWST
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J16053215-1933159,241.383966666667,-19.5544416666667,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1206,Rieke,MIRI Medium Resolution Spectroscopy,HD-145263,242.729609583333,-25.5226861111111,Extreme Debris Disks and Disk Variability
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,BACKGROUND,243.297916666667,-60.75,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,OUTER-TAIL-2,243.309916666667,-60.7442777777778,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,OUTER-TAIL-1,243.311,-60.7459166666667,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,KNOT-11,243.345125,-60.7557083333334,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,KNOT-5,243.349708333333,-60.7648888888889,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,KNOT-7,243.350541666667,-60.7592944444444,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,KNOT-6,243.35225,-60.7683111111111,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,KNOT-2,243.354033333333,-60.7620861111111,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,KNOT-4,243.356041666667,-60.759775,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,ESO137-001-TILE-4,243.357322083333,-60.7637444444445,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,ESO137-001-TILE-7,243.35847375,-60.7652916666667,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,ESO137-001-TILE-2,243.358989583333,-60.7617,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,ESO137-001-TILE-5,243.36014125,-60.7632444444445,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,KNOT-3,243.360333333333,-60.759125,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,ESO137-001-TILE-8,243.361292916667,-60.7647888888889,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,ESO137-001-TILE-6,243.362960416667,-60.7627444444444,Ram Pressure Stripping in ESO 137-001
+GTO,1178,Friedman,MIRI Medium Resolution Spectroscopy,ESO137-001-TILE-9,243.364112083333,-60.7642888888889,Ram Pressure Stripping in ESO 137-001
+GTO,1205,Rieke,NIRCam Imaging,2MJ16205978+5206232,245.249083333333,52.1064722222222,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,2MJ16205978+5206232,245.249083333333,52.1064722222222,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRCam Imaging,J162100.70+515544.8,245.252916666667,51.9291111111111,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1205,Rieke,NIRSpec IFU Spectroscopy,J162100.70+515544.8,245.252916666667,51.9291111111111,Formation Histories and Stellar Masses of Very High-z Quasars
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,SR21,246.792825,-24.3202055555556,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,IRS46,246.872645833333,-24.6544972222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,2MASS-J16281370-2431391,247.057125,-24.5275277777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1274,Lunine,NIRCam Grism Time Series,HD149026,247.623410416667,38.3473083333333,Extrasolar Planet Science with JWST
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,RNO90,248.538208333333,-15.8046666666667,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,WA-OPH6,252.190158333333,-14.2766388888889,MIRI EC Protoplanetary and Debris Disks Survey
+ERS,1335,Wylezalek,MIRI Medium Resolution Spectroscopy,SDSSJ1652-MIRI,253.01102,17.4812194444444,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+ERS,1335,Wylezalek,NIRSpec IFU Spectroscopy,SDSSJ1652-NIRSPEC,253.01102,17.4812194444444,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+ERS,1335,Wylezalek,MIRI Medium Resolution Spectroscopy,SDSSJ1652-BG,253.0111,17.4816611111111,Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+GTO,1265,Alonso-Herrero,MIRI Medium Resolution Spectroscopy,NGC6240-BACKGROUND,253.235833333333,2.40519444444444,NGC6240
+GTO,1265,Alonso-Herrero,MIRI Imaging,NGC6240-INT,253.245479166667,2.40102777777778,NGC6240
+GTO,1265,Alonso-Herrero,MIRI Medium Resolution Spectroscopy,NGC6240-INT-MRS,253.245479166667,2.40102777777778,NGC6240
+GTO,1265,Alonso-Herrero,NIRSpec IFU Spectroscopy,NGC6240-INT,253.245479166667,2.40102777777778,NGC6240
+ERS,1373,de Pater,NIRISS Aperture Masking Interferometry,PSFCAL.2019B-HD152633,253.86462875,-23.0362,ERS observations of the Jovian System as a demonstration of JWST’s capabilities for Solar System science
+GTO,1264,Colina Robledo,MIRI Medium Resolution Spectroscopy,HFLS3-MRS,256.699166666667,58.7731972222222,NIRSpec and MIRI IFS of SMGs
+GTO,1264,Colina Robledo,NIRSpec IFU Spectroscopy,HFLS3-NIRSPEC,256.699166666667,58.7731972222222,NIRSpec and MIRI IFS of SMGs
+GTO,1264,Colina Robledo,MIRI Imaging,HFLS3-IMAGER,256.702489583333,58.7691611111111,NIRSpec and MIRI IFS of SMGs
+GTO,1193,Beichman,MIRI Coronagraphic Imaging,VEGA-PSF-CORON,258.76181,36.8091611111111,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+ERS,1334,Weisz,NIRCam Imaging,M92,259.210094166667,43.1458638888889,The Resolved Stellar Populations Early Release Science Program
+GTO,1304,van der Marel,NIRCam Imaging,DRACO-F3,259.88923625,57.9690805555556,Internal Dynamics of Milky Way Dwarf Spheroidal Galaxies
+GTO,1304,van der Marel,NIRCam Imaging,DRACO-F0,260.05163,57.9153611111111,Internal Dynamics of Milky Way Dwarf Spheroidal Galaxies
+GTO,1304,van der Marel,NIRCam Imaging,DRACO-F1,260.19702125,57.9113805555556,Internal Dynamics of Milky Way Dwarf Spheroidal Galaxies
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,PDS453,260.233875,-26.0585277777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1282,Henning,NIRSpec IFU Spectroscopy,PDS453,260.233875,-26.0585277777778,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1187,Hodapp,NIRCam Wide Field Slitless Spectroscopy,LDN-57,260.6625,-23.825,Extinction Mapping of Pre-stellar Cores
+GTO,1176,Windhorst,NIRCam Imaging,JWST-NEP-TDS-FIELD,260.699566666667,65.82265,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1255,Milam,NIRCam Imaging,JWST-NEP-TDS-FIELD,260.699566666667,65.82265,JWST Medium-Deep Fields -- Hammel IDS GTO Program
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF17208-BACKGROUND,260.836208333333,-0.284777777777776,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF17208-0014,260.8414625,-0.28353888888887,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SGAS1723-SKY,260.899565416667,34.1969916666667,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SGAS1723-OFFSETSTAR1,260.901191666667,34.2020638888889,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SGAS1723-IFU,260.901691666667,34.198525,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Imaging,SGAS1723-PHOT,260.901829166667,34.1986861111111,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRCam Imaging,SGAS1723-PHOT,260.901829166667,34.1986861111111,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+GTO,1278,Lagage,MIRI Medium Resolution Spectroscopy,WISEPAJ173835,264.647083333333,27.5505555555556,MIRI Spectroscopic Observations of Brown Dwarfs
+GTO,1176,Windhorst,NIRCam Imaging,SPITZER-IDF,265.033333333333,69.0022222222222,JWST Medium-Deep Fields -- Windhorst IDS GTO Program
+GTO,1266,Garcia Marin,NIRSpec IFU Spectroscopy,GC-NIRSPEC-2,266.415869166667,-29.0082805555555,NIRSpec & MIRI Integral-Field Spectroscopy of the Galactic Center
+GTO,1306,van der Marel,NIRCam Imaging,NAME-GAL-CENTER,266.416833333333,-29.0077777777778,Galactic Center Astrometry
+GTO,1266,Garcia Marin,MIRI Medium Resolution Spectroscopy,GC-MIRI,266.4168375,-29.0078111111111,NIRSpec & MIRI Integral-Field Spectroscopy of the Galactic Center
+GTO,1266,Garcia Marin,NIRSpec IFU Spectroscopy,GC-NIRSPEC-1,266.4168375,-29.0078111111111,NIRSpec & MIRI Integral-Field Spectroscopy of the Galactic Center
+GTO,1266,Garcia Marin,MIRI Medium Resolution Spectroscopy,MIRI-GC-BCKGR-1,266.433758333333,-29.0042638888889,NIRSpec & MIRI Integral-Field Spectroscopy of the Galactic Center
+GTO,1182,Young,NIRCam Imaging,BRICK,266.540414583333,-28.7041666666667,NIRCam GTO - IRDC Mapping
+ERS,1364,Bentz,NIRSpec IFU Spectroscopy,2MASS-J17540383-2810466,268.515995833333,-28.1796166666667,Nuclear Dynamics of a Nearby Seyfert with NIRSpec Integral Field Spectroscopy
+GTO,1182,Young,NIRCam Imaging,SNAKE-FIELD-2,272.53125,-19.4458333333333,NIRCam GTO - IRDC Mapping
+GTO,1182,Young,NIRCam Imaging,SNAKE-FIELD-1,272.629166666667,-19.3777777777778,NIRCam GTO - IRDC Mapping
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,DARK-IRAS18089,272.938208333333,-17.523425,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,IRAS18089,272.9644125,-17.5246777777778,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,IRAS18089-B1,272.9644125,-17.5238444444444,MIRI EC Protostars Survey
+ERS,1364,Bentz,NIRSpec IFU Spectroscopy,BD+04-3653,273.33057,5.00962777777778,Nuclear Dynamics of a Nearby Seyfert with NIRSpec Integral Field Spectroscopy
+GTO,1182,Young,NIRCam Imaging,IRDC18223,276.285359583333,-12.7570111111111,NIRCam GTO - IRDC Mapping
+GTO,1189,Roellig,MIRI Medium Resolution Spectroscopy,J182831.08+265037.7,277.129529166667,26.8438111111111,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRCam Imaging,J182831.08+265037.7,277.129529166667,26.8438111111111,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRISS Aperture Masking Interferometry,J182831.08+265037.7,277.129529166667,26.8438111111111,NIRCam Y-Dwarfs
+GTO,1189,Roellig,NIRSpec IFU Spectroscopy,J182831.08+265037.7,277.129529166667,26.8438111111111,NIRCam Y-Dwarfs
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,S68N-OFFSET,277.441583333333,1.27333333333333,Protostar (YSO) Spectroscopy
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,SER-S68N,277.450308333333,1.27883333333333,MIRI EC Protostars Survey
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,SER-S68N,277.4505,1.27905555555556,Protostar (YSO) Spectroscopy
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,DARK-SER,277.451041666667,1.24061111111111,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,SER-EMB-8N,277.4532875,1.28206388888889,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,SER-SMM1B,277.456675,1.25608333333333,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,SER-SMM1A,277.457808333333,1.25549722222222,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,SER-SMM3,277.497091666667,1.23360277777778,MIRI EC Protostars Survey
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,SER-SMM-3,277.497125,1.23386111111111,Protostar (YSO) Spectroscopy
+GTO,1186,Greene,NIRSpec IFU Spectroscopy,SMM-3-OFFSET,277.500833333333,1.23430555555556,Protostar (YSO) Spectroscopy
+GTO,1193,Beichman,MIRI Coronagraphic Imaging,VEGA,279.234735,38.7836888888889,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,MIRI Imaging,VEGA,279.234735,38.7836888888889,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,NIRCam Coronagraphic Imaging,VEGA,279.234735,38.7836888888889,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,G28S,280.693479166667,-4.07094444444442,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,G28P1,280.71125,-4.05391666666668,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,G28IRS2,280.716583333333,-3.99833333333333,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,DARK-G28,280.719916666667,-4.03736111111112,MIRI EC Protostars Survey
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD172555,281.362085,-64.8712583333333,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,DARK-G31,281.885,-1.22898611111111,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,G31.41+0.31,281.8929875,-1.21277777777777,MIRI EC Protostars Survey
+GTO,1193,Beichman,MIRI Imaging,VEGA-PSF-IMG,284.735926666667,32.6895555555556,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-181327-PSF,289.540752083333,-53.3870861111111,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD181296,290.713359166667,-54.4239277777777,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1183,Gaspar,NIRCam Coronagraphic Imaging,HD-181327,290.745595833333,-54.5380472222222,Coronagraphic Imaging of Scattered light Debris Disks
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,HD181327,290.745595833333,-54.5380472222222,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1413,Pueyo,MIRI Coronagraphic Imaging,GJ-758,290.89172,33.2219611111111,MIRI coronagraphy of the Cold Substellar Companion GJ 758 B
+GTO,1239,Ressler,MIRI Medium Resolution Spectroscopy,NGC-6804,292.896416666667,9.22538888888889,Investigating Dusty Disks in Evolved Stars
+GTO,1187,Hodapp,NIRCam Wide Field Slitless Spectroscopy,LDN-663,294.25625,7.57083333333333,Extinction Mapping of Pre-stellar Cores
+GTO,1187,Hodapp,NIRCam Wide Field Slitless Spectroscopy,LDN-694,295.270833333333,10.9513888888889,Extinction Mapping of Pre-stellar Cores
+GTO,1234,Meixner,NIRCam Imaging,NGC-6822-NIRCAM,296.25496,-14.7543861111111,NGC 6822:  Dust Life Cycle Study of a Nearby Low Metallicity Galaxy
+GTO,1234,Meixner,MIRI Imaging,NGC-6822-MIRI,296.25525875,-14.7358833333333,NGC 6822:  Dust Life Cycle Study of a Nearby Low Metallicity Galaxy
+GTO,1234,Meixner,MIRI Imaging,NGC-6822-MIRI-TILE-1,296.285242916667,-14.7204166666667,NGC 6822:  Dust Life Cycle Study of a Nearby Low Metallicity Galaxy
+GTO,1185,Greene,NIRCam Grism Time Series,HD-189733-OFFSET,300.179041666667,22.7095,Transit Spectroscopy of Mature Planets
+GTO,1274,Lunine,NIRCam Grism Time Series,HD189-ACQ,300.179041666667,22.7095,Extrasolar Planet Science with JWST
+GTO,1185,Greene,NIRCam Grism Time Series,HD-189733,300.182136666667,22.7108527777778,Transit Spectroscopy of Mature Planets
+GTO,1274,Lunine,NIRCam Grism Time Series,HD189733,300.182136666667,22.7108527777778,Extrasolar Planet Science with JWST
+GTO,1413,Pueyo,MIRI Coronagraphic Imaging,HD-190360,300.905855416667,29.8968027777778,MIRI coronagraphy of the Cold Substellar Companion GJ 758 B
+GTO,1177,Greene,MIRI Low Resolution Spectroscopy,WASP-80B,303.167356666667,-2.14421944444445,MIRI observations of transiting exoplanets
+GTO,1185,Greene,NIRCam Grism Time Series,WASP-80,303.167356666667,-2.14421944444445,Transit Spectroscopy of Mature Planets
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,WASP-80,303.167356666667,-2.14421944444445,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+ERS,1349,Lau,MIRI Medium Resolution Spectroscopy,WR140MRSCAL,304.14992125,45.3391305555556,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+ERS,1349,Lau,MIRI Medium Resolution Spectroscopy,WR140,305.116567083333,43.8545222222222,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+ERS,1349,Lau,NIRISS Aperture Masking Interferometry,WR140,305.116567083333,43.8545222222222,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+ERS,1349,Lau,NIRISS Aperture Masking Interferometry,WR140REFPSF,306.7892525,45.6840388888889,Establishing Extreme Dynamic Range with JWST: Decoding Smoke Signals in the Glare of a Wolf-Rayet Binary
+GTO,1198,Stiavelli,NIRCam Imaging,LQAC-308-047-001,308.42475,-47.3951888888889,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1198,Stiavelli,NIRSpec IFU Spectroscopy,LQAC-308-047-001,308.42475,-47.3951888888889,IFU spectroscopy of the host galaxies of strongly lensed quasars
+GTO,1193,Beichman,NIRCam Coronagraphic Imaging,VEGA-PSF-NIRCAM,310.357979583333,45.2803388888889,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1282,Henning,MIRI Medium Resolution Spectroscopy,AU-MIC,311.289714166667,-31.3409,MIRI EC Protoplanetary and Debris Disks Survey
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,V-AU-MIC,311.289714583333,-31.3409,Survey of Nearby Young M Stars
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,WASP-69,315.02582,-5.0944527777778,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1192,Misselt,MIRI Imaging,NGC-7023-NW-FILAMENT,315.382833333333,68.1734722222222,Physics and Chemistry of PDR Fronts
+GTO,1192,Misselt,MIRI Medium Resolution Spectroscopy,NGC-7023-NW-FILAMENT,315.382833333333,68.1734722222222,Physics and Chemistry of PDR Fronts
+GTO,1192,Misselt,NIRCam Imaging,NGC-7023-NW-FILAMENT,315.382833333333,68.1734722222222,Physics and Chemistry of PDR Fronts
+GTO,1192,Misselt,NIRSpec IFU Spectroscopy,NGC-7023-NW-FILAMENT,315.382833333333,68.1734722222222,Physics and Chemistry of PDR Fronts
+GTO,1275,Lagage,MIRI Imaging,PSOJ318.5338-22.8603,318.533441666667,-22.8599555555555,Spectroscopic characterization of PSO J318
+GTO,1275,Lagage,MIRI Low Resolution Spectroscopy,PSOJ318.5338-22.8603,318.533441666667,-22.8599555555555,Spectroscopic characterization of PSO J318
+GTO,1275,Lagage,NIRSpec IFU Spectroscopy,PSOJ318.5338-22.8603,318.533441666667,-22.8599555555555,Spectroscopic characterization of PSO J318
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SPT2147-50-TASTAR,326.825666666667,-50.5970361111111,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SPT2147-50-TASTAR,326.825666666667,-50.5970361111111,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SPT2147-50-IFU-OFFSET,326.826233333333,-50.59565,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SPT2147-50-IFU-OFFSET,326.826233333333,-50.59565,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Imaging,SPT2147-50,326.829216666667,-50.5984722222222,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,MIRI Medium Resolution Spectroscopy,SPT2147-50-IFU,326.829216666667,-50.5984722222222,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRCam Imaging,SPT2147-50,326.829216666667,-50.5984722222222,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+ERS,1355,Rigby,NIRSpec IFU Spectroscopy,SPT2147-50-IFU,326.829216666667,-50.5984722222222,TEMPLATES: Targeting Extremely Magnified Panchromatic Lensed Arcs and Their Extended Star formation
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,HD-209346,330.588891666667,18.8331083333333,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,HD209458,330.79488375,18.8843166666667,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1274,Lunine,NIRCam Grism Time Series,HD209458,330.794886666667,18.8843194444444,Extrasolar Planet Science with JWST
+GTO,1278,Lagage,MIRI Medium Resolution Spectroscopy,EPSIND,331.043833333333,-56.7826944444445,MIRI Spectroscopic Observations of Brown Dwarfs
+ERS,1364,Bentz,NIRSpec IFU Spectroscopy,TYC-3986-834-1,335.959566666667,54.4919583333333,Nuclear Dynamics of a Nearby Seyfert with NIRSpec Integral Field Spectroscopy
+GTO,1239,Ressler,MIRI Medium Resolution Spectroscopy,NGC-7293,337.4105875,-20.8371222222222,Investigating Dusty Disks in Evolved Stars
+GTO,1188,Hodapp,MIRI Low Resolution Spectroscopy,2MASS-J2236+4751-B-MIRI,339.102185416667,47.8618138888889,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1188,Hodapp,MIRI Low Resolution Spectroscopy,UCAC4-690-119045-B,339.10326875,47.8610833333333,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1188,Hodapp,NIRSpec IFU Spectroscopy,UCAC4-690-119045-B,339.10326875,47.8610833333333,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1184,Schlieder,NIRCam Coronagraphic Imaging,FOMALHAUT-C,342.018625,-24.36875,Survey of Nearby Young M Stars
+GTO,1193,Beichman,NIRCam Coronagraphic Imaging,FOMALHAUT-PSF-NIRCAM,343.66255625,-15.8208277777778,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,MIRI Imaging,FOMALHAUT-PSF-IMG,343.812104583333,-36.3885777777778,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,MIRI Coronagraphic Imaging,FOMALHAUT-PSF-CORON,343.832041666667,-29.61245,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,MIRI Coronagraphic Imaging,FOMALHAUT,344.412692916667,-29.6222361111111,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,MIRI Imaging,FOMALHAUT,344.412692916667,-29.6222361111111,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1193,Beichman,NIRCam Coronagraphic Imaging,FOMALHAUT,344.412692916667,-29.6222361111111,Coronagraphic Imaging of Young Planets and Debris Disk with NIRCam and MIRI
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,HAT-P-1,344.441333333333,38.6742222222222,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,HD-217398,344.9716725,38.6279,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,NGC-7469-BK,345.802791666667,8.89352777777778,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,STAR-NGC7469,345.812969166667,8.87661388888889,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Imaging,NGC-7469,345.815041666667,8.87389444444445,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,MIRI Medium Resolution Spectroscopy,NGC-7469-MRS,345.815041666667,8.87389444444445,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRCam Imaging,NGC-7469,345.815041666667,8.87389444444445,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+ERS,1328,Armus,NIRSpec IFU Spectroscopy,NGC-7469,345.815041666667,8.87389444444445,A JWST Study of the Starburst-AGN Connection in Merging LIRGs
+GTO,1177,Greene,MIRI Imaging,TRAPPIST-1B,346.622333333333,-5.04144444444444,MIRI observations of transiting exoplanets
+GTO,1201,Lafreniere,NIRISS Single-Object Slitless Spectroscopy,TRAPPIST-1,346.622333333333,-5.04144444444444,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1201,Lafreniere,NIRSpec Bright Object Time Series,TRAPPIST-1,346.622333333333,-5.04144444444444,NIRISS Exploration of the Atmospheric diversity of Transiting exoplanets (NEAT)
+GTO,1279,Lagage,MIRI Imaging,TRAPPIST-1B,346.622333333333,-5.04144444444444,Thermal emission from Trappist1-b
+GTO,1331,Lewis,NIRSpec Bright Object Time Series,TRAPPIST-1,346.622333333333,-5.04144444444444,Transit Spectroscopy of TRAPPIST-1e
+GTO,1194,Beichman,MIRI Coronagraphic Imaging,HD-218261,346.632855833333,19.9108527777778,Characterization of the HR 8799 planetary system and planet search
+GTO,1200,Rameau,NIRISS Aperture Masking Interferometry,HD-218396,346.86964625,21.1342527777778,Architecture of Directly-Imaged Extrasolar Planetary Systems
+GTO,1241,Ressler,MIRI Coronagraphic Imaging,HR-8799,346.86964625,21.1342527777778,MIRI Coronagraphic Imaging of exoplanets
+GTO,1188,Hodapp,NIRSpec IFU Spectroscopy,HD-218396,346.869647916667,21.13425,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1194,Beichman,MIRI Coronagraphic Imaging,HR8799,346.869647916667,21.13425,Characterization of the HR 8799 planetary system and planet search
+GTO,1194,Beichman,NIRCam Coronagraphic Imaging,HR8799,346.869647916667,21.13425,Characterization of the HR 8799 planetary system and planet search
+GTO,1241,Ressler,MIRI Coronagraphic Imaging,BD+18-5117,347.685745416667,19.3227638888889,MIRI Coronagraphic Imaging of exoplanets
+GTO,1224,Birkmann,NIRSpec Bright Object Time Series,WASP-52,348.494794166667,8.76108611111111,Transiting exoplanet characterization with JWST/NIRSPEC
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,HD220117,350.2219375,38.1823277777778,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1188,Hodapp,NIRSpec IFU Spectroscopy,UPS-PEG,351.34493125,23.4041,"Spectroscopy of Young, Widely Separated Exoplanets"
+GTO,1194,Beichman,NIRCam Coronagraphic Imaging,HD220657,351.34493125,23.4041,Characterization of the HR 8799 planetary system and planet search
+GTO,1239,Ressler,MIRI Medium Resolution Spectroscopy,V-ZZ-PSC,352.198375,5.24833333333333,Investigating Dusty Disks in Evolved Stars
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF23365+3604,354.755291666667,36.3523777777778,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1204,Rieke,MIRI Medium Resolution Spectroscopy,IRASF23365-BACKGROUND,354.755291666667,36.3607111111111,Are There AGN Embedded in All Ultraluminous Infrared Galaxies (ULIRGs)?
+GTO,1241,Ressler,MIRI Coronagraphic Imaging,HD-222389,354.962875,45.4436416666667,MIRI Coronagraphic Imaging of exoplanets
+GTO,1241,Ressler,MIRI Coronagraphic Imaging,K-AND,355.102115,44.3339333333333,MIRI Coronagraphic Imaging of exoplanets
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,IRAS23385,355.227008333333,61.1744222222222,MIRI EC Protostars Survey
+GTO,1290,Van Dishoeck,MIRI Medium Resolution Spectroscopy,DARK-IRAS23385,355.295916666667,61.1747222222222,MIRI EC Protostars Survey
+GTO,1219,Ferruit,MIRI Imaging,J2348-3054-IMAGER,357.133519166667,-30.9126888888889,NIRSpec and MIRI spectroscopy of QSOs - part #3
+GTO,1219,Ferruit,MIRI Medium Resolution Spectroscopy,J2348-3054,357.138958333333,-30.9028555555556,NIRSpec and MIRI spectroscopy of QSOs - part #3
+GTO,1219,Ferruit,NIRSpec IFU Spectroscopy,J2348-3054,357.138958333333,-30.9028555555556,NIRSpec and MIRI spectroscopy of QSOs - part #3
+GTO,1219,Ferruit,NIRSpec MultiObject Spectroscopy,TARGET-OBSERVATION-6,357.143631666667,-30.9028555555556,NIRSpec and MIRI spectroscopy of QSOs - part #3
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

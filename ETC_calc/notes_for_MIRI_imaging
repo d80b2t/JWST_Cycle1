@@ -1,0 +1,13 @@
+Type	no	Prime	Mode		Filter		Subarray	Readout	Groups	Integrations	Expsoures	Total_dithers	Total_intergrations	Total_ExposureTime_sec		Quoted_Depth_AB		Quoted_SNR	Reference	
+GTO	1283	MIRI	Imaging		F560W 		FULL		FAST	95	36		1		4		144			37962				28.3			4.0		MIRI_HUDF_DeepImagingSurvey_GTO_1283.pdf
+ETC	?	MIRI	Imaging		F560W 		FULL		FAST	95	36		1		4		144			37962.55			28.3			1.61		Workbook ID: 34776
+ETC	?	MIRI	Imaging		F560W 		FULL		FAST	90	86		10		?		860			214788.10			28.5			3.18		Workbook ID: 34776
+
+
+GTO	?	MIRI	Imaging		F770W		?		?	?	?		?		?		?			167000				27.4			5sigma		MRieke_Asrto2020_WhitePaper
+ETC	?	MIRI	Imaging		F770W		FULL		FAST	100	10		60		?		600			166502.40			27.4			4.92		Workbook ID: 34776
+GTO	?	MIRI	Imaging		F770W		?		?	?	?		?		?					5600				25.6			5sigma		MRieke_Asrto2020_WhitePaper
+ETC	?	MIRI	Imaging		F770W		FULL		FAST	10	5		40		?		200			5550.08				25.6			3.48		Workbook ID: 34776
+	
+GTO	?	MIRI	Imaging		F2100W		FULL		FAST	32	3		1		8		24			2131.23				22.3			3.93		Workbook ID: 34776
+
