@@ -1,0 +1,101 @@
+
+
+
+
+
+
+
+ Usefult Links
+====================================================================
+https://www.cosmos.esa.int/web/jwst-nirspec-gto/quasar-spectroscopy
+https://www.cosmos.esa.int/web/jwst-nirspec-gto/ifs-of-high-z-galaxies
+
+1219 - NIRSpec and MIRI spectroscopy of QSOs - part #3Dr. Pierre Ferruit (PI) (ESA Member)
+
+
+
+ Notes from the STScI main webpages
+====================================================================
+
+http://www.stsci.edu/jwst/observing-programs/approved-gto-programs
+
+
+GTO:: 
+    High-Redshift Quasars and Galaxy Assembly
+====================================================================
+
+
+1198 - IFU spectroscopy of the host galaxies of strongly lensed quasars
+LQAC-308-047-001	   20 33 41.9400     -47 23 42.68		308.4247500d	-47.39519d
+HE-0435-1223 		   04 38 14.7864     -12 17 14.93 	 	 69.5616100d	-12.28748d
+HB89-1115+080 		   11 18 16.9512     +07 45 58.18		169.5706300d	 07.76616d
+
+
+
+1205 - Formation Histories and Stellar Masses of Very High-z Quasars
+J134040.24+281328.1	   13 40 40.2400     +28 13 28.10	205.1676667d	 28.22447d	NIRCam_Imaging	 NIRSpec_IFU
+J073103.12+445949.4	   07 31 03.1200     +44 59 49.40 	112.7630000d	 44.99706d	NIRCam_Imaging	 NIRSpec_IFU
+ULASJ112001.48+064124.3	   11 20 01.4800     +06 41 24.30 	170.0061667d	 06.69008d	NIRCam_Imaging	 NIRSpec_IFU	
+SDSSJ1148+5251		   11 48 16.6400     +52 51 50.30	177.0693333d	 52.86397d	NIRCam_Imaging	 NIRSpec_IFU
+J2239+0207		   22 39 47.4800     +02 07 47.40 	339.9478333d	 02.12983d	NIRCam_Imaging	 NIRSpec_IFU
+TGSSJ1530+1049		   15 30 49.9000     +10 49 31.10	232.7079167d	 10.82531d	NIRCam_Imaging	 NIRSpec_IFU
+## stars
+2M13404517+2819069	   13 40 45.1719     +28 19  6.96	205.1882162d   28.31860d
+2M07312822+4505363	   07 31 28.2253     +45 05 36.28	112.8676054d   45.09341d
+2M11202226+0645117	   11 20 22.2608     +06 45 11.43	170.0927533d   06.75317d
+2M11482526+5254161	   11 48 25.2699     +52 54 16.22	177.1052913d   52.90451d
+2M22390990+0207329	   22 39 09.9106     +02 07 32.99	339.7912942d   02.12583d
+
+
+
+1218 - NIRSpec-IFU Observations of a QSOs at z=6
+J0100+2802	   	   01 00 13.0200  +28 02 55.80		15.0542500d	28.04883d		G395H/F290LP	PRISM/CLEAR
+
+
+
+1219 - NIRSpec and MIRI spectroscopy of QSOs - part #3
+ULASJ1342+0928 	   	13 42 8.0970 (205.5337375d) Dec: +09 28 38.28 (9.47730d)	NIRSpec_MOS G140H/F070LP G235H/F170LP	NIRSpec_IFU G395H/F290LP  PRISM/CLEAR	MIRI Imaging F560W F1000W  MRS
+
+
+
+1220 - NIRSpec IFS of BR1202 and LBQS0302-0019
+BR1202-0725 is a galaxy group at z~4.7 composed of a QSO and two SMGs
+
+
+
+1222 - Cosmic reionization, metal enrichment and host galaxies from quasar
+VDESJ0020-3653	     00 20 31.4720  	-36 53 41.82   	    5.1311333d	-36.89495d	NIRSpec_FSS	NIRSpec_IFU	G140H/F070LP S200A1	G140H/F070LP S200A2	G235H/F170LP S200A2	G235H/F170LP S200A1	
+DELSJ0411-0907	     04 11 28.6300 	-09 07 49.80       62.8692917d   -9.13050d	NIRSpec_FSS	NIRSpec_IFU
+UHSJ0439+1634	     04 39 47.0800 	+16 34 15.70       69.9461667d 	 16.57103d	NIRSpec_MOS	NIRSpec_IFU	
+J1120		     11 20 01.4800     	+06 41 24.30 	  170.0061667d	 06.69008d	NIRSpec_MOS 	
+
+
+
+
+1243 - Exploring the End of Cosmic Reionization
+J0100+2802 	     01 00 13.0160	+28 02 25.80	015.0542333d	28.04050d	  NIRCam_WFSS	F115W-F356W	F200W-F356W	F200W-F356W	
+J0148+0600 	     01 48 37.6390 	+06 00 20.01    027.1568292d	06.00556d	  NIRCam_WFSS	F115W-F356W	F200W-F356W	F200W-F356W
+J1030+0524 	     10 30 27.0910 	+05 24 55.10	157.6128792d	05.41531d	  NIRCam_WFSS	F115W-F356W	F200W-F356W	F200W-F356W
+J159-02		     10 36 54.1900 	-02 32 37.94	159.2257917d	-2.54387d	  NIRCam_WFSS	F115W-F356W	F200W-F356W	F200W-F356W
+J1120+0641	     11 20 01.4800 	+06 41 24.30	170.0061667d	06.69008d	  NIRCam_WFSS	F115W-F356W	F200W-F356W	F200W-F356W
+J1148+5251 	     11 48 16.6000 	+52 51 50.00	177.0691667d	52.86389d	  NIRCam_WFSS	F115W-F356W	F200W-F356W	F200W-F356W
+
+
+
+1264 - NIRSpec and MIRI IFS of SMGs
+SPT0311 	     03 11 33.2000 (47.8883333d) Dec: -58 23 33.40 (-58.39261d)
+GN-Z11		     12 36 23.1175 (189.0963229d) Dec: +62 14 53.46 (62.24818d)
+GN20   	             12 37 11.8885 (189.2995354d) Dec: +62 22 12.10 (62.37003d)
+HFLS3		     17 06 47.8000 (256.6991667d) Dec: +58 46 23.51 (58.77320d)
+
+
+
+
+ERS
+====================================================================
+
+1335 - Q-3D: Imaging Spectroscopy of Quasar Hosts with JWST Analyzed with a Powerful New PSF Decomposition and Spectral Analysis Package
+
+XID2028		     10 02 11.2700 (150.5469583d) Dec: +01 37 6.60 (1.61850d)
+F2M1106	     	     11 06 48.3200 (166.7013333d) Dec: +48 07 12.30 (48.12008d)
+SDSSJ1652	     16 52 2.6448 (253.0110200d) Dec: +17 28 52.39 (17.48122d)
