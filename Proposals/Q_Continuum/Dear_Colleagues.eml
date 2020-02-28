@@ -1,0 +1,105 @@
+Dear Colleagues, 
+
+I hope this email finds you well. 
+This is a very exploratory note to let you know what I’ve been thinking as regards JWST Cycle 1 and the quasars. 
+I’m emailing since I’m assuming there is general interest and potential research overlap here. 
+The Cycle 1 GO proposal deadline is 01 May 2020, nine weeks from today. 
+
+ 
+So, the General Plan would be:: 
+        to obtain MIRI imaging. coronagraphy and spectroscopy of all known z>6.70 quasars. 
+
+MIRI spectroscopy covers 4.9um-28.8um (MIRI imaging is 5.6um to 25.5um) giving you 
+coverage of the optical/near-IR 0.65 - 3.6um rest-frame at z=6.70.
+
+As a further guide, the Universe is: 
+850, 816 and 800 Myrs old at z=6.50, z=6.70 and z=6.80, respectively, 
+for a flat, H0= 69.6, OmegaM = 0.286, OmegaLambda = 0.714 cosmology. 
+
+The Science Case would include: 
+        - How did the first SMBHs form?
+        - What are the BH masses from multiple lines (including rest-frame Balmer)? 
+        - What are the host galaxy properties of z>6.7 quasars? (noting already obtained ALMA data) 
+        - What is the stellar content of the quasars host galaxy? Does the Magorrian relation hold at very high-z? 
+        - Is there evidence for (major) merging?
+        - What is the environment of the z>6.7 quasars (MIRI imaging FoV is ~0.4 Mpc x 0.6 Mpc on a side at z=7.00)
+        - Whats the optical/near-IR spectral slope for the highest redshift quasars?
+        - Are the z>6.7 luminous quasars different from ‘regular AGN’ detected in the JWST Deep Fields?
+
+
+Building on Ross & Cross (2020, MNRAS accepted) and from Sarah Bosman’s current list: 
+        http://www.sarahbosman.co.uk/list_of_all_quasars.htm
+there are 29 (20) objects with z>6.70 (6.80). 
+
+I immediately note that you could sculpt the target list and sample to include fewer objects, 
+e.g. potentially those with just *the* most massive BHs, but I think a ‘large sample’ and ambition 
+is good here. 
+
+If one then takes the Ferruit et al. GTO #1219 proposal as a baseline:
+        http://www.stsci.edu/jwst/observing-programs/program-information?id=1219
+then the MIRI observations are 4.90 hours charged per object. 
+This comprises of 4.28hrs for MRS spectroscopy and 0.62hours for MIRI F560W imaging. 
+So 29 (20) * 4.90hrs = 142.1 (98.0) hours in total. 
+As a guide, Large programs in Cycle 1 are >75 hours. 
+
+However, the MIRI coronagraphic imaging is a unique JWST capability, so I would strongly suspect 
+you’d like to use this too. However, I don’t have a great feel yet for the trade-offs of the Lyot-type vs. 
+three 4-quadrant phase-mask (4QPM) coronagraphs.
+
+Replicating the full Ferruit et al. GTO #1219 proposal, which includes NIRSpec MSA and IFU 
+observations as well, is 18.71hrs per object, pushing you to > ~400 hrs (!!) 
+
+
+Some other key things to note::  
+
+The GTO teams are already looking at several of the z>6.70 quasars. 
+However, from what I can tell (see attached JWST_GTO_VHzQ.notes) only 
+the z=7.54 J134208.10+092838.61 quasar is currently being observed by MIRI. 
+
+Pretty obviously(!!) I would strongly suspect other teams will be looking at the 
+very high-redshifts quasars. However, a *key point* here is not to directly compete 
+with those observations, but moreover, complement them. As such, I’m very keen 
+to do this all ‘out in the open’, and to this extent, I’m putting up a lot of my notes 
+on GitHub::
+        https://github.com/d80b2t/JWST_Cycle1
+
+The GTO and ERS programs already have the targets and instruments and modes 
+that they are going to be using. One could then start to build-up on that arguing that 
+you’ll never have the lambda >5um space-based data again any time again soon, 
+and generating this sample of a decent number (all?!) of the z>6.7 quasars is exactly 
+what JWST was built for, and this will have tremendously legacy for a long time. 
+
+This could/would be suggested as a multi-cycle program (though not necessarily explicitly 
+as that I don’t think this category is implemented yet). Using the Cycle 1+GTO+(ERS?) 
+data as type of Pilot program, observing maybe ~5-10 objects in total first, and letting 
+that guide observations in future cycles. 
+
+Okay, great. Just wanted to circulate to at least get some level of discussion going. 
+
+Best,  
+Nic
+
+
+====================================
+  Dr. Nicholas P. Ross
+  STFC Ernest Rutherford Fellow
+  Institute for Astronomy
+  University of Edinburgh
+  Royal Observatory, Blackford Hill 
+  Edinburgh EH9 3HJ, United Kingdom
+  +44 (0)131-668 8351
+  d80b2t.github.io
+====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
