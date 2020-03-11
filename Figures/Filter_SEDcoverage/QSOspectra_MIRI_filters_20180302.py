@@ -1,11 +1,8 @@
 '''
+Code for plotting QSO spectra vs. MIRI MRS filters
 
-Code for plotting quasar spectra and the MIRI MRS coverage 
-
-
-URLs::
-  https://www.aanda.org/articles/aa/abs/2016/01/aa27096-15/aa27096-15.html
-  https://github.com/jselsing/QuasarComposite
+https://www.aanda.org/articles/aa/abs/2016/01/aa27096-15/aa27096-15.html
+https://github.com/jselsing/QuasarComposite
 '''
 
 import math
@@ -17,32 +14,22 @@ from matplotlib.ticker import ScalarFormatter
 from astropy.io import ascii
 from matplotlib import colors as mcolors
 
-##
-## The MIRI Filters
-##
-## Not sure where I originally got these from;
-## quite likely P. Klaassen or A. Glasse
-path = 'filter_curves/MIRI/Ref_Files/'
+
+## MIRI Filters
+path = '/cos_pc19a_npr/data/filter_curves/JWST/MIRI/Ref_Files/'
 file = 'jwst_miri_mirifushort_qe.fits'
 table = path+file
 #MIRI_IFU_short =  
 
-
-
 ##
-## QSO ``Composite'' spectra
+## QSO Composite spectra
 ##
-path  = '../../ETC_calc/'
-file  = 'quasar_SED_WavelenInmu_blue.dat'
-table = path+file
-quasar_sed = ascii.read(table)
-
 ## Vanden Berk et al. 2001
 path = '/cos_pc19a_npr/data/SDSS/VdB01/'
 file = 'Vanden_Berk_2001_Table1.dat'
 table = path+file
 VdB01_comp = ascii.read(table)
-
+#VdB01_comp
 
 ## Glikman et al. 2006. 
 ## TABLE 3:

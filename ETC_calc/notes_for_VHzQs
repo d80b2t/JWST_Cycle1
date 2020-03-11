@@ -1,17 +1,38 @@
 
 
   E T C
-====================================================================================================    
+==============================================================================
 3. COMPOSITE SPECTRAL ENERGY DISTRIBUTIONS
- Kirkpatrick et al. 2012, ApJ, 759, 139 - please cite this paper when using these templates. 
+ Kirkpatrick et al. 2012, ApJ, 759, 139 - please cite this paper when
+ using these templates.
+
+
+
+
+ Quasar SED files
+==============================================================================
+
+Glikman_2006_ApJ_Table7.dat	from Glikman et al. 2006, ApJ, Table 7
+Glikman_2006_ApJ_Table7_JWST_ETC.dat
+
+Vanden_Berk_2001_Table1_inmu.dat
+
+quasar_SED_WavelenInmu_blue.dat
+based on 
+from::	filters_vs_QSOstars.py
+in::   	~/programs/quasars/highest_z/SEDs
+maximum wavelength:: 0.85545 um  (8554.5 Ang)
 
 
 
 
 
 
-    N I R S p e c
-====================================================================================================    
+==============================================================================
+== 
+==     N I R S p e c
+== 
+==============================================================================    
 
 The 4 observing modes of NIRSpec are:
     Multi-object spectroscopy (MOS) with the micro-shutter assembly (MSA)

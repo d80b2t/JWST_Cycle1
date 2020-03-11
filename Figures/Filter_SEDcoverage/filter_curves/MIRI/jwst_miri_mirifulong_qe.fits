@@ -1,0 +1,188 @@
+SIMPLE  =                    T /image conforms to FITS standard                 BITPIX  =                   16 /array data type                                 NAXIS   =                    0 /number of array dimensions                      EXTEND  =                    T /file may contain extensions                     TELESCOP= 'JWST    '           /The telescope used to acquire the data          SYSTEM  = 'MODELLING'          /Data intended for use in ETC                    INSTRUME= 'MIRI    '           /Instrument used to acquire data                 FILETYPE= 'DATA TABLE'         /ETC data file type                              FILENAME= 'jwst_miri_mirifulong_qe.fits' /Reference file name                   REFTYPE = 'QE      '           /Type of data found in file                      COMPNAME= 'MIRIFULONG'         /Name of component                               AUTHOR  = 'Alistair Glasse'    /Author of CDP                                   ORIGIN  = 'MIRI European Consortium' /The organization or institution responsiblDESCRIP = 'Detector quantum efficiency profiles' /Summary of content            LITREF  = 'Rieke et al., PASP v127, p665, (2015)' /Literature reference         HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI-RP-00012-UOS Iss 4 - Imager filter deliveries (OBA EIDP)      HISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI DFM-289 04.02 - Predicted DQE of the MIRI FM Detectors (FPS EIHISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI DFM-289 04.02 - Predicted DQE of the MIRI FM Detectors (FPS EIHISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        HISTORY  Description of reference file creation                                 HISTORY DOCUMENT: MIRI-TN-00077-ATC Iss 1 - ETC Transmission Data Report        HISTORY DOC2 MIRI DFM-289 04.02 - Predicted DQE of the MIRI FM Detectors (FPS EIHISTORY SOFTWARE: IDL 8.1 MIRI_ETC_PCE.pro, (ref MIRI-TN-00077-ATC)             HISTORY DATAUSED: Sub-system measurement plus modelling.                        HISTORY DIFFERENCES: N/A                                                        END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           /Image extension                                 BITPIX  =                    8 / Array data type                                NAXIS   =                    2 /Number of data dimensions                       NAXIS1  =                   12 /                                                NAXIS2  =                 1550 /                                                PCOUNT  =                    0 /Number of parameters                            GCOUNT  =                    1 /Number of groups                                TFIELDS =                    3 /Number of columns in table                      COMMENT                                                                         COMMENT  *** End of mandatory fields ***                                        COMMENT                                                                         EXTNAME = 'DATA TABLE'         /Extension name                                  BUNIT   = '        '           /Data unit                                       COMMENT                                                                         COMMENT  *** Column names ***                                                   COMMENT                                                                         TTYPE1  = 'WAVELENGTH'         /                                                COMMENT                                                                         COMMENT  *** Column formats ***                                                 COMMENT                                                                         TFORM1  = 'E       '           /                                                TUNIT1  = 'microns    '        /                                                TTYPE2  = 'EFFICIENCY'         /                                                TFORM2  = 'E       '           /                                                TUNIT2  = 'fraction   '        /                                                TTYPE3  = 'CONVERSION'         /                                                TFORM3  = 'E       '           /                                                TUNIT3  = 'el / photon'        /                                                END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             @€  >¤Ý/?€  @€£×>¥Û?€  @G®>¥P‡?€  @ë…>¥Š3?€  @‚\>¥Ãß?€  @ƒ33>¥ý‹?€  @ƒ×
+>¦77?€  @„zá>¦pã?€  @…¸>¦ª?€  @…Â>¦ä;?€  @†ff>§æ?€  @‡
+=>§W’?€  @‡®>§‘>?€  @ˆQì>§Êë?€  @ˆõÃ>¨—?€  @‰™š>¨>C?€  @Š=q>¨wî?€  @ŠáH>¨±š?€  @‹…>¨ëF?€  @Œ(ö>©$ò?€  @ŒÌÍ>©^ž?€  @p¤>©˜J?€  @Ž{>©Ñö?€  @Ž¸R>ª¢?€  @\)>ªEN?€  @  >ª~ú?€  @£×>«øw?€  @‘G®>­qó?€  @‘ë…>®ëp?€  @’\>°dí?€  @“33>±Þi?€  @“×
+>³Wæ?€  @”zá>´Ñc?€  @•¸>¶Jß?€  @•Â>·Ä\?€  @–ff>¹=Ù?€  @—
+=>º·U?€  @—®>¼0Ò?€  @˜Qì>½ªQ?€  @˜õÂ>¿#Ë?€  @™™š>ÀJ?€  @š=q>ÂÇ?€  @šáH>ÃD?€  @›…>Å	À?€  @œ(ö>Æƒ=?€  @œÌÍ>Çüº?€  @p¤>Év6?€  @ž{>Êï³?€  @ž¸R>Ìi0?€  @Ÿ\)>Íâ¬?€  @   >Ï\)?€  @ £×>Ñ?€  @¡G®>Òáï?€  @¡ë…>Ô¤Ò?€  @¢\>Ög¶?€  @£33>Ø*™?€  @£×
+>Ùí|?€  @¤zá>Û°_?€  @¥¸>ÝsB?€  @¥Â>ß6%?€  @¦ff>àù?€  @§
+>>â»î?€  @§®>ä~Ï?€  @¨Qì>æA´?€  @¨õÂ>è•?€  @©™š>éÇ{?€  @ª=p>ëŠ[?€  @ªáH>íMA?€  @«…>ï$?€  @¬(ö>ðÓ?€  @¬ÌÍ>ò•ê?€  @­p¤>ôXÍ?€  @®{>ö±?€  @®¸R>÷Þ”?€  @¯\)>ù¡w?€  @°  ? A‰?€  @°£×? ­?€  @±G®?~?€  @±ë…?ƒù?€  @²\?ïs?€  @³33?Zî?€  @³×
+?Æi?€  @´zá?1ã?€  @µ¸?^?€  @µÂ?Ù?€  @¶ff?tS?€  @·
+=?ßÎ?€  @·®?KH?€  @¸Qì?¶Ä?€  @¸õÂ?">?€  @¹™š?¹?€  @º=p?ù3?€  @ºáH?d®?€  @»…?Ð)?€  @¼(ö?;£?€  @¼ÌÍ?§?€  @½p¤?	™?€  @¾{?	~?€  @¾¸R?	éŽ?€  @¿\)?
+U?€  @À  ?
+Àƒ?€  @À£×?
+°È?€  @ÁG®?
+¡?€  @Áë…?
+‘S?€  @Â\?
+™?€  @Ã33?
+qÞ?€  @Ã×
+?
+b$?€  @Äzá?
+Ri?€  @Å¸?
+B¯?€  @ÅÂ?
+2ô?€  @Æff?
+#:?€  @Ç
+>?
+?€  @Ç®?
+Å?€  @ÈQì?	ô
+?€  @ÈõÂ?	äP?€  @É™š?	Ô•?€  @Ê=p?	ÄÛ?€  @ÊáH?	µ ?€  @Ë…?	¥f?€  @Ì(ö?	•«?€  @ÌÌÌ?	…ñ?€  @Íp¤?	v6?€  @Î{?	f|?€  @Î¸R?	VÁ?€  @Ï\)?	G?€  @Ð  ?	7L?€  @Ð£×?¤?€  @ÑG®?²?€  @Ñë…?~å?€  @Ò\?ì?€  @Ó33?YK?€  @Ó×
+?Æ~?€  @Ôzá?3±?€  @Õ¸? ä?€  @ÕÂ??€  @Öff?{K?€  @×
+>?è}?€  @×®?U±?€  @ØQì?Âã?€  @ØõÂ?0?€  @Ù™š? I?€  @Ú=p? 
+}?€  @ÚáH>þï^?€  @Û…>ýÉÆ?€  @Ü(ö>ü¤*?€  @ÜÌÌ>û~’?€  @Ýp¤>úX÷?€  @Þz>ù3^?€  @Þ¸R>øÃ?€  @ß\)>öè)?€  @à  >õÂ?€  @à£×>õ:>?€  @áG®>ô±î?€  @áë…>ô)?€  @â\>ó¡M?€  @ã33>óü?€  @ã×
+>ò¬?€  @äzá>ò[?€  @å¸>ñ€
+?€  @åÂ>ð÷º?€  @æff>ðoi?€  @ç
+>>ïç?€  @ç®>ï^È?€  @èQì>îÖw?€  @èõÂ>îN'?€  @é™š>íÅÖ?€  @ê=p>í=†?€  @êáH>ìµ5?€  @ë…>ì,å?€  @ì(ö>ë¤“?€  @ìÌÌ>ëD?€  @íp¤>ê“ò?€  @îz>ê£?€  @î¸R>éƒQ?€  @ï\)>èû?€  @ð  >èr°?€  @ð£×>èæ?€  @ñG®>éY`?€  @ñë…>éÌ¸?€  @ò\>ê@?€  @ó33>ê³g?€  @ó×
+>ë&¿?€  @ôzá>ëš?€  @õ¸>ìo?€  @õÂ>ì€Ç?€  @öff>ìô?€  @÷
+>>ígw?€  @÷®>íÚÏ?€  @øQì>îN'?€  @øõÂ>îÁ~?€  @ù™š>ï4×?€  @ú=p>ï¨.?€  @úáH>ð‡?€  @û…>ðŽÞ?€  @ü(ö>ñ7?€  @üÌÌ>ñuŽ?€  @ýp¤>ñèæ?€  @þz>ò\>?€  @þ¸R>òÏ–?€  @ÿ\)>óBî?€  A   >ó¶F?€  A Qì>óïò?€  A £×>ô)ž?€  A õÂ>ôcI?€  AG®>ôœö?€  A™š>ôÖ¢?€  Aë…>õM?€  A=p>õIù?€  A\>õƒ¥?€  AáH>õ½R?€  A33>õöý?€  A…>ö0©?€  A×
+>öjU?€  A(ö>ö¤?€  Azá>öÝ­?€  AÌÌ>÷X?€  A¸>÷Q?€  Ap¤>÷Š±?€  AÂ>÷Ä]?€  A{>÷þ	?€  Aff>ø7´?€  A¸R>øq`?€  A
+>>ø«?€  A\)>øä¸?€  A®>ùd?€  A  >ùX?€  AQì>ùŒ~?€  A£×>ùÀì?€  AõÂ>ùõY?€  A	G®>ú)Ç?€  A	™š>ú^5?€  A	ë…>ú’£?€  A
+=p>úÇ?€  A
+\>úû~?€  A
+áH>û/ì?€  A33>ûdZ?€  A…>û˜Ç?€  A×
+>ûÍ5?€  A(ö>ü¤?€  Azá>ü6?€  AÌÌ>üj~?€  A¸>üží?€  Ap¤>üÓ[?€  AÂ>ýÈ?€  A{>ý<6?€  Aff>ýp¤?€  A¸R>ý¥?€  A
+>>ýÙ€?€  A\)>þí?€  A®>þB[?€  A  >þvÉ?€  AQì>þq‹?€  A£×>þlM?€  AõÂ>þg?€  AG®>þaÐ?€  A™š>þ\’?€  Aë…>þWT?€  A=p>þR?€  A\>þL×?€  AáH>þG™?€  A33>þB[?€  A…>þ=?€  A×
+>þ7ß?€  A(ö>þ2 ?€  Azá>þ-b?€  AÌÌ>þ($?€  A¸>þ"æ?€  Ap¤>þ¨?€  AÂ>þi?€  A{>þ+?€  Aff>þí?€  A¸R>þ¯?€  A
+>>þq?€  A\)>ýþ2?€  A®>ýøô?€  A  >ýó¶?€  AQì>þ›}?€  A£×>ÿCA?€  AõÂ>ÿë?€  AG®? If?€  A™š? J?€  Aë…? ñ,?€  A=p?E?€  A\?˜ò?€  AáH?ìÕ?€  A33?@·?€  A…?”™?€  A×
+?è}?€  A(ö?<`?€  Azá?B?€  AÌÌ?ä%?€  A¸?8?€  Ap¤?‹ë?€  AÂ?ßÎ?€  Az?3°?€  Aff?‡“?€  A¸R?Ûw?€  A
+>?/Z?€  A\)?ƒ<?€  A®?×?€  A   ?+?€  A Qì?GØ?€  A £×?d®?€  A õÂ?„?€  A!G®?žZ?€  A!™š?»0?€  A!ë…?Ø?€  A"=p?ôÛ?€  A"\?²?€  A"áH?.ˆ?€  A#33?K^?€  A#…?h3?€  A#×
+?…	?€  A$(ö?¡à?€  A$zá?¾µ?€  A$ÌÌ?Û‹?€  A%¸?øa?€  A%p¤?	7?€  A%Â?	2?€  A&z?	Nã?€  A&ff?	k¹?€  A&¸R?	ˆ?€  A'
+>?	¥e?€  A'\)?	Â;?€  A'®?	ß?€  A(  ?	ûç?€  A(Qì?
+¢?€  A(£×?
+\?€  A(õÂ?
++?€  A)G®?
+:Ñ?€  A)™š?
+JŒ?€  A)ë…?
+ZF?€  A*=p?
+j?€  A*\?
+y»?€  A*áH?
+‰v?€  A+33?
+™1?€  A+…?
+¨ë?€  A+×
+?
+¸¦?€  A,(ö?
+È`?€  A,zá?
+Ø?€  A,ÌÌ?
+çÕ?€  A-¸?
+÷?€  A-p¤?K?€  A-Â??€  A.z?&¿?€  A.ff?6z?€  A.¸R?F5?€  A/
+>?Uï?€  A/\)?eª?€  A/®?ud?€  A0  ?…?€  A0Qì?ŸV?€  A0£×?¹?€  A0õÂ?ÓÃ?€  A1G®?íû?€  A1™š?2?€  A1ë…?"h?€  A2=p?<Ÿ?€  A2\?VÖ?€  A2áH?q?€  A333?‹D?€  A3…?¥z?€  A3×
+?¿±?€  A4(ö?Ùé?€  A4zá?ô?€  A4ÌÌ?V?€  A5¸?(?€  A5p¤?BÄ?€  A5Â?\û?€  A6z?w1?€  A6ff?‘h?€  A6¸R?« ?€  A7
+>?Å×?€  A7\)?à?€  A7®?úD?€  A8  ?{?€  A8Qì?FJ?€  A8£×?x?€  A8õÂ?©ç?€  A9G®?Û¶?€  A9™š?…?€  A9ë…??S?€  A:=p?q!?€  A:\?¢ð?€  A:áH?Ô¿?€  A;33?Ž?€  A;…?8\?€  A;×
+?j+?€  A<(ö?›ú?€  A<zá?ÍÈ?€  A<ÌÌ?ÿ—?€  A=¸?1f?€  A=p¤?c5?€  A=Â?•?€  A>z?ÆÑ?€  A>ff?ø ?€  A>¸R?*o?€  A?
+>?\>?€  A?\)?Ž?€  A?®?¿Û?€  A@  ?ñª?€  A@Që?5Ò?€  A@£×?yû?€  A@õÂ?¾"?€  AAG®?K?€  AA™™?Fs?€  AAë…?Šœ?€  AB=p?ÎÄ?€  AB\?ì?€  ABáG?W?€  AC33?›=?€  AC…?ßf?€  AC×
+?#Ž?€  AD(ö?g¶?€  ADzá?«Þ?€  ADÌÍ?ð?€  AE¸?4/?€  AEp¤?xX?€  AEÂ?¼?€  AF{? ¨?€  AFff?DÐ?€  AF¸R?ˆù?€  AG
+=?Í!?€  AG\)?I?€  AG®?Uq?€  AH  ?™š?€  AHQë?¤?€  AH£×?®“?€  AHõÂ?¹?€  AIG®?Ã‹?€  AI™™?Î?€  AIë…?Ø„?€  AJ=p?ã ?€  AJ\?í}?€  AJáG?÷ù?€  AK33?u?€  AK…?ò?€  AK×
+?n?€  AL(ö?!ê?€  ALzá?,f?€  ALÌÍ?6ã?€  AM¸?A_?€  AMp¤?KÛ?€  AMÂ?VX?€  AN{?`Ô?€  ANff?kP?€  AN¸R?uÍ?€  AO
+=?€I?€  AO\)?ŠÅ?€  AO®?•B?€  AP  ?Ÿ¾?€  APQë?e?€  AP£×?{?€  APõÂ?h±?€  AQG®?VX?€  AQ™™?Cþ?€  AQë…?1¤?€  AR=p?K?€  AR\?ñ?€  ARáG?ú˜?€  AS33?è>?€  AS…?Õä?€  AS×
+?Ã‹?€  AT(ö?±1?€  ATzá?žØ?€  ATÌÍ?Œ~?€  AU¸?z$?€  AUp¤?gË?€  AUÂ?Uq?€  AV{?C?€  AVff?0¾?€  AV¸R?d?€  AW
+=??€  AW\)?ù±?€  AW®?çX?€  AX  ?Ôþ?€  AXQë?_í?€  AX£×?êÝ?€  AXõÂ?uÌ?€  AYG®? ½?€  AY™™?‹«?€  AYë…?œ?€  AZ=p?¡‹?€  AZ\?,{?€  AZáG?·j?€  A[33?BZ?€  A[…?ÍI?€  A[×
+?X:?€  A\(ö?ã*?€  A\zá? n?€  A\ÌÍ? ù
+?€  A]¸?!ƒø?€  A]p¤?"é?€  A]Â?"™Ø?€  A^{?#$È?€  A^ff?#¯·?€  A^¸R?$:§?€  A_
+=?$Å–?€  A_\)?%P‡?€  A_®?%Ûv?€  A`  ?&ff?€  A`Që?'\'?€  A`£×?(Që?€  A`õÂ?)G¬?€  AaG®?*=p?€  Aa™™?+32?€  Aaë…?,(ö?€  Ab=p?-·?€  Ab\?.{?€  AbáG?/
+<?€  Ac33?0  ?€  Ac…?0õÁ?€  Ac×
+?1ë…?€  Ad(ö?2áI?€  Adzá?3×
+?€  AdÌÍ?4ÌÎ?€  Ae¸?5Â?€  Aep¤?6¸T?€  AeÂ?7®?€  Af{?8£Ù?€  Afff?9™š?€  Af¸R?9™š?€  Ag
+=?9™š?€  Ag\)?9™š?€  Ag®?9™š?€  Ah  ?9™š?€  AhQë?9‰à?€  Ah£×?9z%?€  AhõÂ?9jj?€  AiG®?9Z°?€  Ai™™?9Jõ?€  Aië…?9;;?€  Aj=p?9+€?€  Aj\?9Æ?€  AjáG?9?€  Ak33?8üP?€  Ak…?8ì–?€  Ak×
+?8ÜÛ?€  Al(ö?8Í!?€  Alzá?8½f?€  AlÌÍ?8­¬?€  Am¸?8ñ?€  Amp¤?8Ž6?€  AmÂ?8~|?€  An{?8nÁ?€  Anff?8_?€  An¸R?8OL?€  Ao
+=?8?’?€  Ao\)?8/×?€  Ao®?8 ?€  Ap  ?8b?€  ApQë?7ë¯?€  Ap£×?7Æü?€  ApõÂ?7¢I?€  AqG®?7}•?€  Aq™™?7Xâ?€  Aqë…?74/?€  Ar=p?7|?€  Ar\?6êÈ?€  AráG?6Æ?€  As33?6¡b?€  As…?6|¯?€  As×
+?6Wû?€  At(õ?63H?€  Atzá?6•?€  AtÌÍ?5éá?€  Au¸?5Å.?€  Aup¤?5 {?€  AuÂ?5{È?€  Av{?5W?€  Avff?52a?€  Av¸R?5®?€  Aw
+=?4èû?€  Aw\)?4ÄG?€  Aw®?4Ÿ”?€  Ax  ?4zá?€  AxQë?4$`?€  Ax£×?3ÍÝ?€  AxõÂ?3w\?€  AyG®?3 Ù?€  Ay™™?2ÊX?€  Ayë…?2sÖ?€  Az=p?2T?€  Az\?1ÆÒ?€  AzáG?1pP?€  A{33?1Î?€  A{…?0ÃM?€  A{×
+?0lÊ?€  A|(õ?0I?€  A|zá?/¿Æ?€  A|ÌÍ?/iD?€  A}¸?/Ã?€  A}p¤?.¼@?€  A}Â?.e¿?€  A~{?.<?€  A~ff?-¸»?€  A~¸R?-b9?€  A
+=?-·?€  A\)?,µ5?€  A®?,^³?€  A€  ?,1?€  A€(ö?,: ?€  A€Qì?,kÏ?€  A€zá?,?€  A€£×?,Ïl?€  A€ÌÌ?-9?€  A€õÂ?-3?€  A¸?-d×?€  AG®?-–¦?€  Ap¤?-Èu?€  A™š?-úD?€  AÂ?.,?€  Aë…?.]á?€  A‚z?.¯?€  A‚=p?.Á~?€  A‚ff?.óM?€  A‚\?/%?€  A‚¸R?/Vë?€  A‚áH?/ˆº?€  Aƒ
+>?/º‰?€  Aƒ33?/ìV?€  Aƒ\)?0%?€  Aƒ…?0Oó?€  Aƒ®?0Â?€  Aƒ×
+?0³‘?€  A„  ?0å`?€  A„(ö?16¤?€  A„Qì?1‡è?€  A„zá?1Ù+?€  A„£×?2*o?€  A„ÌÌ?2{±?€  A„õÂ?2Ìõ?€  A…¸?3:?€  A…G®?3o~?€  A…p¤?3ÀÂ?€  A…™š?4?€  A…Â?4cI?€  A…ë…?4´?€  A†z?5Ï?€  A†=p?5W?€  A†ff?5¨X?€  A†\?5ùœ?€  A†¸R?6Jà?€  A†áH?6œ$?€  A‡
+>?6íi?€  A‡33?7>«?€  A‡\)?7ï?€  A‡…?7á1?€  A‡®?82v?€  A‡×
+?8ƒº?€  Aˆ  ?8Ôþ?€  Aˆ(ö?8{Ü?€  AˆQì?8"»?€  Aˆzá?7Éœ?€  Aˆ£×?7pz?€  AˆÌÌ?7[?€  AˆõÂ?6¾9?€  A‰¸?6e?€  A‰G®?6ö?€  A‰p¤?5²Õ?€  A‰™š?5Y³?€  A‰Â?5 ”?€  A‰ë…?4§r?€  AŠz?4NS?€  AŠ=p?3õ1?€  AŠff?3œ?€  AŠ\?3Bî?€  AŠ¸R?2éÍ?€  AŠáH?2«?€  A‹
+>?27Š?€  A‹33?1Þj?€  A‹\)?1…I?€  A‹…?1,*?€  A‹®?0Ó?€  A‹×
+?0yç?€  AŒ  ?0 Å?€  AŒ(ö?/ªÍ?€  AŒQì?/4Ö?€  AŒzá?.¾á?€  AŒ£×?.Hé?€  AŒÌÌ?-Òô?€  AŒõÂ?-\ý?€  A¸?,ç?€  AG®?,q?€  Ap¤?+û?€  A™š?+…?€  AÂ?+)?€  Aë…?*™1?€  AŽz?*#=?€  AŽ=p?)­E?€  AŽff?)7M?€  AŽ\?(ÁU?€  AŽ¸R?(K^?€  AŽáH?'Õf?€  A
+>?'_n?€  A33?&éz?€  A\)?&s‚?€  A…?%ý?€  A®?%‡•?€  A×
+?%ž?€  A  ?$›¦?€  A(ö?$‹ë?€  AQì?$|1?€  Azá?$lw?€  A£×?$\¼?€  AÌÌ?$M?€  AõÂ?$=G?€  A‘¸?$-Œ?€  A‘G®?$Ò?€  A‘p¤?$?€  A‘™š?#þ]?€  A‘Â?#î¢?€  A‘ë…?#Þè?€  A’z?#Ï.?€  A’=p?#¿s?€  A’ff?#¯¸?€  A’\?#Ÿþ?€  A’¸R?#C?€  A’áH?#€‰?€  A“
+>?#pÎ?€  A“33?#a?€  A“\)?#QY?€  A“…?#AŸ?€  A“®?#1ä?€  A“×
+?#"*?€  A”  ?#o?€  A”(ö?"¾Œ?€  A”Qì?"j¨?€  A”zá?"Ç?€  A”£×?!Âä?€  A”ÌÌ?!o?€  A”õÂ?!?€  A•¸? Ç<?€  A•G®? sX?€  A•p¤? u?€  A•™š?Ë’?€  A•Â?w°?€  A•ë…?#Í?€  A–z?Ïì?€  A–=p?|	?€  A–ff?(%?€  A–\?ÔB?€  A–¸R?€_?€  A–áH?,{?€  A—
+>?Ø˜?€  A—33?„·?€  A—\)?0Ó?€  A—…?Üò?€  A—®?‰?€  A—×
+?5+?€  A˜  ?áH?€  A˜(ö?Ùk?€  A˜Qì?Ñ?€  A˜zá?É°?€  A˜£×?ÁÓ?€  A˜ÌÌ?¹ö?€  A˜õÂ?²?€  A™¸?ª;?€  A™G®?¢^?€  A™p¤?š€?€  A™™š?’£?€  A™Â?ŠÆ?€  A™ë…?‚é?€  Ašz?{?€  Aš=p?s.?€  Ašff?kQ?€  Aš\?ct?€  Aš¸R?[–?€  AšáH?S¹?€  A›
+>?KÜ?€  A›33?Cþ?€  A›\)?<!?€  A›…?4D?€  A›®?,g?€  A›×
+?$‰?€  Aœ  ?¬?€  Aœ(ö?¹?€  AœQì?Up?€  Aœzá?ñÕ?€  Aœ£×?Ž7?€  AœÌÌ?*›?€  AœõÂ?Æý?€  A¸?c_?€  AG®?ÿÁ?€  Ap¤?œ#?€  A™š?8…?€  AÂ?Ôê?€  Aë…?qL?€  Ažz?°?€  Až=p?ª?€  Ažff?Fu?€  Až\?â×?€  Až¸R?9?€  AžáH?›?€  AŸ
+>?·ý?€  AŸ33?Ta?€  AŸ\)?ðÃ?€  AŸ…?(?€  AŸ®?)Š?€  AŸ×
+?Åì?€  A   ?bN?€  A (ö?Ã?€  A Që?¡8?€  A zá?À­?€  A £×?à"?€  A ÌÍ?ÿ—?€  A õÂ??€  A¡¸?>?€  A¡G®?]ö?€  A¡p¤?}k?€  A¡™™?œà?€  A¡Â?¼U?€  A¡ë…?ÛÊ?€  A¢{?û@?€  A¢=p?´?€  A¢ff?:)?€  A¢\?YŸ?€  A¢¸R?y?€  A¢áG?˜ˆ?€  A£
+=?·ý?€  A£33?×s?€  A£\)?öè?€  A£…?]?€  A£®?5Ò?€  A£×
+?UG?€  A¤  ?t¼?€  A¤(ö?Ø?€  A¤Që?Žó?€  A¤zá?œ?€  A¤£×?©*?€  A¤ÌÍ?¶E?€  A¤õÂ?Ã`?€  A¥¸?Ð|?€  A¥G®?Ý—?€  A¥p¤?ê³?€  A¥™™?÷Î?€  A¥Â?ê?€  A¥ë…??€  A¦{?!?€  A¦=p?,<?€  A¦ff?9W?€  A¦\?Fs?€  A¦¸R?SŽ?€  A¦áG?`ª?€  A§
+=?mÅ?€  A§33?zá?€  A§\)?‡ü?€  A§…?•?€  A§®?¢3?€  A§×
+?¯N?€  A¨  ?¼j?€  A¨(ö?ö?€  A¨Që?/Á?€  A¨zá?im?€  A¨£×?£?€  A¨ÌÍ?ÜÆ?€  A¨õÂ?q?€  A©¸?P?€  A©G®?‰Ê?€  A©p¤?Ãv?€  A©™™?ý!?€  A©Â?6Í?€  A©ë…?py?€  Aª{?ª&?€  Aª=p?ãÑ?€  Aªff?}?€  Aª\?W)?€  Aª¸R?Õ?€  AªáG?Ê€?€  A«
+=?-?€  A«33?=Ù?€  A«\)?w…?€  A«…?±2?€  A«®?êÜ?€  A«×
+?$‰?€  A¬  ?^5?€  A¬(ö?<!?€  A¬Që??€  A¬zá?÷ù?€  A¬£×?Õä?€  A¬ÌÍ?³Ð?€  A¬õÂ?‘½?€  A­¸?o¨?€  A­G®?M”?€  A­p¤?+?€  A­™™?	l?€  A­Â?çX?€  A­ë…?ÅC?€  A®{?£/?€  A®=p??€  A®ff?_?€  A®\?<ó?€  A®¸R?Þ?€  A®áG?øË?€  A¯
+=?Ö¶?€  A¯33?´¢?€  A¯\)?’Ž?€  A¯…?py?€  A¯®?Nf?€  A¯×
+?,Q?€  A°  ?
+=?€  A°(ö?÷ã?€  A°Që?åŠ?€  A°zá?Ó0?€  A°£×?À×?€  A°ÌÍ?®}?€  A°õÂ?œ$?€  A±¸?‰Ê?€  A±G®?wp?€  A±p¤?e?€  A±™™?R½?€  A±Â?@d?€  A±ë…?.
+?€  A²{?°?€  A²=p?	W?€  A²ff?öý?€  A²\?ä£?€  A²¸R?ÒJ?€  A²áG?¿ñ?€  A³
+=?­—?€  A³33?›=?€  A³\)?ˆã?€  A³…?vŠ?€  A³®?d0?€  A³×
+?Q×?€  A´  ??}?€  A´(ö?2?€  A´Që?Æè?€  A´zá?Šœ?€  A´£×?NQ?€  A´ÌÍ??€  A´õÂ?Õ¼?€  Aµ¸?™p?€  AµG®?]%?€  Aµp¤? Ù?€  Aµ™™?ä?€  AµÂ?¨D?€  Aµë…?kù?€  A¶{?/­?€  A¶=p?óc?€  A¶ff?·?€  A¶\?zÍ?€  A¶¸R?>?€  A¶áG?7?€  A·
+=?Åì?€  A·33?‰ ?€  A·\)?MU?€  A·…??€  A·®?ÔÀ?€  A·×
+?˜t?€  A¸  ?\)?€  A¸(ö?§?€  A¸Që?¯&?€  A¸zá?X¤?€  A¸£×?!?€  A¸ÌÍ?«Ÿ?€  A¸õÂ?U?€  A¹¸?þœ?€  A¹G®?¨?€  A¹p¤?Q—?€  A¹™™?û?€  A¹Â?¤•?€  A¹ë…?N?€  Aº{?
+÷?€  Aº=p?
+¡?€  Aºff?
+J?€  Aº\?	ô?€  Aº¸R?	ˆ?€  AºáG?	G?€  A»
+=?ð…?€  A»33?š?€  A»\)?C?€  A»…?í ?€  A»®?–~?€  A»×
+??û?€  A¼  ?éy?€  A¼(ö?Çe?€  A¼Që?¥Q?€  A¼zá?ƒ=?€  A¼£×?a(?€  A¼ÌÍ???€  A¼õÂ??€  A½¸?úì?€  A½G®?ØØ?€  A½p¤?¶Ã?€  A½™™?”°?€  A½Â?rœ?€  A½ë…?P‡?€  A¾{?.s?€  A¾=p?_?€  A¾ff?êK?€  A¾\?È7?€  A¾¸R?¦"?€  A¾áG?„?€  A¿
+=?aú?€  A¿33??æ?€  A¿\)?Ò?€  A¿…?û¾?€  A¿®?Ùª?€  A¿×
+?·•?€  AÀ  ?•?€  AÀ(ö?*?€  AÀQë?¾?€  AÀzá?S?€  AÀ£×?ç—?€  AÀÌÍ?|?€  AÀõÂ?£?€  AÁ¸? ¥'?€  AÁG®? 9¬?€  AÁp¤>ÿœb?€  AÁ™™>þÅp?€  AÁÂ>ýîz?€  AÁë…>ýƒ?€  AÂ{>ü@?€  AÂ=p>ûi›?€  AÂff>ú’¥?€  AÂ\>ù»®?€  AÂ¸R>øä¸?€  AÂáG>øÇ?€  AÃ
+=>÷6Ð?€  AÃ33>ö_Ù?€  AÃ\)>õˆã?€  AÃ…>ô±ò?€  AÃ®>óÚû?€  AÃ×
+>ó?€  AÄ  >ò-?€  AÄ(ö>ñ!©?€  AÄQë>ðK?€  AÄzá>ï
+ç?€  AÄ£×>íÿ‚?€  AÄÌÍ>ìô?€  AÄõÂ>ëè¿?€  AÅ¸>êÝ[?€  AÅG®>éÑö?€  AÅp¤>èÆ’?€  AÅ™™>ç»4?€  AÅÂ>æ¯Ï?€  AÅë…>å¤j?€  AÆ{>ä™?€  AÆ=p>ã¨?€  AÆff>â‚C?€  AÆ\>ávÞ?€  AÆ¸R>àkz?€  AÆáG>ß`?€  AÇ
+=>ÞT·?€  AÇ33>ÝIS?€  AÇ\)>Ü=î?€  AÇ…>Û2?€  AÇ®>Ú'+?€  AÇ×
+>ÙÇ?€  AÈ  >Øb?€  AÈ(ö>×z?€  AÈQë>Ö˜?€  AÈzá>Õ°?€  AÈ£×>ÔÈ?€  AÈÌÍ>Óß?€  AÈõÂ>Ò
+ý?€  AÉ¸>Ñ
+?€  AÉG®>Ð	-?€  AÉp¤>ÏE?€  AÉ™™>Îc?€  AÉÂ>Í{?€  AÉë…>Ì“?€  AÊ{>Ëª?€  AÊ=p>ÊÈ?€  AÊff>Éà?€  AÊ\>Èø?€  AÊ¸R>Ç?€  AÊáG>Æ .?€  AË
+=>ÄÿF?€  AË33>Ãþ^?€  AË\)>Âýu?€  AË…>Áü”?€  AË®>Àû«?€  AË×
+>¿úÃ?€  AÌ  >¾ùÛ?€  AÌ(ö>½þ1?€  AÌQë>½?€  AÌzá>¼ã?€  AÌ£×>»9?€  AÌÌÍ>º?€  AÌõÂ>¹ë?€  AÍ¸>¸A?€  AÍG®>·—?€  AÍp¤>¶ í?€  AÍ™™>µ%I?€  AÍÂ>´)Ÿ?€  AÍë…>³-õ?€  AÎ{>²2L?€  AÎ=p>±6¨?€  AÎff>°:þ?€  AÎ\>¯?T?€  AÎ¸R>®Cª?€  AÎáG>­H?€  AÏ
+=>¬L\?€  AÏ33>«P²?€  AÏ\)>ªU?€  AÏ…>©Yd?€  AÏ®>¨]º?€  AÏ×
+>§b?€  AÐ  >¦ff?€  AÐ(ö>¥;Œ?€  AÐQë>¤º?€  AÐzá>¢åà?€  AÐ£×>¡»?€  AÐÌÍ> ,?€  AÐõÂ>ŸeZ?€  AÑ¸>ž:€?€  AÑG®>¦?€  AÑp¤>›äÌ?€  AÑ™™>š¹ú?€  AÑÂ>™ ?€  AÑë…>˜dF?€  AÒ{>—9l?€  AÒ=p>–š?€  AÒff>”ãÀ?€  AÒ\>“¸æ?€  AÒ¸R>’Ž?€  AÒáG>‘c:?€  AÓ
+=>8`?€  AÓ33>†?€  AÓ\)>â¬?€  AÓ…>Œ·Ù?€  AÓ®>‹ ?€  AÓ×
+>Šb&?€  AÔ  >‰7L?€  AÔ(õ>‡™$?€  AÔQë>…úñ?€  AÔzá>„\¿?€  AÔ£×>‚¾Œ?€  AÔÌÍ> Z?€  AÔõÂ>c?€  AÕ¸>{Çþ?€  AÕG®>x‹™?€  AÕp¤>uO4?€  AÕ™™>rä?€  AÕÂ>nÖ?€  AÕë…>kš?€  AÖ{>h]µ?€  AÖ=p>e!d?€  AÖff>aå ?€  AÖ\>^¨›?€  AÖ¸R>[l6?€  AÖáG>X/å?€  A×
+=>Tó€?€  A×33>Q·?€  A×\)>Nz¶?€  A×…>K>f?€  A×®>H?€  A××
+>DÅœ?€  AØ  >A‰7?€  AØ(õ>?gÿ?€  AØQë>=F¹?€  AØzá>;%s?€  AØ£×>9.?€  AØÌÍ>6âè?€  AØõÂ>4Á°?€  AÙ¸>2 j?€  AÙG®>0%?€  AÙp¤>.]ß?€  AÙ™™>,<§?€  AÙÂ>*a?€  AÙë…>'ú?€  AÚ{>%ØÖ?€  AÚ=p>#·?€  AÚff>!–X?€  AÚ\>u?€  AÚ¸R>SÌ?€  AÚáG>2”?€  AÛ
+=>N?€  AÛ33>ð	?€  AÛ\)>ÎÃ?€  AÛ…>­‹?€  AÛ®>ŒE?€  AÛ×
+>k ?€  AÜ  >Iº?€  AÜ(õ>
+?€  AÜQë>òC?€  AÜzá>Æ?€  AÜ£×>š¿?€  AÜÌÍ>ný?€  AÜõÂ=þ†’?€  AÝ¸=ú/?€  AÝG®=õ×Š?€  AÝp¤=ñ€?€  AÝ™™=í(?€  AÝÂ=èÑ?€  AÝë…=äy•?€  AÞ{=à"?€  AÞ=p=ÛÊ§?€  AÞff=×s#?€  AÞ\=ÓŸ?€  AÞ¸R=ÎÄ?€  AÞáG=Êl²?€  Aß
+==Æ.?€  Aß33=Á½ª?€  Aß\)=½f&?€  Aß…=¹½?€  Aß®=´·9?€  Aß×
+=°_µ?€  Aà  =¬1?€  Aà(õ=ªé?€  AàQë=¨•?€  Aàzá=¦"A?€  Aà£×=¤*í?€  AàÌÍ=¢3š?€  AàõÂ= <R?€  Aá¸=žDþ?€  AáG®=œMª?€  Aáp¤=šVV?€  Aá™™=˜_?€  AáÂ=–gº?€  Aáë…=”pf?€  Aâ{=’y?€  Aâ=p=Ë?€  Aâff=ŽŠw?€  Aâ\=Œ“#?€  Aâ¸R=Š›Ï?€  AâáG=ˆ¤‡?€  Aã
+==†­3?€  Aã33=„µß?€  Aã\)=‚¾‹?€  Aã…=€ÇC?€  Aã®=}Ÿß?€  Aã×
+=y±7?€  Aä  =uÂ?€  Aä(õ=rù”?€  AäQë=p0ˆ?€  Aäzá=mg|?€  Aä£×=jžo?€  AäÌÍ=gÕc?€  AäõÂ=eh?€  Aå¸=bC\?€  AåG®=_zP?€  Aåp¤=\±C?€  Aå™™=YèI?€  AåÂ=W<?€  Aåë…=TV0?€  Aæ{=Q$?€  Aæ=p=NÄ)?€  Aæff=Kû?€  Aæ\=I2?€  Aæ¸R=Fi?€  AæáG=C 	?€  Aç
+==@Öý?€  Aç33=>ñ?€  Aç\)=;Då?€  Aç…=8{ê?€  Aç®=5²Ý?€  Aç×
+=2éÑ?€  Aè  =0 Å?€  Aè(õ=-««?€  AèQë=+6‚?€  Aèzá=(ÁY?€  Aè£×=&L1?€  AèÌÍ=#×?€  AèõÂ=!aî?€  Aé¸=ìÅ?€  AéG®=wœ?€  Aép¤=s?€  Aé™™=Z?€  AéÂ=1?€  Aéë…=£?€  Aê{=-Þ?€  Aê=p=¸Å?€  Aêff=Cœ?€  Aê\=Îs?€  Aê¸R=YJ?€  AêáG=ä0?€  Aë
+==o?€  Aë33<ýó½?€  Aë\)<ù	k?€  Aë…<ô8?€  Aë®<ï4æ?€  Aë×
+<êJ”?€  Aì  <å`B?€  Aì(õ<âu?€  AìQë<ÞÒ”?€  Aìzá<Û‹²?€  Aì£×<ØDÑ?€  AìÌÌ<Ôþ?€  AìõÂ<Ñ·#?€  Aí¸<ÎpB?€  AíG®<Ë)`?€  Aíp¤<Çâ?€  Aí™™<Ä›²?€  AíÂ<ÁTÑ?€  Aíë…<¾ð?€  Aî{<ºÇ?€  Aî=p<·€A?€  Aîff<´9`?€  Aî\<°ò?€  Aî¸R<­«ž?€  AîáG<ªdÑ?€  Aï
+=<§ï?€  Aï33<£×?€  Aï\)< -?€  Aï…<I`?€  Aï®<š?€  Aï×
+<–»?€  Að  <“t¼?€  Að(õ<-ï?€  AðQë<Œç?€  Aðzá<‰ -?€  Að£×<†YK?€  AðÌÌ<ƒ~?€  AðõÂ<—:?€  Añ¸<y	x?€  AñG®<r{µ?€  Añp¤<kíó?€  Añ™™<e`X?€  AñÂ<^Ò–?€  Añë…<XDÓ?€  Aò{<Q·?€  Aò=p<K)w?€  Aòff<D›µ?€  Aò\<>ñ?€  Aò¸R<7€/?€  AòáG<0ò•?€  Aó
+=<*dÓ?€  Aó33<#×?€  Aó\)<IM?€  Aó…<»´?€  Aó®<-ñ?€  Aó×
+<	 /?€  Aô  <l?€  Aô(õ;ù	¦?€  AôQë;ëî?€  Aôzá;ÞÒš?€  Aô£×;Ñ·?€  AôÌÌ;Ä›â?€  AôõÂ;·€]?€  Aõ¸;ªdÖ?€  AõG®;IR?€  Aõp¤;-Í?€  Aõ™™;ƒš?€  AõÂ;kî*?€  Aõë…;Q·?€  Aö{;7€?€  Aö=p;I¬?€  Aöff;¢?€  Aö\:Ñ·1?€  Aö¸R:I?€  AöáG:Q¸‘?€  A÷
+=9Ñ¸Ö?€  A÷331† Ã?€  A÷\)¹Ñ·Ã?€  A÷…ºQµ{?€  A÷®ºHÙ?€  A÷×
+ºÑ¶ì?€  Aø  »€?€  Aø(õ»Hæ?€  AøQë»7ð?€  Aøzá»Q¶þ?€  Aø£×»kî?€  AøÌÌ»ƒ7?€  AøõÂ»-¼?€  Aù¸»I@?€  AùG®»ªdÇ?€  Aùp¤»·€L?€  Aù™™»Ä›?€  AùÂ»Ñ·?€  Aùë…»ÞÒ‰?€  Aú{»ëî?€  Aú=p»ù	C?€  Aúff¼d?€  Aú\¼	 &?€  Aú¸R¼-é?€  AúáG¼»‚?€  Aû
+=¼IF?€  Aû33¼#×?€  Aû\)¼*dÊ?€  Aû…¼0òd?€  Aû®¼7€&?€  Aû×
+¼>é?€  Aü  ¼D›¬?€  Aü(õ¼K)F?€  AüQë¼Q·?€  Aüzá¼XDË?€  Aü£×¼^Ò?€  AüÌÌ¼e`(?€  AüõÂ¼kíê?€  Aý¸¼r{­?€  AýG®¼y	o?€  Aýp¤¼—1?€  Aý™™¼ƒe?€  AýÂ¼†YG?€  Aýë…¼‰ (?€  Aþ{¼Œç
+?€  Aþ=p¼-Ö?€  Aþff¼“t¸?€  Aþ\¼–»™?€  Aþ¸R¼š{?€  AþáG¼IG?€  Aÿ
+=¼ )?€  Aÿ33¼£×
+?€  Aÿ\)¼§ë?€  Aÿ…¼ªd¸?€  Aÿ®¼­«™?€  Aÿ×
+¼°ò{?€  B   ¼´9\?€  B z¼·€?€  B (ö¼ºÇ?€  B =p¼¾×?€  B Qì¼ÁTá?€  B ff¼Ä›š?€  B zá¼Çâ{?€  B \¼Ë)\?€  B £×¼Îp>?€  B ¸R¼Ñ·?€  B ÌÌ¼Ôý×?€  B áH¼ØDá?€  B õÂ¼Û‹š?€  B
+>¼ÞÒ¤?€  B¸¼â]?€  B33¼å`>?€  BG®¼è§?€  B\)¼ëî ?€  Bp¤¼ï4â?€  B…¼ò{š?€  B™š¼õÂ¤?€  B®¼ù	]?€  BÂ¼üP>?€  B×
+¼ÿ— ?€  Bë…½o ?€  B  ½q?€  Bz½µÍ?€  B(ö½YR?€  B=p½ü®?€  BQì½	 4?€  Bff½C?€  Bzá½ç ?€  B\½Šq?€  B£×½-â?€  B¸R½ÑS?€  BÌÌ½t¯?€  BáH½4?€  BõÂ½»?€  B
+>½_?€  B¸½q?€  B33½¥â?€  BG®½IS?€  B\)½ìÃ?€  Bp¤½ 4?€  B…½"3?€  B™š½#×?€  B®½%zq?€  BÂ½'â?€  B×
+½(ÁS?€  Bë…½*dÃ?€  B  ½,4?€  Bz½-«?€  B(ö½/O?€  B=p½0òq?€  BQì½2•ö?€  Bff½49S?€  Bzá½5ÜÄ?€  B\½7€4?€  B£×½9#¥?€  B¸R½:Ç?€  BÌÌ½<jr?€  BáH½>÷?€  BõÂ½?±S?€  B
+>½ATØ?€  B¸½Bø4?€  B33½D›¥?€  BG®½F??€  B\)½Gâ†?€  Bp¤½I…÷?€  B…½K)S?€  B™š½LÌØ?€  B®½Np4?€  BÂ½P¥?€  B×
+½Q·?€  Bë…½SZ†?€  B  ½Tý÷?€  Bz½V¡S?€  B(ö½XDØ?€  B=p½Yè5?€  BQì½[‹º?€  Bff½]/?€  Bzá½^Ò†?€  B\½`u÷?€  B£×½bh?€  B¸R½c¼Ø?€  BÌÌ½e`5?€  BáH½gº?€  BõÂ½h§?€  B
+>½jJ›?€  B¸½kí÷?€  B33½m‘h?€  BG®½o4Ù?€  B\)½pØI?€  Bp¤½r{º?€  B…½t?€  B™š½uÂ›?€  B®½we÷?€  BÂ½y	h?€  B×
+½z¬Ù?€  Bë…½|PI?€  B  ½}óº?€  Bz½—?€  B(ö½€N?€  B=p½nü?€  BQì½‚@¾?€  Bff½ƒl?€  Bzá½ƒä%?€  B\½„µÝ?€  B£×½…‡•?€  B¸R½†YN?€  BÌÌ½‡*ü?€  BáH½‡ü¾?€  BõÂ½ˆÎl?€  B	
+>½‰ /?€  B	¸½ŠqÝ?€  B	33½‹C–?€  B	G®½ŒN?€  B	\)½Œç?€  B	p¤½¸¾?€  B	…½ŽŠm?€  B	™š½\/?€  B	®½-Ý?€  B	Â½ÿ–?€  B	×
+½‘ÑN?€  B	ë…½’£?€  B
+  ½“t¿?€  B
+z½”Fm?€  B
+(ö½•/?€  B
+=p½•éÝ?€  B
+Qì½–» ?€  B
+ff½—N?€  B
+zá½˜_?€  B
+\½™0¿?€  B
+£×½šw?€  B
+¸R½šÔ/?€  B
+ÌÌ½›¥Ý?€  B
+áH½œw ?€  B
+õÂ½IN?€  B
+>½ž?€  B¸½žì¿?€  B33½Ÿ¾w?€  BG®½ /?€  B\)½¡aè?€  Bp¤½¢3 ?€  B…½£N?€  B™š½£×?€  B®½¤¨¿?€  BÂ½¥zw?€  B×
+½¦L/?€  Bë…½§è?€                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
