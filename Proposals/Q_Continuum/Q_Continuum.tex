@@ -29,6 +29,8 @@
 \documentclass[12pt]{article}
 \usepackage{jwstproposaltemplate}
 
+\newcommand{\mgii}{Mg\,{\sc ii}\ }
+
 \begin{document}
 
 %   1. SCIENTIFIC JUSTIFICATION
@@ -36,7 +38,104 @@
 %
 %
 \justification          % Do not delete this command.
-% Enter your scientific justification here. 
+% Enter your scientific justification here.
+Actively accreting supermassive black holes, i.e. quasars, are known to exist at very high redshift, when the Universe was
+much less than a billion years old. 
+However, we currently do not know how these first supermassive black holes (SMBHs) formed.
+From estimates of the black hole mass, it is seen that SMBHs with $>10^{9}$ M$_{\odot}$ exist less than a billion years after the Big Bang.
+%(usually based on quasar luminosity and the FWHM of the \mgii Mg ii line, under the assumption that local scaling relations are still valid at high luminosity and high redshift.) 
+Current models (e.g. Thispaper (2012); Thispaper (2012), Thispaper (2012)) suggestion either
+direct collapse black holes (DCBHs) or Population {\sc III} stars could be the progenitors of the very-high redshift SMBHs. 
+
+% So, the General Plan would be::
+{\it We propose to obtain MIRI imaging, coronagraphy and spectroscopy of all known $z \geq 6.8$ quasars.} 
+%%
+%MIRI covers 4.9$\mu$-28.8$\mu$m thus granting access to the optical/near-IR  0.65-3.6$\mu$m rest-frame at $z=6.70$.
+MIRI covers 4.9-28.8$\mu$m thus granting access to the optical/near-IR  0.63-3.7$\mu$m rest-frame at $z=6.8$.
+%MIRI covers 4.9$\mu$-28.8$\mu$m thus granting access to the optical/near-IR  0.61.-3.6$\mu$m rest-frame at $z=7.00$.
+%MIRI covers 4.9$\mu$-28.8$\mu$m thus granting access to the optical/near-IR  0.57-3.37$\mu$m rest-frame at $z=7.54$.
+%MIRI covers 4.9$\mu$-28.8$\mu$m thus granting access to the optical/near-IR  0.54-3.2$\mu$m rest-frame at $z=8.00$.
+%MIRI covers 4.9$\mu$-28.8$\mu$m thus granting access to the optical/near-IR  0.49-2.88$\mu$m rest-frame at $z=9.00$.
+%MIRI covers 4.9$\mu$-28.8$\mu$m thus granting access to the optical/near-IR  0.44-2.62$\mu$m rest-frame at $z=10.00$.
+
+%As a further guide, the Universe is:  850, 816 and 800 Myrs old at z=6.50, z=6.70 and z=6.80, respectively,  for a flat, H0= 69.6, OmegaM = 0.286, OmegaLambda = 0.714 cosmology. 
+
+\smallskip
+\smallskip
+\noindent
+The Science Case includes: \\
+$\bullet$ How did the first SMBHs form? \\
+$\bullet$ What are the BH masses from multiple lines (including rest-frame Balmer)? \\
+$\bullet$ What are the host galaxy properties of $z>6.8$ quasars?  \\ %(noting already obtained ALMA data) 
+$\bullet$ What is the stellar content of the quasars host galaxy? Does the Magorrian relation hold at very high-$z$? \\
+$\bullet$ Is there evidence for (major) merging? \\
+$\bullet$ What is the environment of the $z>6.8$ quasars?  \\   %(MIRI imaging FoV is ~0.4 Mpc x 0.6 Mpc on a side at z=7.00)
+$\bullet$ Whats the optical/near-IR spectral slope for the highest redshift quasars? \\
+$\bullet$ Are the $z>6.8$ luminous quasars different from `regular AGN' detected in  the JWST Deep Fields? \\
+$\bullet$ What are the details of the Reionization Epoch? \\
+
+
+
+These questions directly address two of the four {\it JWST} science themes
+(The End of the Dark Ages: First Light and Reionization; %- JWST will be a powerful time machine with infrared vision that will peer back over 13.5 billion years to see the first stars and galaxies forming out of the darkness of the early universe.
+and Assembly of Galaxies) % JWST's unprecedented infrared sensitivity will help astronomers to compare the faintest, earliest galaxies to today's grand spirals and ellipticals, helping us to understand how galaxies assemble over billions of years.
+%
+No telescope or observatory in the midterm future will be able to access wavelengths longer than
+5$\mu$m to these sensitivies. 
+
+Building on the very high redshift quasar catalog in the infrared from
+Ross \& Cross (2020, MNRAS accepted) and from Dr. Sarah Bosman’s current list: 
+%        http://www.sarahbosman.co.uk/list_of_all_quasars.htm
+there are 20 objects with $z \geq 6.80$. 
+
+%If one then takes the Ferruit et al. GTO #1219 proposal as a baseline:
+ %       http://www.stsci.edu/jwst/observing-programs/program-information?id=1219
+%then the MIRI observations are 4.90 hours charged per object. 
+%This comprises of 4.28hrs for MRS spectroscopy and 0.62hours for MIRI F560W imaging. 
+%So 29 (20) * 4.90hrs = 142.1 (98.0) hours in total. 
+%As a guide, Large programs in Cycle 1 are >75 hours. 
+
+MIRI coronagraphy is a capability unique to JWST.
+% so I would strongly suspect  you’d like to use this too. However, I don’t have a great feel yet for the trade-offs of the Lyot-type vs. three 4-quadrant phase-mask (4QPM) coronagraphs.
+%% Replicating the full Ferruit et al. GTO #1219 proposal, which includes NIRSpec MSA and IFU  observations as well, is 18.71hrs per object, pushing you to > ~400 hrs (!!) 
+
+Some other key things to note:  
+%%
+The JWST GTO teams are already looking at $z>6.70$ quasars. 
+However, %from what I can tell (see attached JWST_GTO_VHzQ.notes)
+only quasar J1342+0928 at $z=7.54$ is currently being observed by MIRI. 
+%%
+Other teams and collaborations will also be studying the very high-redshifts quasars. 
+A key point here is not to directly compete with those observations, but moreover, complement them.
+As such, our team has a {\it a zero  proprietary period} making the data immediately accessible from
+a webpages (e.g. github.com/d80b2t/JWST\_Cycle1)
+%%
+The GTO and ERS programs already have the targets and instruments and modes 
+that they are going to be using. One could then start to build-up on that arguing that 
+you’ll never have the lambda >5um space-based data again any time again soon, 
+and
+Generating a sample for a large number (all) of the currnently known $z>6.7$ quasars is exactly 
+what JWST was built for, and this will tremendously legacy value. 
+%%
+This could/would be suggested as a multi-cycle program (though not necessarily explicitly 
+as that I don’t think this category is implemented yet). Using the Cycle 1+GTO+(ERS?) 
+data as type of Pilot program, observing maybe $\sim$5-10 objects in total first, and letting 
+that guide observations in future cycles. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
