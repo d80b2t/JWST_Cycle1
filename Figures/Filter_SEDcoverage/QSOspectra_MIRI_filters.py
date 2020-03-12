@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 from pylab import * 
 from matplotlib.ticker import ScalarFormatter 
 from astropy.io import ascii
+from astropy.io import fits
+#import pyfits 
 from matplotlib import colors as mcolors
 
 ##
@@ -22,15 +24,72 @@ from matplotlib import colors as mcolors
 ##
 ## Not sure where I originally got these from;
 ## quite likely P. Klaassen or A. Glasse
-path = 'filter_curves/MIRI/Ref_Files/'
-file = 'jwst_miri_mirifushort_qe.fits'
-table = path+file
-#MIRI_IFU_short =  
+path = 'filter_curves/MIRI/'
+
+
+#ifu_short = pyfits.open(path+'jwst_miri_mirifushort_qe.fits')
+
+
+# jwst_miri_f560w_filter.fits
+f560w_filter = fits.open(path+'jwst_miri_f560w_filter.fits')
+f560w_data   = f560w_filter[1].data
+f560w_wave   = f560w_data['WAVELENGTH'] 
+f560w_trans  = f560w_data['TRANSMISSION'] 
+
+f770w_filter = fits.open(path+'jwst_miri_f770w_filter.fits')
+f770w_data   = f770w_filter[1].data
+f770w_wave   = f770w_data['WAVELENGTH'] 
+f770w_trans  = f770w_data['TRANSMISSION'] 
+
+f1000w_filter = fits.open(path+'jwst_miri_f1000w_filter.fits')
+f1000w_data   = f1000w_filter[1].data
+f1000w_wave   = f1000w_data['WAVELENGTH'] 
+f1000w_trans  = f1000w_data['TRANSMISSION'] 
+
+# Not an official filter...
+# f1065c_filter = fits.open(path+'jwst_miri_f1065c_filter.fits')
+
+f1130w_filter = fits.open(path+'jwst_miri_f1130w_filter.fits')
+f1130w_data   = f1130w_filter[1].data
+f1130w_wave   = f1130w_data['WAVELENGTH'] 
+f1130w_trans  = f1130w_data['TRANSMISSION'] 
+
+# Not an official filter...
+# f1140c_filter = fits.open(path+'jwst_miri_f1140c_filter.fits')
+
+f1280w_filter = fits.open(path+'jwst_miri_f1280w_filter.fits')
+f1280w_data   = f1280w_filter[1].data
+f1280w_wave   = f1280w_data['WAVELENGTH'] 
+f1280w_trans  = f1280w_data['TRANSMISSION'] 
+
+f1500w_filter = fits.open(path+'jwst_miri_f1500w_filter.fits')
+f1500w_data   = f1500w_filter[1].data
+f1500w_wave   = f1500w_data['WAVELENGTH'] 
+f1500w_trans  = f1500w_data['TRANSMISSION'] 
+
+f1800w_filter = fits.open(path+'jwst_miri_f1800w_filter.fits')
+f1800w_data   = f1800w_filter[1].data
+f1800w_wave   = f1800w_data['WAVELENGTH'] 
+f1800w_trans  = f1800w_data['TRANSMISSION'] 
+
+f2100w_filter = fits.open(path+'jwst_miri_f2100w_filter.fits')
+f2100w_data   = f2100w_filter[1].data
+f2100w_wave   = f2100w_data['WAVELENGTH'] 
+f2100w_trans  = f2100w_data['TRANSMISSION']
+
+f2550w_filter = fits.open(path+'jwst_miri_f2550w_filter.fits')
+f2550w_data   = f2550w_filter[1].data
+f2550w_wave   = f2550w_data['WAVELENGTH'] 
+f2550w_trans  = f2550w_data['TRANSMISSION']
+
+
+
+
 
 
 
 ##
-## QSO ``Composite'' spectra
+##  Q S O    ``Composite''   spectra
 ##
 path  = '../../ETC_calc/'
 file  = 'quasar_SED_WavelenInmu_blue.dat'
@@ -43,16 +102,15 @@ file = 'Vanden_Berk_2001_Table1.dat'
 table = path+file
 VdB01_comp = ascii.read(table)
 
-
 ## Glikman et al. 2006. 
 ## TABLE 3:
-##  Composite Quasar Spectrum, Arithmetic and Geometric Mean
+##   Composite Quasar Spectrum, Arithmetic and Geometric Mean
 path = '/cos_pc19a_npr/data/Glikman2006/'
 file = 'Glikman_2006_ApJ_Table3.dat'
 table = path+file
 Glikman_tab3 = ascii.read(table)
 ## TABLE 7:
-## Optical-to-Near-Infrared Composite Quasar Spectrum, Arithmetic and Geometric Means
+##   Optical-to-Near-Infrared Composite Quasar Spectrum, Arithmetic and Geometric Means
 path = '/cos_pc19a_npr/data/Glikman2006/'
 file = 'Glikman_2006_ApJ_Table7.dat'
 table = path+file
@@ -71,6 +129,7 @@ table_sey2 = path+file_sey2
 QSO1_template = ascii.read(table_qso1)
 QSO2_template = ascii.read(table_qso2)
 Sey2_template = ascii.read(table_sey2)
+
 
 
 '''
@@ -115,18 +174,30 @@ Sey2_flux =  Sey2_template['col2']
 
 
 ##  R E D S H I F T  !!!!
-redshift = 0.
-redshift = float(input("What redshift are we at??   "))
+redshift =  17.54
+#redshift = 6.7
+#redshift = float(input("What redshift are we at??   "))
 
+
+
+## Some NPR plotting defaults 
+alpha           = 1.0
+fontsize        = 22
+linewidth       = 2.4
+labelsize       = 18
+tickwidth       = 2.0
+ticklabelsize   = labelsize
+majorticklength = 12
+minorticklength = 6
 
 
 ## Plotting things up...
 plt.rcParams.update({'font.size': 24})
-fig, ax = plt.subplots(figsize=(12.0, 8.0))
+fig, ax = plt.subplots(figsize=(16.0, 8.0))
 
 #print(plt.style.available)
 plt.style.use('seaborn-poster')
-
+## colormap
 cmap=plt.get_cmap('viridis')
 
 
@@ -140,19 +211,43 @@ xmax = 30.0
 #ax.set_xscale("log", nonposx='clip')
 
 ymin = -0.05  
-ymax = 1.2    
+ymax = 100.2    
 
 
-## Plotting the Vanden Berk et al. (2001) QSO composite
+##
+## MIRI Imaging filters
+##
+ax.plot( f560w_wave, f560w_trans,    color='darkviolet',      alpha=alpha, linewidth=linewidth)
+ax.fill( f560w_wave, f560w_trans,    color='darkviolet',      alpha=alpha/2)
+ax.plot( f770w_wave, f770w_trans,    color='mediumslateblue', alpha=alpha, linewidth=linewidth)
+ax.fill( f770w_wave, f770w_trans,    color='mediumslateblue', alpha=alpha/2)
+ax.plot(f1000w_wave, f1000w_trans,   color='cornflowerblue',  alpha=alpha, linewidth=linewidth)
+ax.fill(f1000w_wave, f1000w_trans,   color='cornflowerblue',  alpha=alpha/2)
+ax.plot(f1130w_wave, f1130w_trans,   color='steelblue',       alpha=alpha, linewidth=linewidth)
+ax.fill(f1130w_wave, f1130w_trans,   color='steelblue',       alpha=alpha/2)
+ax.plot(f1280w_wave, f1280w_trans,   color='lightseagreen',   alpha=alpha, linewidth=linewidth)
+ax.fill(f1280w_wave, f1280w_trans,   color='lightseagreen',   alpha=alpha/2)
+ax.plot(f1500w_wave, f1500w_trans,   color='darkseagreen',    alpha=alpha, linewidth=linewidth)
+ax.fill(f1500w_wave, f1500w_trans,   color='darkseagreen',    alpha=alpha/2)
+ax.plot(f1800w_wave, f1800w_trans,   color='darkkhaki',       alpha=alpha, linewidth=linewidth)
+ax.fill(f1800w_wave, f1800w_trans,   color='darkkhaki',       alpha=alpha/2)
+ax.plot(f2100w_wave, f2100w_trans,   color='peru',            alpha=alpha, linewidth=linewidth)
+ax.fill(f2100w_wave, f2100w_trans,   color='peru',            alpha=alpha/2)
+ax.plot(f2550w_wave, f2550w_trans,   color='red',             alpha=alpha, linewidth=linewidth)
+ax.fill(f2550w_wave, f2550w_trans,   color='red',             alpha=alpha/2)
+
+f770w_wave
+
+
+## Plotting the QSO composites
 plt.plot((VdB01_wave*(1.+redshift)), (VdB01_flux/VdB01_flux.max()))
+#plt.plot((VdB01_wave*(1.+redshift)), (VdB01_flux/VdB01_flux.max()))
+#plt.plot((Glik_wave*(1.+redshift)), (Glik_flux/Glik_flux.max()))
+plt.plot((Glik_wave*(1.+redshift)), (Glik_flux*Glik_flux.max()), color='k' )
 
-## Plotting the Glikman et al. (2006) QSO composite
-plt.plot((Glik_wave*(1.+redshift)), (Glik_flux/Glik_flux.max()))
-
-## Plotting the Polletta et al. templates
-plt.plot((QSO1_wave*(1.+redshift)), (QSO1_flux/QSO1_flux.max()))
-plt.plot((QSO2_wave*(1.+redshift)), (QSO2_flux/QSO2_flux.max()))
-plt.plot((Sey2_wave*(1.+redshift)), (Sey2_flux/Sey2_flux.max()))
+#plt.plot((QSO1_wave*(1.+redshift)), (QSO1_flux/QSO1_flux.max()))
+#plt.plot((QSO2_wave*(1.+redshift)), (QSO2_flux/QSO2_flux.max()))
+#plt.plot((Sey2_wave*(1.+redshift)), (Sey2_flux/Sey2_flux.max()))
 
 ## Hill et al. 2014 IRS spectra
 #plt.plot((IRS_wavelength*(1.+redshift)), ((IRS_least_lum/IRS_least_lum.max())*2.6), linestyle='solid', linewidth=4)
@@ -161,17 +256,18 @@ plt.plot((Sey2_wave*(1.+redshift)), (Sey2_flux/Sey2_flux.max()))
 
 #ax.text((xmin+(xmin/10.)), (0.90*ymax), '$z=5.0$', fontsize=26)
 
-plt.legend([
-             'Vanden Berk (2001)',
-         'Glikman et al. (2006)', 
-            'Polletta QSO1',
-            'Polletta QSO2',
-            'Polletta Sey2' 
-            ],
+#plt.legend([
+#             'Vanden Berk (2001)',
+ #        'Glikman et al. (2006)', 
+  #          'Polletta QSO1',
+   #         'Polletta QSO2',
+    #        'Polletta Sey2' 
+     #       ],
 #           loc="lower left", ncol=3, shadow=True, fancybox=True,
-           loc="upper right", ncol=1, shadow=True, fancybox=True,
-          fontsize=22, frameon=True)
+      #     loc="upper right", ncol=1, shadow=True, fancybox=True,
+       #   fontsize=22, frameon=True)
 
+       
 ls = 'solid'
 lw = 1.0
 ax.set_xlim((xmin, xmax))
@@ -191,8 +287,8 @@ for axis in [ax.xaxis, ax.yaxis]:
     axis.set_major_formatter(ScalarFormatter())
     axis.set_minor_formatter(ScalarFormatter())
 
-plt.xlabel(r'wavelength [$\mu$m]', fontsize=22)
-plt.ylabel('Relative flux',        fontsize=22)
+plt.xlabel(r'wavelength [$\mu$m]', fontsize=fontsize)
+plt.ylabel('Relative flux',        fontsize=fontsize)
 #ax.xaxis.label.set_size(32)
 #ax.xtick.label.set_size(32)
 
