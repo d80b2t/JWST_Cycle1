@@ -23,6 +23,14 @@ from::	filters_vs_QSOstars.py
 in::   	~/programs/quasars/highest_z/SEDs
 maximum wavelength:: 0.85545 um  (8554.5 Ang)
 
+quasar_SED_WavelenInmu.dat
+based on 
+quasar_SED_WavelenInmu_blue.dat
+for 0.080 < lambda < 0.85545
+and
+Glikman_2006_ApJ_Table7.dat for
+
+maximum wavelength:: 0.85545 um  (8554.5 Ang)
 
 
 

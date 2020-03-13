@@ -2,7 +2,6 @@
 
 Code for plotting quasar spectra and the MIRI MRS coverage 
 
-
 URLs::
   https://www.aanda.org/articles/aa/abs/2016/01/aa27096-15/aa27096-15.html
   https://github.com/jselsing/QuasarComposite
@@ -10,15 +9,15 @@ URLs::
 
 import math
 import numpy  as np
-import pandas 
-import matplotlib.pyplot as plt
+import pandas
 
-from pylab import * 
-from matplotlib.ticker import ScalarFormatter 
+import matplotlib.pyplot as plt
+import matplotlib.colors as mcolors
+
+from pylab      import * 
 from astropy.io import ascii
 from astropy.io import fits
-
-from matplotlib import colors as mcolors
+from matplotlib.ticker import ScalarFormatter 
 
 
 ##
@@ -49,7 +48,9 @@ Ch4_long   = df[df.Band == 11]
 ##  Q S O    ``Composite''   spectra
 ##
 path  = '../../ETC_calc/'
-file  = 'quasar_SED_WavelenInmu_blue.dat'
+#file  = 'quasar_SED_WavelenInmu_blue.dat'
+#file  = 'quasar_SED_WavelenInmu_v0pnt9.dat'
+file  = 'Glikman_2006_ApJ_Table7.dat' 
 table = path+file
 quasar_sed = ascii.read(table)
 
@@ -131,21 +132,20 @@ Sey2_flux =  Sey2_template['col2']
 
 
 ##  R E D S H I F T  !!!!
-redshift =  17.54
-#redshift = 6.7
+#redshift =  7.54
+redshift = 6.7
 #redshift = float(input("What redshift are we at??   "))
-
 
 
 ## Some NPR plotting defaults 
 alpha           = 1.0
-fontsize        = 22
+fontsize        = 28
 linewidth       = 2.4
-labelsize       = 18
+labelsize       = 28
 tickwidth       = 2.0
 ticklabelsize   = labelsize
-majorticklength = 12
-minorticklength = 6
+majorticklength = 18
+minorticklength = 9
 
 plt.style.use('seaborn-poster')
 cmap=plt.get_cmap('viridis')
@@ -156,72 +156,68 @@ fig, ax = plt.subplots(figsize=(22.0, 8.0))
 
 ## Setting the limits.
 ## If log
-xmin = 4.4           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
+xmin = 4.85           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
 xmax = 30.           ## 60.  if log;  30.0um
-#ax.set_xscale("log", nonposx='clip')
+ax.set_xscale("log", nonposx='clip')
 ymin = 0.00  
 ymax = 0.2    
+
+
+## Plotting the QSO composites
+#plt.plot((VdB01_wave              *(1.+redshift)), (VdB01_flux/VdB01_flux.max()),                 color='k', linestyle='-')
+plt.plot((quasar_sed['wavelength']*(1.+redshift)), (quasar_sed['flux']/(quasar_sed['flux'].max()*2)), color='k')
 
 
 ##
 ## MIRI Imaging filters
 ##
-ax.plot(Ch1_short.wavelength,  Ch1_short.efficiency,  color='darkviolet',      alpha=alpha, linewidth=linewidth)
-ax.fill(Ch1_short.wavelength,  Ch1_short.efficiency,  color='darkviolet',      alpha=alpha/2)
-ax.plot(Ch1_medium.wavelength, Ch1_medium.efficiency, color='mediumslateblue', alpha=alpha, linewidth=linewidth)
-ax.fill(Ch1_medium.wavelength, Ch1_medium.efficiency, color='mediumslateblue', alpha=alpha/2)
-ax.plot(Ch1_long.wavelength,   Ch1_long.efficiency,   color='cornflowerblue',  alpha=alpha, linewidth=linewidth)
-ax.fill(Ch1_long.wavelength,   Ch1_long.efficiency,   color='cornflowerblue',  alpha=alpha/2)
+ax.plot(Ch1_short.wavelength,  Ch1_short.efficiency,  color='darkviolet',       alpha=alpha, linewidth=linewidth)
+ax.fill(Ch1_short.wavelength,  Ch1_short.efficiency,  color='darkviolet',       alpha=alpha/2)
+ax.plot(Ch1_medium.wavelength, Ch1_medium.efficiency, color='mediumorchid',     alpha=alpha, linewidth=linewidth)
+ax.fill(Ch1_medium.wavelength, Ch1_medium.efficiency, color='mediumorchid',     alpha=alpha/2)
+ax.plot(Ch1_long.wavelength,   Ch1_long.efficiency,   color='mediumpurple',     alpha=alpha, linewidth=linewidth)
+ax.fill(Ch1_long.wavelength,   Ch1_long.efficiency,   color='mediumpurple',     alpha=alpha/2)
 
-ax.plot(Ch2_short.wavelength,  Ch2_short.efficiency,  color='steelblue',       alpha=alpha, linewidth=linewidth)
-ax.fill(Ch2_short.wavelength,  Ch2_short.efficiency,  color='steelblue',       alpha=alpha/2)
-ax.plot(Ch2_medium.wavelength, Ch2_medium.efficiency, color='lightseagreen',   alpha=alpha, linewidth=linewidth)
-ax.fill(Ch2_medium.wavelength, Ch2_medium.efficiency, color='lightseagreen',   alpha=alpha/2)
-ax.plot(Ch2_long.wavelength,   Ch2_long.efficiency,   color='darkseagreen',    alpha=alpha, linewidth=linewidth)
-ax.fill(Ch2_long.wavelength,   Ch2_long.efficiency,   color='darkseagreen',    alpha=alpha/2)
+ax.plot(Ch2_short.wavelength,  Ch2_short.efficiency,  color='mediumslateblue',  alpha=alpha, linewidth=linewidth)
+ax.fill(Ch2_short.wavelength,  Ch2_short.efficiency,  color='mediumslateblue',  alpha=alpha/2)
+ax.plot(Ch2_medium.wavelength, Ch2_medium.efficiency, color='cornflowerblue',   alpha=alpha, linewidth=linewidth)
+ax.fill(Ch2_medium.wavelength, Ch2_medium.efficiency, color='cornflowerblue',   alpha=alpha/2)
+ax.plot(Ch2_long.wavelength,   Ch2_long.efficiency,   color='dodgerblue',       alpha=alpha, linewidth=linewidth)
+ax.fill(Ch2_long.wavelength,   Ch2_long.efficiency,   color='dodgerblue',       alpha=alpha/2)
 
-ax.plot(Ch3_short.wavelength,  Ch3_short.efficiency,  color='darkviolet',      alpha=alpha, linewidth=linewidth)
-ax.fill(Ch3_short.wavelength,  Ch3_short.efficiency,  color='darkviolet',      alpha=alpha/2)
-ax.plot(Ch3_medium.wavelength, Ch3_medium.efficiency, color='mediumslateblue', alpha=alpha, linewidth=linewidth)
-ax.fill(Ch3_medium.wavelength, Ch3_medium.efficiency, color='mediumslateblue', alpha=alpha/2)
-ax.plot(Ch3_long.wavelength,   Ch3_long.efficiency,   color='cornflowerblue',  alpha=alpha, linewidth=linewidth)
-ax.fill(Ch3_long.wavelength,   Ch3_long.efficiency,   color='cornflowerblue',  alpha=alpha/2)
+ax.plot(Ch3_short.wavelength,  Ch3_short.efficiency,  color='mediumaquamarine', alpha=alpha, linewidth=linewidth)
+ax.fill(Ch3_short.wavelength,  Ch3_short.efficiency,  color='mediumaquamarine', alpha=alpha/2)
+ax.plot(Ch3_medium.wavelength, Ch3_medium.efficiency, color='mediumseagreen',   alpha=alpha, linewidth=linewidth)
+ax.fill(Ch3_medium.wavelength, Ch3_medium.efficiency, color='mediumseagreen',   alpha=alpha/2)
+ax.plot(Ch3_long.wavelength,   Ch3_long.efficiency,   color='lightseagreen',    alpha=alpha, linewidth=linewidth)
+ax.fill(Ch3_long.wavelength,   Ch3_long.efficiency,   color='lightseagreen',    alpha=alpha/2)
 
-ax.plot(Ch4_short.wavelength,  Ch4_short.efficiency,  color='peru',       alpha=alpha, linewidth=linewidth)
-ax.fill(Ch4_short.wavelength,  Ch4_short.efficiency,  color='peru',       alpha=alpha/2)
-ax.plot(Ch4_medium.wavelength, Ch4_medium.efficiency, color='orange',   alpha=alpha, linewidth=linewidth)
-ax.fill(Ch4_medium.wavelength, Ch4_medium.efficiency, color='orange',   alpha=alpha/2)
-ax.plot(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',    alpha=alpha, linewidth=linewidth)
-ax.fill(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',    alpha=alpha/2)
-
-
+ax.plot(Ch4_short.wavelength,  Ch4_short.efficiency,  color='orange',           alpha=alpha, linewidth=linewidth)
+ax.fill(Ch4_short.wavelength,  Ch4_short.efficiency,  color='orange',           alpha=alpha/2)
+ax.plot(Ch4_medium.wavelength, Ch4_medium.efficiency, color='peru',             alpha=alpha, linewidth=linewidth)
+ax.fill(Ch4_medium.wavelength, Ch4_medium.efficiency, color='peru',             alpha=alpha/2)
+ax.plot(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',              alpha=alpha, linewidth=linewidth)
+ax.fill(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',              alpha=alpha/2)
 
 
-## Plotting the QSO composites
-plt.plot((VdB01_wave*(1.+redshift)), (VdB01_flux/VdB01_flux.max()), color='k')
-#plt.plot((VdB01_wave*(1.+redshift)), (VdB01_flux/VdB01_flux.max()))
-#plt.plot((Glik_wave*(1.+redshift)), (Glik_flux/Glik_flux.max()))
-#plt.plot((Glik_wave*(1.+redshift)), (Glik_flux*Glik_flux.max()), color='k' )
+plot_filterLabels = y
 
-#plt.plot((QSO1_wave*(1.+redshift)), (QSO1_flux/QSO1_flux.max()))
-#plt.plot((QSO2_wave*(1.+redshift)), (QSO2_flux/QSO2_flux.max()))
-#plt.plot((Sey2_wave*(1.+redshift)), (Sey2_flux/Sey2_flux.max()))
+if plot_filterLabels == 'y':
+    plt.text(5.870, 1.1, r'CH1 SHORT',  color ='darkviolet',        fontsize=fontsize,     weight='bold')
+    plt.text(6.000, 1.1, r'CH1 MEDIUM', color ='mediumorchid', fontsize=fontsize,     weight='bold')
+    plt.text(7.280, 1.1, r'CH1 LONG',   color ='mediumpurple',        fontsize=fontsize,     weight='bold')
+    #
+    plt.text(8.600, 1.1, r'CH1 SHORTH', color ='gold',          fontsize=fontsize,     weight='bold')
+    plt.text(10.020, 1.1, r'Ks', color ='yellow',        fontsize=fontsize,     weight='bold')
 
-## Hill et al. 2014 IRS spectra
-#plt.plot((IRS_wavelength*(1.+redshift)), ((IRS_least_lum/IRS_least_lum.max())*2.6), linestyle='solid', linewidth=4)
-#plt.plot((IRS_wavelength*(1.+redshift)), ((IRS_medium_lum/IRS_medium_lum.max())*2.2), linestyle='dotted', linewidth=4)
-#plt.plot((IRS_wavelength*(1.+redshift)), ((IRS_most_lum/IRS_most_lum.max())*1.25), linestyle='dashed', linewidth=4)
 
-#ax.text((xmin+(xmin/10.)), (0.90*ymax), '$z=5.0$', fontsize=26)
+
+x_placement = 20.5      
+#plt.text(x_placement, (ymax*0.72), r'$z$='+str(redshift)+' quasar', color='k',     weight='bold', size=size)
+plt.text(x_placement, (ymax*0.72), r'$z$='+str(redshift)+' quasar', color='k',     weight='bold', size=fontsize)
 
 #plt.legend([
-#             'Vanden Berk (2001)',
- #        'Glikman et al. (2006)', 
-  #          'Polletta QSO1',
-   #         'Polletta QSO2',
-    #        'Polletta Sey2' 
-     #       ],
-#           loc="lower left", ncol=3, shadow=True, fancybox=True,
+#             'Quasar SED Glikman (2006)',
       #     loc="upper right", ncol=1, shadow=True, fancybox=True,
        #   fontsize=22, frameon=True)
 
@@ -230,23 +226,26 @@ ls = 'solid'
 lw = 1.0
 ax.set_xlim((xmin, xmax))
 ax.set_ylim((ymin, ymax))
-ax.tick_params('x',which='major', top='on', direction='in', length=12, width=2)
-ax.tick_params('x',which='minor', top='on', direction='in', length=6, width=2)
-#ax.tick_params('y', direction='in')
-ax.tick_params('y', which='major',right='on', direction='in', length=12, width=2)
-ax.tick_params('y',which='minor', right='on', direction='in', length=6, width=2)
+ax.set_xlabel('xlabel', fontsize=fontsize)
+ax.set_xlabel('xlabel', fontsize=fontsize)
+ax.tick_params('x',which='major', top='on', direction='in', labelsize=labelsize,  length=majorticklength, width=tickwidth)
+ax.tick_params('x',which='minor', top='on', direction='in', labelsize=labelsize,  length=majorticklength, width=tickwidth)
+#ax.tick_params('x',which='minor', top='on', direction='in', labelsize=labelsize,  length=minorticklength, width=tickwidth)
+ax.tick_params('y', which='major',right='on', direction='in', labelsize=labelsize, length=majorticklength, width=tickwidth)
+ax.tick_params('y', which='major',right='on', direction='in', labelsize=labelsize, length=majorticklength, width=tickwidth)
+#ax.tick_params('y', which='minor', right='on', direction='in', labelsize=labelsize, length=minorticklength, width=tickwidth)
 
 ##ax.ticklabel_format(style='plain', axis='x')
 
 ## https://matplotlib.org/gallery/ticks_and_spines/scalarformatter.html
 ## https://stackoverflow.com/questions/21920233/matplotlib-log-scale-tick-label-number-formatting
-from matplotlib.ticker import ScalarFormatter
+
 for axis in [ax.xaxis, ax.yaxis]:
     axis.set_major_formatter(ScalarFormatter())
     axis.set_minor_formatter(ScalarFormatter())
 
-plt.xlabel(r'wavelength [$\mu$m]', fontsize=fontsize)
-plt.ylabel('Relative flux',        fontsize=fontsize)
+plt.xlabel(r'Wavelength [$\mu$m]', fontsize=fontsize)
+plt.ylabel('Photon-to-electron\nconversion efficiency',        fontsize=fontsize)
 #ax.xaxis.label.set_size(32)
 #ax.xtick.label.set_size(32)
 
