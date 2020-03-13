@@ -160,7 +160,7 @@ xmin = 4.85           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
 xmax = 30.           ## 60.  if log;  30.0um
 ax.set_xscale("log", nonposx='clip')
 ymin = 0.00  
-ymax = 0.2    
+ymax = 0.22   
 
 
 ## Plotting the QSO composites
@@ -200,15 +200,25 @@ ax.plot(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',              
 ax.fill(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',              alpha=alpha/2)
 
 
-plot_filterLabels = y
-
+plot_filterLabels = 'y'
+y_labelplacement = 0.18
 if plot_filterLabels == 'y':
-    plt.text(5.870, 1.1, r'CH1 SHORT',  color ='darkviolet',        fontsize=fontsize,     weight='bold')
-    plt.text(6.000, 1.1, r'CH1 MEDIUM', color ='mediumorchid', fontsize=fontsize,     weight='bold')
-    plt.text(7.280, 1.1, r'CH1 LONG',   color ='mediumpurple',        fontsize=fontsize,     weight='bold')
-    #
-    plt.text(8.600, 1.1, r'CH1 SHORTH', color ='gold',          fontsize=fontsize,     weight='bold')
-    plt.text(10.020, 1.1, r'Ks', color ='yellow',        fontsize=fontsize,     weight='bold')
+    plt.text( 5.35, y_labelplacement, r'CH1 SHORT',  color ='darkviolet',       fontsize=fontsize,     weight='bold')
+    plt.text( 6.15, y_labelplacement, r'CH1 MEDIUM', color ='mediumorchid',     fontsize=fontsize,     weight='bold')
+    plt.text( 7.09, y_labelplacement, r'CH1 LONG',   color ='mediumpurple',     fontsize=fontsize,     weight='bold')
+    
+    plt.text( 8.13, y_labelplacement, r'CH2 SHORT',  color ='mediumslateblue',  fontsize=fontsize,     weight='bold')
+    plt.text( 9.40, y_labelplacement, r'CH2 MEDIUM', color ='cornflowerblue',   fontsize=fontsize,     weight='bold')
+    plt.text(10.85, y_labelplacement, r'CH2 LONG',   color ='dodgerblue',       fontsize=fontsize,     weight='bold')
+    
+    plt.text(12.50, y_labelplacement, r'CH3 SHORT',  color ='mediumaquamarine', fontsize=fontsize,     weight='bold')
+    plt.text(14.50, y_labelplacement, r'CH3 MEDIUM', color ='mediumseagreen',   fontsize=fontsize,     weight='bold')
+    plt.text(16.75, y_labelplacement, r'CH3 LONG',   color ='lightseagreen',    fontsize=fontsize,     weight='bold')
+    
+    plt.text(19.29, y_labelplacement, r'CH4 SHORT',  color ='orange',           fontsize=fontsize,     weight='bold')
+    plt.text(22.47, y_labelplacement, r'CH4 MEDIUM', color ='peru',             fontsize=fontsize,     weight='bold')
+    plt.text(26.20, y_labelplacement, r'CH4 LONG',   color ='red',              fontsize=fontsize,     weight='bold')
+
 
 
 
