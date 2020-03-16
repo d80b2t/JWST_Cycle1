@@ -1,18 +1,15 @@
 ==========================================================================
-==
-==
-==	JWST  Interactive  Sensitivity  Tool
-==
-==
+===
+===
+===     JWST  Interactive  Sensitivity  Tool
+===
+===
 ==========================================================================
 
 
-\
-
-https://jwst-docs.stsci.edu/jwst-other-tools/jwst-interactive-sensitivity-tool
-
 
 https://jist.stsci.edu/jist
+==========================================================================
 
 
 JIST is intended for initial exploration and quick feasibility
@@ -21,5 +18,51 @@ checks. For detailed results, please use the JWST ETC.
 
 
 
+Usage Notes::
 ==========================================================================
+
+JIST Handles saturation by setting SNR to zero for saturated
+points. This is a simplified assumption. JIST is not recommended for
+working with saturated data.
+
+For NIRCam and NIRISS Wide-Field Slitless Spectroscopy (WFSS) modes,
+R-grism and C-grism values should have identical SNR. As such, JIST
+presents only the R Grism values.
+
+All calculations are based on a single point source with:
+    Flat SED
+    Background spectrum set to 120% of the minimum zodiacal background, with:
+    	       Assumed date June 19, 2019
+	       RA,DEC = 17h26m44s,-73°19m56s
+
+
+JIST uses a single integration in almost all modes. For multiple
+integrations or dithers, the SNR may be scaled by SQRT(number of
+dithered exposures). For MIRI MRS and NIRSpec IFU exposures, assume
+two integrations corresponding to a two-point nod.
+
+
+
+
+CONVERSIONS::
+==========================================================================
+
+mJy	log(mJy)	ABmag
+10.000	 1		13.94
+0.4000	 0.6		14.94       #Every MRS Channel/Mode above SNR=1
+1.0000	 0.0		16.44
+0.0100	-1.0		18.94		
+0.0010	-2.0		21.44
+
+
+
+
+ Links from:
+==========================================================================
+
+https://jwst-docs.stsci.edu/jwst-other-tools/jwst-interactive-sensitivity-tool
+
+
+
+
 

@@ -165,6 +165,7 @@ Describe the overall experimental design of the program, justifying the selectio
 \item Justification of Duplications (if any): as detailed in the JWST Cycle 1 Proposal Policies and Funding Support and the JWST Duplicate Observations Policy. Any duplicate observations must be explicitly justified.
 \end{enumerate}
 
+\input{target_list}
 
   
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -176,6 +177,9 @@ Describe the overall experimental design of the program, justifying the selectio
 \specialreq             % Do not delete this command.
 % Justify your special requirements here, if any.
 
+There are no Special Requirements. 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   4. COORDINATED PARALLEL OBSERVATIONS
@@ -185,6 +189,19 @@ Describe the overall experimental design of the program, justifying the selectio
 \coordinatedobs % Do not delete this command.
 % Enter your coordinated parallel observing plans here, if any.
 
+1	NIRCam imaging$^{*}$ MIRI imaging$^{*}$ Either template can be selected as primary, with the other as parallel. \\
+2	NIRCam imaging$^{*}$	NIRISS WFSS	Either template can be selected as primary, with the other as parallel. \\ 
+3	MIRI imaging	NIRISS WFSS	Either template can be selected as primary, with the other as parallel. \\
+4	NIRCam imaging$^{*}$ NIRISS imaging	NIRCam must be primary. Use to increase areal coverage, but note NIRISS differences in pixel size and available filters. \\
+5	NIRSpec MOS	NIRCam imaging	NIRSpec MOS must be primary.\\
+(Modes added January 2020)::	
+6	NIRCam WFSS	MIRI Imaging	NIRCam WFSS must be primary. \\
+7	NIRCam WFSS	NIRISS Imaging	NIRCam WFSS must be primary.\\
+8	NIRSpec MOS	MIRI Imaging	NIRSpec MOS must be primary. \\
+
+$^{*}$Only direct imaging with standard narrow-, medium-, or broadband filters is allowed for NIRCam and MIRI observations in these coordinated parallel modes.
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   5. JUSTIFY DUPLICATIONS
@@ -193,6 +210,9 @@ Describe the overall experimental design of the program, justifying the selectio
 %
 \duplications           % Do not delete this command.
 % Enter your duplication justifications here, if any.
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -204,7 +224,27 @@ Describe the overall experimental design of the program, justifying the selectio
 % Describe the data processing and analysis plan here.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Analysis Plan:  {\it (required only for AR, Calibration, and Theory Proposals)} All AR Proposals should provide a detailed data analysis plan and describe the datasets that will be analyzed. Inclusion of a target list is not required.
 
+\smallskip
+\smallskip
+\noindent
+Legacy AR Proposals should also discuss the data products that will be made available to the community, the method of dissemination, and a realistic timeline. It is a requirement that data products be delivered to STScI in suitable digital formats for further dissemination via the MAST Data Archive or related channels. Any required technical support from STScI and associated costs should be described in detail.
+
+\smallskip
+\smallskip
+\noindent
+Theory Proposals should discuss the types of JWST data that will benefit from the proposed investigation, and references to specific data sets in the MAST Data Archive should be given where possible. They should also describe how the results of the theoretical investigation will be made available to the astronomical community, and on what timescale the results are expected.
+
+\smallskip
+\smallskip
+\noindent
+Calibration Proposals should discuss what documentation, and data products and/or software will be made available to STScI to support future observing programs. Proposers should explain how their programs complement ongoing calibration efforts by the STScI instrument groups. They should contact the relevant instrument groups to ensure that efforts are not duplicated, and if they are, justify why the duplications are necessary.
+
+\smallskip
+\smallskip
+\noindent
+During the budget review process, the Financial Review Committee will compare the requested costs with the commensurate work outlined in the Analysis Plan. Support for resources outside the original scope of work will not be considered.
 
 
 
