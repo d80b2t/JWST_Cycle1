@@ -88,6 +88,8 @@ QSO1_template = ascii.read(table_qso1)
 QSO2_template = ascii.read(table_qso2)
 Sey2_template = ascii.read(table_sey2)
 
+
+
 '''
 Characterizing quasars in the mid-infrared: high signal-to-noise ratio
 spectral templates
@@ -101,6 +103,7 @@ col 1: wavelength [micron]
 col 2: total template (spectral average of all objects) in units of L_{nu}
 col 3,4,5: the most luminous, intermediate luminosity and least luminous template (corresponding to values 1, 2 and 3 from col 10 of Table 1) in units if L_{nu}
 '''
+
 path = '/cos_pc19a_npr/data/Spitzer/Hill2014_IRS/'
 Hill2014_data =  ascii.read(path+'table2.txt')
 ##data =  ascii.read('table2.txt')
@@ -128,36 +131,13 @@ Sey2_wave = (Sey2_template['col1']/10000.)
 Sey2_flux =  Sey2_template['col2']
 
 
-## Emission Line list
-linelist_file = 'emission_lines.dat'
-linelist = ascii.read(linelist_file)
-
-
 ##  R E D S H I F T  !!!!
 #redshift =  7.54
-redshift = 7.00
+redshift = 6.7
 #redshift = float(input("What redshift are we at??   "))
 
 
-## Plotting things up...
-#plt.rcParams.update({'font.size': 24})
-
-## Setting up the plot
-fig, ax = plt.subplots(figsize=(22.0, 8.0), dpi=80, facecolor='w', edgecolor='k')
-
-## Adjusting the Whitespace for the plots
-left   = 0.12   # the left side of the subplots of the figure
-right  = 0.98   # the right side of the subplots of the figure
-bottom = 0.18   # the bottom of the subplots of the figure
-top    = 0.96   # the top of the subplots of the figure
-wspace = 0.26   # the amount of width reserved for blank space between subplots
-hspace = 0.06   # the amount of height reserved for white space between subplots
-plt.subplots_adjust(left=left, bottom=bottom, right=right, top=top, wspace=wspace, hspace=hspace)
-
-
-##
-## Some NPR plotting defaults
-##
+## Some NPR plotting defaults 
 alpha           = 1.0
 fontsize        = 28
 linewidth       = 2.4
@@ -170,6 +150,9 @@ minorticklength = 9
 plt.style.use('seaborn-poster')
 cmap=plt.get_cmap('viridis')
 
+## Plotting things up...
+plt.rcParams.update({'font.size': 24})
+fig, ax = plt.subplots(figsize=(22.0, 8.0))
 
 ## Setting the limits.
 ## If log
@@ -177,12 +160,16 @@ xmin = 4.85           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
 xmax = 30.           ## 60.  if log;  30.0um
 ax.set_xscale("log", nonposx='clip')
 ymin = 0.00  
-ymax = 0.35   
+ymax = 0.22   
 
 
-ch4_boost = 4.
+## Plotting the QSO composites
+#plt.plot((VdB01_wave              *(1.+redshift)), (VdB01_flux/VdB01_flux.max()),                 color='k', linestyle='-')
+plt.plot((quasar_sed['wavelength']*(1.+redshift)), (quasar_sed['flux']/(quasar_sed['flux'].max()*2)), color='k')
+
+
 ##
-##  Plottting the actual MIRI MRS filters and band-passes
+## MIRI Imaging filters
 ##
 ax.plot(Ch1_short.wavelength,  Ch1_short.efficiency,  color='darkviolet',       alpha=alpha, linewidth=linewidth)
 ax.fill(Ch1_short.wavelength,  Ch1_short.efficiency,  color='darkviolet',       alpha=alpha/2)
@@ -205,71 +192,35 @@ ax.fill(Ch3_medium.wavelength, Ch3_medium.efficiency, color='mediumseagreen',   
 ax.plot(Ch3_long.wavelength,   Ch3_long.efficiency,   color='lightseagreen',    alpha=alpha, linewidth=linewidth)
 ax.fill(Ch3_long.wavelength,   Ch3_long.efficiency,   color='lightseagreen',    alpha=alpha/2)
 
-ax.plot(Ch4_short.wavelength,  Ch4_short.efficiency*ch4_boost,  color='orange',           alpha=alpha, linewidth=linewidth)
-ax.fill(Ch4_short.wavelength,  Ch4_short.efficiency*ch4_boost,  color='orange',           alpha=alpha/2)
-ax.plot(Ch4_medium.wavelength, Ch4_medium.efficiency*ch4_boost, color='peru',             alpha=alpha, linewidth=linewidth)
-ax.fill(Ch4_medium.wavelength, Ch4_medium.efficiency*ch4_boost, color='peru',             alpha=alpha/2)
-ax.plot(Ch4_long.wavelength,   Ch4_long.efficiency*ch4_boost,   color='red',              alpha=alpha, linewidth=linewidth)
-ax.fill(Ch4_long.wavelength,   Ch4_long.efficiency*ch4_boost,   color='red',              alpha=alpha/2)
+ax.plot(Ch4_short.wavelength,  Ch4_short.efficiency,  color='orange',           alpha=alpha, linewidth=linewidth)
+ax.fill(Ch4_short.wavelength,  Ch4_short.efficiency,  color='orange',           alpha=alpha/2)
+ax.plot(Ch4_medium.wavelength, Ch4_medium.efficiency, color='peru',             alpha=alpha, linewidth=linewidth)
+ax.fill(Ch4_medium.wavelength, Ch4_medium.efficiency, color='peru',             alpha=alpha/2)
+ax.plot(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',              alpha=alpha, linewidth=linewidth)
+ax.fill(Ch4_long.wavelength,   Ch4_long.efficiency,   color='red',              alpha=alpha/2)
 
 
 plot_filterLabels = 'y'
 y_labelplacement = 0.18
-labelratio = 1.5
 if plot_filterLabels == 'y':
-    y_labelplacement = 0.20
-    plt.text( 5.35, y_labelplacement, r'CH1',    color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 6.15, y_labelplacement, r'CH1',    color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 7.09, y_labelplacement, r'CH1',    color ='mediumpurple',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 8.13, y_labelplacement, r'CH2',    color ='mediumslateblue',  fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 9.40, y_labelplacement, r'CH2',    color ='cornflowerblue',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(10.85, y_labelplacement, r'CH2',    color ='dodgerblue',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(12.50, y_labelplacement, r'CH3',    color ='mediumaquamarine', fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(14.50, y_labelplacement, r'CH3',    color ='mediumseagreen',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(16.75, y_labelplacement, r'CH3',    color ='lightseagreen',    fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(19.29, y_labelplacement, r'CH4',    color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(22.47, y_labelplacement, r'CH4',    color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(26.20, y_labelplacement, r'CH4',    color ='red',              fontsize=fontsize/labelratio,     weight='bold')
-
-    y_labelplacement = 0.18
-    plt.text( 5.35, y_labelplacement, r'SHORT',  color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 6.15, y_labelplacement, r'MEDIUM', color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 7.09, y_labelplacement, r'LONG',   color ='mediumpurple',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 8.13, y_labelplacement, r'SHORT',  color ='mediumslateblue',  fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 9.40, y_labelplacement, r'MEDIUM', color ='cornflowerblue',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(10.85, y_labelplacement, r'LONG',   color ='dodgerblue',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(12.50, y_labelplacement, r'SHORT',  color ='mediumaquamarine', fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(14.50, y_labelplacement, r'MEDIUM', color ='mediumseagreen',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(16.75, y_labelplacement, r'LONG',   color ='lightseagreen',    fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 5.35, y_labelplacement, r'CH1 SHORT',  color ='darkviolet',       fontsize=fontsize,     weight='bold')
+    plt.text( 6.15, y_labelplacement, r'CH1 MEDIUM', color ='mediumorchid',     fontsize=fontsize,     weight='bold')
+    plt.text( 7.09, y_labelplacement, r'CH1 LONG',   color ='mediumpurple',     fontsize=fontsize,     weight='bold')
     
-    plt.text(19.29, y_labelplacement, r'SHORT',  color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(22.47, y_labelplacement, r'MEDIUM', color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(26.20, y_labelplacement, r'LONG',   color ='red',              fontsize=fontsize/labelratio,     weight='bold')
-
-    y_labelplacement = 0.16
-    plt.text(19.29, y_labelplacement, r'x4',  color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(22.47, y_labelplacement, r'x4',  color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(26.20, y_labelplacement, r'x4',  color ='red',              fontsize=fontsize/labelratio,     weight='bold')
-
-
-##
-##  P l o t t i n g    Q S O    composites
-##
-#plt.plot((VdB01_wave              *(1.+redshift)), (VdB01_flux/VdB01_flux.max()),                 color='k', linestyle='-')
-plt.plot((quasar_sed['wavelength']*(1.+redshift)), (quasar_sed['flux']/(quasar_sed['flux'].max()*2)), color='k')
-
+    plt.text( 8.13, y_labelplacement, r'CH2 SHORT',  color ='mediumslateblue',  fontsize=fontsize,     weight='bold')
+    plt.text( 9.40, y_labelplacement, r'CH2 MEDIUM', color ='cornflowerblue',   fontsize=fontsize,     weight='bold')
+    plt.text(10.85, y_labelplacement, r'CH2 LONG',   color ='dodgerblue',       fontsize=fontsize,     weight='bold')
     
+    plt.text(12.50, y_labelplacement, r'CH3 SHORT',  color ='mediumaquamarine', fontsize=fontsize,     weight='bold')
+    plt.text(14.50, y_labelplacement, r'CH3 MEDIUM', color ='mediumseagreen',   fontsize=fontsize,     weight='bold')
+    plt.text(16.75, y_labelplacement, r'CH3 LONG',   color ='lightseagreen',    fontsize=fontsize,     weight='bold')
     
-## Putting in the emission lines..
-for ll in range(len(linelist)):
-    label = linelist['LineName'][ll]
-    ## Need to convert from Ang to um; and then redshift...
-    xylabel = (   ((linelist['Wavelength'][ll]/1e4)*(1.+redshift)), .30)
-    ax.axvline(x= ((linelist['Wavelength'][ll]/1e4)*(1.+redshift)),    color='gray', linestyle='--', linewidth=linewidth/3.4)
-    print(ll, xylabel, label)
-    ax.annotate(label, xy=xylabel, ha='center', va='center', rotation=90, fontsize=fontsize/1.6 )
+    plt.text(19.29, y_labelplacement, r'CH4 SHORT',  color ='orange',           fontsize=fontsize,     weight='bold')
+    plt.text(22.47, y_labelplacement, r'CH4 MEDIUM', color ='peru',             fontsize=fontsize,     weight='bold')
+    plt.text(26.20, y_labelplacement, r'CH4 LONG',   color ='red',              fontsize=fontsize,     weight='bold')
 
-    
+
+
 
 x_placement = 20.5      
 #plt.text(x_placement, (ymax*0.72), r'$z$='+str(redshift)+' quasar', color='k',     weight='bold', size=size)
@@ -291,7 +242,7 @@ ax.tick_params('x',which='major', top='on', direction='in', labelsize=labelsize,
 ax.tick_params('x',which='minor', top='on', direction='in', labelsize=labelsize,  length=majorticklength, width=tickwidth)
 #ax.tick_params('x',which='minor', top='on', direction='in', labelsize=labelsize,  length=minorticklength, width=tickwidth)
 ax.tick_params('y', which='major',right='on', direction='in', labelsize=labelsize, length=majorticklength, width=tickwidth)
-#ax.tick_params('y', which='minor',right='on', direction='in', labelsize=labelsize, length=majorticklength, width=tickwidth)
+ax.tick_params('y', which='major',right='on', direction='in', labelsize=labelsize, length=majorticklength, width=tickwidth)
 #ax.tick_params('y', which='minor', right='on', direction='in', labelsize=labelsize, length=minorticklength, width=tickwidth)
 
 ##ax.ticklabel_format(style='plain', axis='x')
@@ -299,14 +250,9 @@ ax.tick_params('y', which='major',right='on', direction='in', labelsize=labelsiz
 ## https://matplotlib.org/gallery/ticks_and_spines/scalarformatter.html
 ## https://stackoverflow.com/questions/21920233/matplotlib-log-scale-tick-label-number-formatting
 
-for axis in [ax.xaxis]:
+for axis in [ax.xaxis, ax.yaxis]:
     axis.set_major_formatter(ScalarFormatter())
     axis.set_minor_formatter(ScalarFormatter())
-
-#for axis in [ax.yaxis]:
-    #axis.set_major_formatter(ScalarFormatter())
-    #axis.set_minor_formatter(ScalarFormatter())
-
 
 plt.xlabel(r'Wavelength [$\mu$m]', fontsize=fontsize)
 plt.ylabel('Photon-to-electron\nconversion efficiency',        fontsize=fontsize)
