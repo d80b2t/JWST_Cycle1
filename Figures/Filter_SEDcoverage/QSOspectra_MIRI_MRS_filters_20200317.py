@@ -21,8 +21,7 @@ from matplotlib.ticker import ScalarFormatter
 
 
 ##
-##  T h e     M I R I    M R S     Filters
-##
+## The MIRI MRS Filters
 ## From:: 
 ##   http://ircamera.as.arizona.edu/MIRI/pces.htm
 ##   MRSPCE_TN-00072-ATC-Iss1
@@ -43,32 +42,6 @@ Ch3_long   = df[df.Band == 8]
 Ch4_short  = df[df.Band == 9]
 Ch4_medium = df[df.Band == 10]
 Ch4_long   = df[df.Band == 11]
-
-##
-##      W I S E    filter curves (for comparison)
-##
-path = 'filter_curves/WISE/'
-infile = 'RSR-W1.txt'
-table = path+infile
-W1_band      = ascii.read(table)
-W1_band_wave = W1_band['W1']
-W1_band_thru = W1_band['RSR']
-infile = 'RSR-W2.txt'
-table = path+infile
-W2_band      = ascii.read(table)
-W2_band_wave = W2_band['W2']
-W2_band_thru = W2_band['RSR']
-infile = 'RSR-W3.txt'
-table = path+infile
-W3_band      = ascii.read(table)
-W3_band_wave = W3_band['W3']
-W3_band_thru = W3_band['RSR']
-infile = 'RSR-W4.txt'
-table = path+infile
-W4_band      = ascii.read(table)
-W4_band_wave = W4_band['W4']
-W4_band_thru = W4_band['RSR']
-
 
 
 ##
@@ -200,8 +173,7 @@ cmap=plt.get_cmap('viridis')
 
 ## Setting the limits.
 ## If log
-
-xmin = 3.85 ## 4.85           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
+xmin = 4.85           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
 xmax = 30.           ## 60.  if log;  30.0um
 ax.set_xscale("log", nonposx='clip')
 ymin = 0.00  
@@ -241,72 +213,50 @@ ax.plot(Ch4_long.wavelength,   Ch4_long.efficiency*ch4_boost,   color='red',    
 ax.fill(Ch4_long.wavelength,   Ch4_long.efficiency*ch4_boost,   color='red',              alpha=alpha/2)
 
 
-MRSfilterLabels = 'n'
-if MRSfilterLabels == 'y':
-    xlab_off = 0.96
+plot_filterLabels = 'y'
+y_labelplacement = 0.18
+labelratio = 1.5
+if plot_filterLabels == 'y':
     y_labelplacement = 0.20
-    labelratio = 1.5
-    plt.text( 5.35*xlab_off, y_labelplacement, r'CH1',    color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 6.15*xlab_off, y_labelplacement, r'CH1',    color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 7.09*xlab_off, y_labelplacement, r'CH1',    color ='mediumpurple',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 8.13*xlab_off, y_labelplacement, r'CH2',    color ='mediumslateblue',  fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 9.40*xlab_off, y_labelplacement, r'CH2',    color ='cornflowerblue',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(10.85*xlab_off, y_labelplacement, r'CH2',    color ='dodgerblue',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(12.50*xlab_off, y_labelplacement, r'CH3',    color ='mediumaquamarine', fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(14.50*xlab_off, y_labelplacement, r'CH3',    color ='mediumseagreen',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(16.75*xlab_off, y_labelplacement, r'CH3',    color ='lightseagreen',    fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(19.29*xlab_off, y_labelplacement, r'CH4',    color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(22.47*xlab_off, y_labelplacement, r'CH4',    color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(26.20*xlab_off, y_labelplacement, r'CH4',    color ='red',              fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 5.35, y_labelplacement, r'CH1',    color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 6.15, y_labelplacement, r'CH1',    color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 7.09, y_labelplacement, r'CH1',    color ='mediumpurple',     fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 8.13, y_labelplacement, r'CH2',    color ='mediumslateblue',  fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 9.40, y_labelplacement, r'CH2',    color ='cornflowerblue',   fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(10.85, y_labelplacement, r'CH2',    color ='dodgerblue',       fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(12.50, y_labelplacement, r'CH3',    color ='mediumaquamarine', fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(14.50, y_labelplacement, r'CH3',    color ='mediumseagreen',   fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(16.75, y_labelplacement, r'CH3',    color ='lightseagreen',    fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(19.29, y_labelplacement, r'CH4',    color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(22.47, y_labelplacement, r'CH4',    color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(26.20, y_labelplacement, r'CH4',    color ='red',              fontsize=fontsize/labelratio,     weight='bold')
 
     y_labelplacement = 0.18
-    plt.text( 5.35*xlab_off, y_labelplacement, r'SHORT',  color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 6.15*xlab_off, y_labelplacement, r'MED', color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 7.09*xlab_off, y_labelplacement, r'LONG',   color ='mediumpurple',     fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 8.13*xlab_off, y_labelplacement, r'SHORT',  color ='mediumslateblue',  fontsize=fontsize/labelratio,     weight='bold')
-    plt.text( 9.40*xlab_off, y_labelplacement, r'MED', color ='cornflowerblue',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(10.85*xlab_off, y_labelplacement, r'LONG',   color ='dodgerblue',       fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(12.50*xlab_off, y_labelplacement, r'SHORT',  color ='mediumaquamarine', fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(14.50*xlab_off, y_labelplacement, r'MED', color ='mediumseagreen',   fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(16.75*xlab_off, y_labelplacement, r'LONG',   color ='lightseagreen',    fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 5.35, y_labelplacement, r'SHORT',  color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 6.15, y_labelplacement, r'MEDIUM', color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 7.09, y_labelplacement, r'LONG',   color ='mediumpurple',     fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 8.13, y_labelplacement, r'SHORT',  color ='mediumslateblue',  fontsize=fontsize/labelratio,     weight='bold')
+    plt.text( 9.40, y_labelplacement, r'MEDIUM', color ='cornflowerblue',   fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(10.85, y_labelplacement, r'LONG',   color ='dodgerblue',       fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(12.50, y_labelplacement, r'SHORT',  color ='mediumaquamarine', fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(14.50, y_labelplacement, r'MEDIUM', color ='mediumseagreen',   fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(16.75, y_labelplacement, r'LONG',   color ='lightseagreen',    fontsize=fontsize/labelratio,     weight='bold')
     
-    plt.text(19.29*xlab_off, y_labelplacement, r'SHORT',  color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(22.47*xlab_off, y_labelplacement, r'MED', color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
-    plt.text(26.20*xlab_off, y_labelplacement, r'LONG',   color ='red',              fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(19.29, y_labelplacement, r'SHORT',  color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(22.47, y_labelplacement, r'MEDIUM', color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
+    plt.text(26.20, y_labelplacement, r'LONG',   color ='red',              fontsize=fontsize/labelratio,     weight='bold')
 
     y_labelplacement = 0.16
     plt.text(19.29, y_labelplacement, r'x4',  color ='orange',           fontsize=fontsize/labelratio,     weight='bold')
     plt.text(22.47, y_labelplacement, r'x4',  color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
     plt.text(26.20, y_labelplacement, r'x4',  color ='red',              fontsize=fontsize/labelratio,     weight='bold')
 
-plot_WISEfilters = 'y'
-extra_factor = 4.
-alpha = 1.00
-alpha_factor = 1/4.
-if plot_WISEfilters  == 'y':
-    WISE_xlabel = 0.195
-    ax.plot( (W1_band_wave),  (W1_band_thru/(W1_band_thru.max()*extra_factor)), color='peru',      alpha=alpha, linewidth=linewidth)
-    ax.fill( (W1_band_wave),  (W1_band_thru/(W1_band_thru.max()*extra_factor)), color='k',         alpha=alpha_factor)
-    ax.plot( (W2_band_wave),  (W2_band_thru/(W2_band_thru.max()*extra_factor)), color='orangered', alpha=alpha, linewidth=linewidth)
-    ax.fill( (W2_band_wave),  (W2_band_thru/(W2_band_thru.max()*extra_factor)), color='k',         alpha=alpha_factor)
-    ax.plot( (W3_band_wave),  (W3_band_thru/(W3_band_thru.max()*extra_factor)), color='red',       alpha=alpha, linewidth=linewidth)
-    ax.fill( (W3_band_wave),  (W3_band_thru/(W3_band_thru.max()*extra_factor)), color='k',         alpha=alpha_factor)
-    ax.plot( (W4_band_wave),  (W4_band_thru/(W4_band_thru.max()*extra_factor)), color='darkred',   alpha=alpha, linewidth=linewidth)
-    ax.fill( (W4_band_wave),  (W4_band_thru/(W4_band_thru.max()*extra_factor)), color='k',         alpha=alpha_factor)
-    
-    #plt.text( 3.280, WISE_xlabel, r'W1', color ='peru',      fontsize=fontsize, weight='bold')
-    plt.text( 4.350, WISE_xlabel, r'W2', color ='orangered', fontsize=fontsize, weight='bold')
-    plt.text(10.820, WISE_xlabel, r'W3', color ='red',       fontsize=fontsize, weight='bold')
-    plt.text(20.380, WISE_xlabel, r'W4', color ='darkred',   fontsize=fontsize, weight='bold')
-
 
 ##
 ##  P l o t t i n g    Q S O    composites
 ##
 #plt.plot((VdB01_wave              *(1.+redshift)), (VdB01_flux/VdB01_flux.max()),                 color='k', linestyle='-')
-quasar_flux_damper = 2.3
-plt.plot((quasar_sed['wavelength']*(1.+redshift)),
-         (quasar_sed['flux']/(quasar_sed['flux'].max()*quasar_flux_damper)), color='k')
+plt.plot((quasar_sed['wavelength']*(1.+redshift)), (quasar_sed['flux']/(quasar_sed['flux'].max()*2)), color='k')
 
     
     

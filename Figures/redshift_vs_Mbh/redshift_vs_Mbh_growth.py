@@ -74,7 +74,10 @@ z_Top10       = Top10['redshift']
 
 ##
 ## Salpeter timescales,
-##    basing this off Figure 2 of Banados et al. 2018, Nature
+##  timescale for BH growth, based upon the Eddington limit: a growing
+##  black hole heats accretion material, which glows and is subject to
+##  the luminosity limit. The timescale is 5e7 years.
+
 zrange = np.arange(3, 45, 0.1)
 ee = [cosmo.age(zz).value for zz in zrange]
 t_bana = np.array(ee)*1e9

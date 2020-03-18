@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+
+\usepackage{natbib}
+\usepackage{hyperref}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%       define Journal abbreviations      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\nat{Nat} \def\apjl{ApJ~Lett.} \def\apj{ApJ}
+\def\apjs{ApJS} \def\aj{AJ} \def\mnras{MNRAS}
+\def\prd{Phys.~Rev.~D} \def\prl{Phys.~Rev.~Lett.}
+\def\plb{Phys.~Lett.~B} \def\jhep{JHEP}
+\def\npbps{NUC.~Phys.~B~Proc.~Suppl.} \def\prep{Phys.~Rep.}
+\def\pasp{PASP} \def\aap{Astron.~\&~Astrophys.} \def\araa{ARA\&A}
+\newcommand{\preep}[1]{{\tt #1} }
+
+
+
+\begin{document}
+
+\title{Some general Very high-$z$ quasar and JWST Science notes} 
+\author{Nicholas P. Ross}
+\date{\today}
+\maketitle
+
+
+\section*{Salpeter time}
+The Salpeter timescale (or Salpeter time) is the timescale for black
+hole growth, based upon the Eddington limit: a growing black hole
+heats accretion material, which glows and is subject to the luminosity
+limit. The timescale is $\approx 5 \times 10^{7}$ years. 
+
+
+
+\begin{equation}
+  t_{\rm Sal} = M/\dot{M} = 4.5 \times10^{7} \left( \frac{\epsilon}{0.1}\right ) \left( \frac{L}{L_{\rm Edd}}\right )^{-1}
+\end{equation}
+where $\epsilon = L/\dot{M} c^{2}$ is the radiative efficiency for a
+QSO radiating at a fraction $L/L_{\rm Edd}$ of the Eddington
+luminosity. Commonly accepted values of these two key parameters for
+luminous QSOs are $\epsilon= 0.1$ and $L/LEdd = 1$.  Martini, P. (QSO
+Lifetimes; http://adsabs.harvard.edu/abs/2004cbhg.symp..169M).
+
+This critical accretion rate, [the Eddington mass accretion rate], is
+proportional to the mass of the accreting object, which implies that
+the mass of an object that is growing at the maximal (Eddington)
+accretion grows exponentially on a timescale known as the Salpeter
+time,
+\begin{eqnarray}
+  t_{\rm Sal} & = &  \frac{\epsilon \sigma_{T} c}{4\pi G m_{p}}  \\
+              & = & \frac{\epsilon \cdot 6.65\times10^{-29}     \cdot           3\times10^{8}}
+                    {4\pi       \cdot  6.674\times10^{-11}  \cdot  1.6726\times10^{-27} }  \;\; {\rm seconds}\\
+              & = & 1.4 \epsilon \times 10^{16} \;\; {\rm seconds}\\
+               & \approx & 45 \epsilon \times  10^7 \, {\rm years} \\
+                 & \approx & 45 \epsilon_{0.1}\times  10^6 \, {\rm years}
+\end{eqnarray}
+where $\epsilon_{0.1}$ is the efficiency at which accreting
+gas rest mass energy is converted in radiation expressed in units of
+10\%, the standard value for an accreting Schwarzchild black hole. (In
+terms of this efficiency, the accretion luminosity is $L_{\rm acc} =
+\epsilon \dot{M}_{rm BH} c^{2}$, where $\dot{M}_{\rm BH}$ is the black hole
+accretion rate.)
+From \citep{Coppi2003}.
+%`Massive Black Hole Growth and Formation'' Paolo Coppi.
+
+%%tSal = εσT c ≈ 45ε0.1106 years, (1) 4πGmp
+
+\citet{Salpeter64}.
+
+
+\clearpage
+\bibliographystyle{mn2e}
+\bibliography{/cos_pc19a_npr/LaTeX/tester_mnras}
+
+\end{document}
+

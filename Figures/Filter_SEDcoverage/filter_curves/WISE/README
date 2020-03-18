@@ -1,0 +1,34 @@
+===============================================================
+==
+==
+== 	 R E A D M E
+==
+==
+===============================================================
+
+
+/cos_pc19a_npr/data/filter_curves/WISE
+
+
+
+ Purpose
+===============================================================
+A directory for the details and data on the WISE filter curves. 
+
+
+
+ Header
+===============================================================
+# Relative Spectral Response per photon; Wright et al. 2010
+# W1     RSR     uncertainty (parts per thousand)
+
+
+
+ Useful URLs
+===============================================================
+ http://www.astro.ucla.edu/~wright/WISE/passbands.html
+ http://wise2.ipac.caltech.edu/docs/release/prelim/expsup/sec4_3g.html#WISEZMA
+
+Also:: 
+ http://www.mso.anu.edu.au/~brad/Filters/WISEW[1,2,3,4]
+ 
