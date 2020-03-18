@@ -166,10 +166,7 @@ redshift = 7.00
 #redshift = float(input("What redshift are we at??   "))
 
 
-## Plotting things up...
-#plt.rcParams.update({'font.size': 24})
-
-## Setting up the plot
+##   S e t t i n g     u p   t h e      p l o t 
 fig, ax = plt.subplots(figsize=(22.0, 8.0), dpi=80, facecolor='w', edgecolor='k')
 
 ## Adjusting the Whitespace for the plots
@@ -201,11 +198,11 @@ cmap=plt.get_cmap('viridis')
 ## Setting the limits.
 ## If log
 
-xmin = 3.85 ## 4.85           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
+xmin = 4.85 ## 4.85           ## .400 if log;  0.1um = 1e-7 = 100e-9 = 1000Ang
 xmax = 30.           ## 60.  if log;  30.0um
 ax.set_xscale("log", nonposx='clip')
 ymin = 0.00  
-ymax = 0.35   
+ymax = 0.20   #0.35   
 
 
 ch4_boost = 4.
@@ -241,10 +238,10 @@ ax.plot(Ch4_long.wavelength,   Ch4_long.efficiency*ch4_boost,   color='red',    
 ax.fill(Ch4_long.wavelength,   Ch4_long.efficiency*ch4_boost,   color='red',              alpha=alpha/2)
 
 
-MRSfilterLabels = 'n'
+MRSfilterLabels = 'y'
 if MRSfilterLabels == 'y':
     xlab_off = 0.96
-    y_labelplacement = 0.20
+    y_labelplacement = 0.18   # 0.20 if ymax =0.35
     labelratio = 1.5
     plt.text( 5.35*xlab_off, y_labelplacement, r'CH1',    color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
     plt.text( 6.15*xlab_off, y_labelplacement, r'CH1',    color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
@@ -259,7 +256,7 @@ if MRSfilterLabels == 'y':
     plt.text(22.47*xlab_off, y_labelplacement, r'CH4',    color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
     plt.text(26.20*xlab_off, y_labelplacement, r'CH4',    color ='red',              fontsize=fontsize/labelratio,     weight='bold')
 
-    y_labelplacement = 0.18
+    y_labelplacement = 0.17   # 0.18 if ymax =0.35
     plt.text( 5.35*xlab_off, y_labelplacement, r'SHORT',  color ='darkviolet',       fontsize=fontsize/labelratio,     weight='bold')
     plt.text( 6.15*xlab_off, y_labelplacement, r'MED', color ='mediumorchid',     fontsize=fontsize/labelratio,     weight='bold')
     plt.text( 7.09*xlab_off, y_labelplacement, r'LONG',   color ='mediumpurple',     fontsize=fontsize/labelratio,     weight='bold')
@@ -279,7 +276,8 @@ if MRSfilterLabels == 'y':
     plt.text(22.47, y_labelplacement, r'x4',  color ='peru',             fontsize=fontsize/labelratio,     weight='bold')
     plt.text(26.20, y_labelplacement, r'x4',  color ='red',              fontsize=fontsize/labelratio,     weight='bold')
 
-plot_WISEfilters = 'y'
+    
+plot_WISEfilters = 'n'
 extra_factor = 4.
 alpha = 1.00
 alpha_factor = 1/4.
@@ -300,35 +298,32 @@ if plot_WISEfilters  == 'y':
     plt.text(20.380, WISE_xlabel, r'W4', color ='darkred',   fontsize=fontsize, weight='bold')
 
 
+    
 ##
 ##  P l o t t i n g    Q S O    composites
 ##
 #plt.plot((VdB01_wave              *(1.+redshift)), (VdB01_flux/VdB01_flux.max()),                 color='k', linestyle='-')
 quasar_flux_damper = 2.3
-plt.plot((quasar_sed['wavelength']*(1.+redshift)),
-         (quasar_sed['flux']/(quasar_sed['flux'].max()*quasar_flux_damper)), color='k')
+plot_quasar = 'n'
+if plot_quasar == 'y':
+    quasar_flux_damper = 2.3
+    plt.plot((quasar_sed['wavelength']*(1.+redshift)), (quasar_sed['flux']/(quasar_sed['flux'].max()*quasar_flux_damper)), color='k')
+    ## Label placement
+    x_placement = 20.5      
+    plt.text(x_placement, (ymax*0.72), r'$z$='+str(redshift)+' quasar', color='k',     weight='bold', size=fontsize)
 
-    
-    
+plot_emissionlines = 'n'
 ## Putting in the emission lines..
-for ll in range(len(linelist)):
-    label = linelist['LineName'][ll]
-    ## Need to convert from Ang to um; and then redshift...
-    xylabel = (   ((linelist['Wavelength'][ll]/1e4)*(1.+redshift)), .30)
-    ax.axvline(x= ((linelist['Wavelength'][ll]/1e4)*(1.+redshift)),    color='gray', linestyle='--', linewidth=linewidth/3.4)
-    print(ll, xylabel, label)
-    ax.annotate(label, xy=xylabel, ha='center', va='center', rotation=90, fontsize=fontsize/1.6 )
+if plot_emissionlines == 'y':
+    for ll in range(len(linelist)):
+        label = linelist['LineName'][ll]
+        ## Need to convert from Ang to um; and then redshift...
+        xylabel = (   ((linelist['Wavelength'][ll]/1e4)*(1.+redshift)), .30)
+        ax.axvline(x= ((linelist['Wavelength'][ll]/1e4)*(1.+redshift)),    color='gray', linestyle='--', linewidth=linewidth/3.4)
+        print(ll, xylabel, label)
+        ax.annotate(label, xy=xylabel, ha='center', va='center', rotation=90, fontsize=fontsize/1.6 )
 
     
-
-x_placement = 20.5      
-#plt.text(x_placement, (ymax*0.72), r'$z$='+str(redshift)+' quasar', color='k',     weight='bold', size=size)
-plt.text(x_placement, (ymax*0.72), r'$z$='+str(redshift)+' quasar', color='k',     weight='bold', size=fontsize)
-
-#plt.legend([
-#             'Quasar SED Glikman (2006)',
-      #     loc="upper right", ncol=1, shadow=True, fancybox=True,
-       #   fontsize=22, frameon=True)
 
        
 ls = 'solid'
@@ -339,24 +334,17 @@ ax.set_xlabel('xlabel', fontsize=fontsize)
 ax.set_xlabel('xlabel', fontsize=fontsize)
 ax.tick_params('x',which='major', top='on', direction='in', labelsize=labelsize,  length=majorticklength, width=tickwidth)
 ax.tick_params('x',which='minor', top='on', direction='in', labelsize=labelsize,  length=majorticklength, width=tickwidth)
-#ax.tick_params('x',which='minor', top='on', direction='in', labelsize=labelsize,  length=minorticklength, width=tickwidth)
 ax.tick_params('y', which='major',right='on', direction='in', labelsize=labelsize, length=majorticklength, width=tickwidth)
 #ax.tick_params('y', which='minor',right='on', direction='in', labelsize=labelsize, length=majorticklength, width=tickwidth)
-#ax.tick_params('y', which='minor', right='on', direction='in', labelsize=labelsize, length=minorticklength, width=tickwidth)
 
-##ax.ticklabel_format(style='plain', axis='x')
 
-## https://matplotlib.org/gallery/ticks_and_spines/scalarformatter.html
-## https://stackoverflow.com/questions/21920233/matplotlib-log-scale-tick-label-number-formatting
-
+## Formatting the axes ticks
 for axis in [ax.xaxis]:
     axis.set_major_formatter(ScalarFormatter())
     axis.set_minor_formatter(ScalarFormatter())
-
 #for axis in [ax.yaxis]:
     #axis.set_major_formatter(ScalarFormatter())
     #axis.set_minor_formatter(ScalarFormatter())
-
 
 plt.xlabel(r'Wavelength [$\mu$m]', fontsize=fontsize)
 plt.ylabel('Photon-to-electron\nconversion efficiency',        fontsize=fontsize)
@@ -365,5 +353,5 @@ plt.ylabel('Photon-to-electron\nconversion efficiency',        fontsize=fontsize
 
 #plt.show()
 plt.savefig('MIRI_MRS_vs_QSO_temp.png', format='png')
-plt.savefig('MIRI_MRS_vs_QSO_temp.pdf', format='pdf')
+#plt.savefig('MIRI_MRS_vs_QSO_temp.pdf', format='pdf')
 plt.close(fig)
