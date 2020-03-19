@@ -1,0 +1,18 @@
+
+
+
+
+Note from Alistair Glasse (MIRI Instrument Scientist)::
+
+You will find the MRS transmission files in the CDP7 delivery.  I then
+strongly recommend that you use these MRS PCE files
+(MIRI_FM_MIRIFULONG_3LONG_PCE etc.) for the MRS throughput modelling;
+the files at Arizona are not supported, reviewed or properly
+maintained.
+
+
+Note to NPR::
+When the CDP7 file (ETC_Ref_Files_CDP7.zip) is unzipped, it's the
+     MIRI_FM_MIR*
+files that you are interested in.
+
