@@ -28,21 +28,143 @@ from matplotlib.ticker import ScalarFormatter
 ##   MRSPCE_TN-00072-ATC-Iss1
 ##
 path = 'filter_curves/MIRI/'
-df   = pandas.read_csv(path+'MRSPCE_TN-00072-ATC-Iss1.csv')       
+## df         = pandas.read_csv(path+'MRSPCE_TN-00072-ATC-Iss1.csv')
+## Ch1_short  = df[df.Band == 0]
 
 ## Setting up the channels 
-Ch1_short  = df[df.Band == 0]
-Ch1_medium = df[df.Band == 1]
-Ch1_long   = df[df.Band == 2]
-Ch2_short  = df[df.Band == 3]
-Ch2_medium = df[df.Band == 4]
-Ch2_long   = df[df.Band == 5]
-Ch3_short  = df[df.Band == 6]
-Ch3_medium = df[df.Band == 7]
-Ch3_long   = df[df.Band == 8]
-Ch4_short  = df[df.Band == 9]
-Ch4_medium = df[df.Band == 10]
-Ch4_long   = df[df.Band == 11]
+Ch1_short  = fits.open(path+'MIRI_FM_MIRIFUSHORT_1SHORT_PCE_06.00.00.fits')
+Ch1_medium = fits.open(path+'MIRI_FM_MIRIFUSHORT_1MEDIUM_PCE_06.00.00.fits')
+Ch1_long   = fits.open(path+'MIRI_FM_MIRIFUSHORT_1LONG_PCE_06.00.00.fits')
+Ch2_short  = fits.open(path+'MIRI_FM_MIRIFUSHORT_2SHORT_PCE_06.00.00.fits')
+Ch2_medium = fits.open(path+'MIRI_FM_MIRIFUSHORT_2MEDIUM_PCE_06.00.00.fits')
+Ch2_long   = fits.open(path+'MIRI_FM_MIRIFUSHORT_2LONG_PCE_06.00.00.fits')
+Ch3_short  = fits.open(path+'MIRI_FM_MIRIFULONG_3SHORT_PCE_06.00.00.fits')
+Ch3_medium = fits.open(path+'MIRI_FM_MIRIFULONG_3MEDIUM_PCE_06.00.00.fits')
+Ch3_long   = fits.open(path+'MIRI_FM_MIRIFULONG_3LONG_PCE_06.00.00.fits')
+Ch4_short  = fits.open(path+'MIRI_FM_MIRIFULONG_4SHORT_PCE_06.00.00.fits')
+Ch4_medium = fits.open(path+'MIRI_FM_MIRIFULONG_4MEDIUM_PCE_06.00.00.fits')
+Ch4_long   = fits.open(path+'MIRI_FM_MIRIFULONG_4LONG_PCE_06.00.00.fits')
+
+Ch1_short_data        = Ch1_short[1].data
+Ch1_short.wavelength  = Ch1_short_data['WAVELENGTH']
+Ch1_short.efficiency  = Ch1_short_data['EFFICIENCY']
+Ch1_medium_data       = Ch1_medium[1].data
+Ch1_medium.wavelength = Ch1_medium_data['WAVELENGTH']
+Ch1_medium.efficiency = Ch1_medium_data['EFFICIENCY']
+Ch1_long_data         = Ch1_long[1].data
+Ch1_long.wavelength   = Ch1_long_data['WAVELENGTH']
+Ch1_long.efficiency   = Ch1_long_data['EFFICIENCY']
+
+Ch2_short_data        = Ch2_short[1].data
+Ch2_short.wavelength  = Ch2_short_data['WAVELENGTH']
+Ch2_short.efficiency  = Ch2_short_data['EFFICIENCY']
+Ch2_medium_data       = Ch2_medium[1].data
+Ch2_medium.wavelength = Ch2_medium_data['WAVELENGTH']
+Ch2_medium.efficiency = Ch2_medium_data['EFFICIENCY']
+Ch2_long_data         = Ch2_long[1].data
+Ch2_long.wavelength   = Ch2_long_data['WAVELENGTH']
+Ch2_long.efficiency   = Ch2_long_data['EFFICIENCY']
+
+Ch3_short_data        = Ch3_short[1].data
+Ch3_short.wavelength  = Ch3_short_data['WAVELENGTH']
+Ch3_short.efficiency  = Ch3_short_data['EFFICIENCY']
+Ch3_medium_data       = Ch3_medium[1].data
+Ch3_medium.wavelength = Ch3_medium_data['WAVELENGTH']
+Ch3_medium.efficiency = Ch3_medium_data['EFFICIENCY']
+Ch3_long_data         = Ch3_long[1].data
+Ch3_long.wavelength   = Ch3_long_data['WAVELENGTH']
+Ch3_long.efficiency   = Ch3_long_data['EFFICIENCY']
+
+Ch4_short_data        = Ch4_short[1].data
+Ch4_short.wavelength  = Ch4_short_data['WAVELENGTH']
+Ch4_short.efficiency  = Ch4_short_data['EFFICIENCY']
+Ch4_medium_data       = Ch4_medium[1].data
+Ch4_medium.wavelength = Ch4_medium_data['WAVELENGTH']
+Ch4_medium.efficiency = Ch4_medium_data['EFFICIENCY']
+Ch4_long_data         = Ch4_long[1].data
+Ch4_long.wavelength   = Ch4_long_data['WAVELENGTH']
+Ch4_long.efficiency   = Ch4_long_data['EFFICIENCY']
+
+
+## have to add zeros at the start/end of the arrays to see shaded-areas...
+## Ch1
+newArray    = np.append((Ch1_short.wavelength.min()-0.005), Ch1_short.wavelength)
+newnewArray = np.append(newArray, (Ch1_short.wavelength.max()+0.005))
+Ch1_short.wavelength = newnewArray
+newArray    = np.append(0.0, Ch1_short.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch1_short.efficiency = newnewArray
+newArray    = np.append((Ch1_medium.wavelength.min()-0.005), Ch1_medium.wavelength)
+newnewArray = np.append(newArray, (Ch1_medium.wavelength.max()+0.005))
+Ch1_medium.wavelength = newnewArray
+newArray    = np.append(0.0, Ch1_medium.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch1_medium.efficiency = newnewArray
+newArray    = np.append((Ch1_long.wavelength.min()-0.005), Ch1_long.wavelength)
+newnewArray = np.append(newArray, (Ch1_long.wavelength.max()+0.005))
+Ch1_long.wavelength = newnewArray
+newArray    = np.append(0.0, Ch1_long.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch1_long.efficiency = newnewArray
+## Ch2
+newArray    = np.append((Ch2_short.wavelength.min()-0.005), Ch2_short.wavelength)
+newnewArray = np.append(newArray, (Ch2_short.wavelength.max()+0.005))
+Ch2_short.wavelength = newnewArray
+newArray    = np.append(0.0, Ch2_short.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch2_short.efficiency = newnewArray
+newArray    = np.append((Ch2_medium.wavelength.min()-0.005), Ch2_medium.wavelength)
+newnewArray = np.append(newArray, (Ch2_medium.wavelength.max()+0.005))
+Ch2_medium.wavelength = newnewArray
+newArray    = np.append(0.0, Ch2_medium.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch2_medium.efficiency = newnewArray
+newArray    = np.append((Ch2_long.wavelength.min()-0.005), Ch2_long.wavelength)
+newnewArray = np.append(newArray, (Ch2_long.wavelength.max()+0.005))
+Ch2_long.wavelength = newnewArray
+newArray    = np.append(0.0, Ch2_long.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch2_long.efficiency = newnewArray
+## Ch3
+newArray    = np.append((Ch3_short.wavelength.min()-0.005), Ch3_short.wavelength)
+newnewArray = np.append(newArray, (Ch3_short.wavelength.max()+0.005))
+Ch3_short.wavelength = newnewArray
+newArray    = np.append(0.0, Ch3_short.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch3_short.efficiency = newnewArray
+newArray    = np.append((Ch3_medium.wavelength.min()-0.005), Ch3_medium.wavelength)
+newnewArray = np.append(newArray, (Ch3_medium.wavelength.max()+0.005))
+Ch3_medium.wavelength = newnewArray
+newArray    = np.append(0.0, Ch3_medium.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch3_medium.efficiency = newnewArray
+newArray    = np.append((Ch3_long.wavelength.min()-0.005), Ch3_long.wavelength)
+newnewArray = np.append(newArray, (Ch3_long.wavelength.max()+0.005))
+Ch3_long.wavelength = newnewArray
+newArray    = np.append(0.0, Ch3_long.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch3_long.efficiency = newnewArray
+## Ch4
+newArray    = np.append((Ch4_short.wavelength.min()-0.005), Ch4_short.wavelength)
+newnewArray = np.append(newArray, (Ch4_short.wavelength.max()+0.005))
+Ch4_short.wavelength = newnewArray
+newArray    = np.append(0.0, Ch4_short.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch4_short.efficiency = newnewArray
+newArray    = np.append((Ch4_medium.wavelength.min()-0.005), Ch4_medium.wavelength)
+newnewArray = np.append(newArray, (Ch4_medium.wavelength.max()+0.005))
+Ch4_medium.wavelength = newnewArray
+newArray    = np.append(0.0, Ch4_medium.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch4_medium.efficiency = newnewArray
+newArray    = np.append((Ch4_long.wavelength.min()-0.005), Ch4_long.wavelength)
+newnewArray = np.append(newArray, (Ch4_long.wavelength.max()+0.005))
+Ch4_long.wavelength = newnewArray
+newArray    = np.append(0.0, Ch4_long.efficiency)
+newnewArray = np.append(newArray, 0.0)
+Ch4_long.efficiency = newnewArray
+
+
 
 ##
 ##      W I S E    filter curves (for comparison)

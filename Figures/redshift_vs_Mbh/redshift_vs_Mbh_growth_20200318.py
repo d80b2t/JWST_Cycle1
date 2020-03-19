@@ -21,7 +21,7 @@ from astropy.cosmology import z_at_value
 
 
 ## Setting up the cosmology...
-cosmo    = FlatLambdaCDM(H0=68.0, Om0=0.31)  #Banados thesis
+cosmo    = FlatLambdaCDM(H0=67.7, Om0=0.307)  #Banados thesis
 ages     = np.array([13, 10, 8, 6, 5, 4, 3, 2, 1.5, 1.2, 1, 0.8, 0.70, 0.50, 0.25, 0.10])*u.Gyr
 ageticks = [z_at_value(cosmo.age, age) for age in ages]
 
@@ -78,37 +78,47 @@ z_Top10       = Top10['redshift']
 ##  black hole heats accretion material, which glows and is subject to
 ##  the luminosity limit. The timescale is 5e7 years.
 
-## Start and end redshift. 
-zrange = np.arange(3, 35., 0.02)
+zrange = np.arange(3, 45, 0.1)
 ee = [cosmo.age(zz).value for zz in zrange]
 t_bana = np.array(ee)*1e9
 
-##  Some physical values
+## Some physical values...
 Ledd = 1.0
 
 ## Hold M_seed constant, vary eta
-M_seed       = 1000.0
-eta_variable = [0.10,    0.11,   0.125,   0.14,   0.15]
-eta_label    = ['0.10', '0.11', '0.125', '0.14', '0.15']
-s            = (len(t_bana),len(eta_variable))
+M_seed = 1000.0
 
+eta                  = [0.05, 0.10, 0.15,  0.20, 0.30]
+eta                  = [0.10, 0.11, 0.125, 0.14, 0.15]
+s = (len(t_bana),len(eta))
 M_BH_grower_eta = np.zeros(s)
-for ii in range(len(eta_variable)):
-    t_salpeter            = 4.5e7 * (eta_variable[ii]/0.1) * (Ledd**(-1))
+for ii in range(len(eta)):
+    t_salpeter            = 4.5e7*(eta[ii]/0.1)*(Ledd**(-1))
     M_BH_grower_eta[:,ii] = (np.exp(t_bana/t_salpeter))*M_seed
     
+#M_BH_grower_etapnt05 = (np.exp(t_bana/t_salpeter))*M_seed
+#eta                  = 0.10
+#t_salpeter           = 4.5e7*(eta/0.1)*(Ledd**(-1))
+#M_BH_grower_etapnt10 = (np.exp(t_bana/t_salpeter))*M_seed
+#eta                  = 0.15
+#t_salpeter           = 4.5e7*(eta/0.1)*(Ledd**(-1))
+#M_BH_grower_etapnt15 = (np.exp(t_bana/t_salpeter))*M_seed
+#eta                  = 0.2
+#t_salpeter           = 4.5e7*(eta/0.1)*(Ledd**(-1))
+#M_BH_grower_etapnt20 = (np.exp(t_bana/t_salpeter))*M_seed
+#eta                  = 0.3
+#t_salpeter           = 4.5e7*(eta/0.1)*(Ledd**(-1))
+#M_BH_grower_etapnt30 = (np.exp(t_bana/t_salpeter))*M_seed
 
-## Hold eta constant, vary M_seed
-##   bit more interesting since want to see that range of MBH_seeds
-##   that are viable
-eta            = 0.10
-t_salpeter     = 4.5e7*(eta/0.1)*(Ledd**(-1))
-Mseed_variable = [1.0, 10., 100.0, 1000, 10000.]
-s              = (len(t_bana),len(Mseed_variable))
-
-M_BH_grower_MBHseed = np.zeros(s)
-for jj in range(len(Mseed_variable)):
-    M_BH_grower_MBHseed[:,jj] = (np.exp(t_bana/t_salpeter)) * (Mseed_variable[jj])
+    
+## Hold eta constant, vary M_seed    
+eta        = 0.15
+t_salpeter = 4.5e7*(eta/0.1)*(Ledd**(-1))
+M_seed     = 100.0
+M_BH_grower_hundred  = (np.exp(t_bana/t_salpeter))*M_seed
+M_BH_grower_thousand = (np.exp(t_bana/t_salpeter))*M_seed*10
+M_BH_grower_10k      = (np.exp(t_bana/t_salpeter))*M_seed*100
+    
     
 ##
 ## Making the plot
@@ -162,7 +172,7 @@ xmax =  1.4
 zmin =  5.8    ## 3.0    ## 4.3
 zmax =  8.0    ## 16.0 ## z=45 in Banados 2018
 ##  Mass access
-ymin =  6.5    # 6.5   2.8 good if redshift is z= 45. 
+ymin =  6.5    # 2.8 good if redshift is z= 45. 
 ymax = 10.5   
 
 
@@ -180,21 +190,31 @@ ax1.scatter(z_VHzQs, log_MBH_VHzQs,    c=c, cmap=cmap, marker="P", s=(ms_large*1
 ##   BH   Growth   tracks..
 ##
 ##   Varying   e t a 
-##
-#for ii in range(len(eta_variable)):
-    #ax1.plot(zrange, (np.log10( M_BH_grower_eta[:,ii]   )),  label =eta_label[ii],  linewidth=8, linestyle='--', color='crimson')
+##ax1.plot(zrange, (np.log10(M_BH_grower_etapnt05)), label ='$\eta=0.05$',  linewidth=8)
+#ax1.plot(zrange, (np.log10(M_BH_grower_etapnt1)),  label ='$\;\; \eta=0.10$ (M$_{seed}=10^{4} M_{\odot}$)',  linewidth=8, linestyle='--', color='crimson')
+#ax1.plot(zrange, (np.log10(M_BH_grower_etapnt05)),  label ='$\;\; \eta=0.10$',  linewidth=8, linestyle='--', color='crimson')
+#ax1.plot(zrange, (np.log10(M_BH_grower_etapnt10)),  label ='$\;\; \eta=0.10$',  linewidth=8, linestyle='--', color='crimson')
+#ax1.plot(zrange, (np.log10(M_BH_grower_etapnt15)), label = '$\; \eta=0.15$',  linewidth=8, linestyle='-')
+#ax1.plot(zrange, (np.log10(M_BH_grower_etapnt20)),  label = '$\eta=0.20$',  linewidth=8,linestyle=':')  
+#ax1.plot(zrange, (np.log10(M_BH_grower_etapnt30)),  label = '$\eta=0.30$',  linewidth=8)
+#
+ax1.plot(zrange, (np.log10( M_BH_grower_eta[:,0]   )),  label ='$\;\; \eta=0.10$',  linewidth=8, linestyle='--', color='crimson')
+ax1.plot(zrange, (np.log10( M_BH_grower_eta[:,1]   )),  label ='$\;\; \eta=0.10$',  linewidth=8, linestyle='--', color='crimson')
+ax1.plot(zrange, (np.log10( M_BH_grower_eta[:,2]   )), label = '$\; \eta=0.15$',  linewidth=8, linestyle='-')
+ax1.plot(zrange, (np.log10( M_BH_grower_eta[:,3]   )),  label = '$\eta=0.20$',  linewidth=8,linestyle=':')  
+ax1.plot(zrange, (np.log10( M_BH_grower_eta[:,4]   )),  label = '$\eta=0.30$',  linewidth=8)
 
 ##   Varying   seed  BH  mass
-for jj in range(len(Mseed_variable)):
-    print(jj)
-    ax1.plot(zrange, (np.log10(M_BH_grower_MBHseed[:,jj])),  linewidth=8, linestyle='--')
-#    ax1.plot(zrange, (np.log10(M_BH_grower_MBHseed)),  label ='$M_{seed}=10^{2} M_{\odot}$ ($\eta=0.15$)', linewidth=8, linestyle='--')
+#ax1.plot(zrange, (np.log10(M_BH_grower_hundred)),  label ='$M_{seed}=10^{2} M_{\odot}$ ($\eta=0.15$)', linewidth=8, linestyle='--')
+#ax1.plot(zrange, (np.log10(M_BH_grower_thousand)), label ='$M_{seed}=10^{3} M_{\odot}$',              linewidth=8, linestyle='-.')
+#ax1.plot(zrange, (np.log10(M_BH_grower_10k)),      label ='$M_{seed}=10^{4} M_{\odot}$',              linewidth=8, linestyle=':')  
+
 
 ##   L E G E N D
 ax1.legend(loc='lower right', fontsize=fontsize/1.3, frameon='True')
 
 
-# Setting up the axes...
+#ax1.set_xscale("log", nonposx='clip')
 ax1.set_xlim((zmin, zmax))
 ax1.set_ylim((ymin, ymax))
 ax1.tick_params('x', direction='in', which='major', bottom='on', top='on', left='on', right='on', size=fontsize/1.6)
@@ -202,12 +222,11 @@ ax1.tick_params('x', direction='in', which='minor', bottom='on', top='on', left=
 ax1.tick_params('y', direction='in', which='major', bottom='on', top='on', left='on', right='on', size=fontsize/1.6)
 ax1.tick_params('y', direction='in', which='minor', bottom='on', top='on', left='on', right='on', size=fontsize/1.6)
 ax1.xaxis.set_minor_locator(minorLocator)
-##
+
 ax1.tick_params(axis='both',                    labelsize = fontsize/1.1)
 ax1.set_xlabel('redshift, $z$',                 fontsize  = fontsize)
 ax1.set_ylabel('log (M$_{BM}$) / M$_{\odot}$)', fontsize  = fontsize)
-
-
+             
 ax4 = ax1.twiny()
 ## If  AGE,  is the top x-axis
 ax4.set_xticks(ageticks)
