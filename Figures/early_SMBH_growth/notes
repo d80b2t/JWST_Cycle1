@@ -1,0 +1,40 @@
+
+
+
+  Some growth plots
+====================================================================
+Mbh_growth_z35_eta0pnt1.png
+Shows the tracks for a range of masses for black hole seeds,
+with
+starting redshift z=35
+eta =0.1
+
+Mbh_growth_z35_eta0pnt1_wide.png
+has the redshift axis out to z=38.
+
+Using::
+redshift_vs_Mbh_growth_20200323
+
+
+
+GEneral notes::
+Seems changing the high redeshift starting point makes very little difference above say z=35.
+There's just no time to double ("You can walk from z=500 to z=10 ;-) 
+
+Redshift       Age / Myr
+ 35.0	       79.935  
+ 45.0	       55.140 
+145.0	        9.435 
+
+
+
+
+
+v1.0 from ~/quasars/Mbh_redshift/highz_growth
+2018-May-16
+
+
+
+
+
+

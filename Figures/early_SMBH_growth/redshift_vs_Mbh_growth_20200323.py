@@ -22,7 +22,8 @@ from astropy.cosmology import z_at_value
 
 ## Setting up the cosmology...
 cosmo    = FlatLambdaCDM(H0=68.0, Om0=0.31)  #Banados thesis
-ages     = np.array([13, 10, 8, 6, 5, 4, 3, 2, 1.5, 1.2, 1, 0.8, 0.70, 0.50, 0.25, 0.10])*u.Gyr
+#ages     = np.array([13, 10, 8, 6, 5, 4, 3, 2, 1.5, 1.2, 1, 0.8, 0.70, 0.50, 0.25, 0.10])*u.Gyr
+ages     = np.array([13, 10, 8, 6, 5, 4, 3, 2, 1.5, 1.25, 0.75, 0.50, 0.25, 0.10])*u.Gyr
 ageticks = [z_at_value(cosmo.age, age) for age in ages]
 
 redshifts     = np.array([6, 7, 8, 9, 10, 12, 15, 20])
@@ -159,11 +160,11 @@ cmap = plt.cm.viridis
 xmin =  0.20    # Gyr
 xmax =  1.4 
 ## REDSHIFT RANGE
-zmin =  5.8    ## 3.0    ## 4.3
-zmax =  8.0    ## 16.0 ## z=45 in Banados 2018
+zmin =  4.8     ## 5.8 ## 3.0    ## 4.3
+zmax =  38.0    ## 16.0 ## z=45 in Banados 2018
 ##  Mass access
-ymin =  6.5    # 6.5   2.8 good if redshift is z= 45. 
-ymax = 10.5   
+ymin =  0.5    #  6.5   2.8 good if redshift is z= 45. 
+ymax = 10.5    # 10.5
 
 
 c = VHzQs['M1450']
@@ -179,19 +180,21 @@ ax1.scatter(z_VHzQs, log_MBH_VHzQs,    c=c, cmap=cmap, marker="P", s=(ms_large*1
 ##
 ##   BH   Growth   tracks..
 ##
+
 ##   Varying   e t a 
-##
 #for ii in range(len(eta_variable)):
     #ax1.plot(zrange, (np.log10( M_BH_grower_eta[:,ii]   )),  label =eta_label[ii],  linewidth=8, linestyle='--', color='crimson')
 
 ##   Varying   seed  BH  mass
 for jj in range(len(Mseed_variable)):
-    print(jj)
-    ax1.plot(zrange, (np.log10(M_BH_grower_MBHseed[:,jj])),  linewidth=8, linestyle='--')
-#    ax1.plot(zrange, (np.log10(M_BH_grower_MBHseed)),  label ='$M_{seed}=10^{2} M_{\odot}$ ($\eta=0.15$)', linewidth=8, linestyle='--')
+    print("Plotting Mseed_variable lines", jj)
+    ax1.plot(zrange, (np.log10(M_BH_grower_MBHseed[:,jj])),                                                      linewidth=8, linestyle='--')
+    ax1.plot(zrange, (np.log10(M_BH_grower_MBHseed[:,jj])),  label ='$M_{seed}=$'+str(Mseed_variable[jj])+' $M_{\odot}$', linewidth=8, linestyle='--')
+
+
 
 ##   L E G E N D
-ax1.legend(loc='lower right', fontsize=fontsize/1.3, frameon='True')
+ax1.legend(loc='upper right', fontsize=fontsize/1.3, frameon='True')
 
 
 # Setting up the axes...
